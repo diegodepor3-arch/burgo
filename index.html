@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sporting Burgo</title>
+  <meta name="description" content="Sporting Burgo (O Burgo, Culleredo, desde 1976): todos los equipos del club, del primer equipo a los prebenjamines y el fútbol femenino, con partidos, resultados, clasificaciones y plantillas.">
+  <meta name="theme-color" content="#0e2a47">
+  <link rel="icon" type="image/png" href="img/favicon.png?v=2">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mvp.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+    <symbol id="i-izq" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+    <symbol id="i-der" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4"/></symbol>
+    <symbol id="i-buscar" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path d="M4 6h16v15H4zM4 10h16M8 3v5M16 3v5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-enviar" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-inicio" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-estrella" viewBox="0 0 24 24"><path d="m12 3 2.7 5.9 6.3.7-4.7 4.3 1.3 6.3L12 17.1l-5.6 3.1 1.3-6.3L3 9.6l6.3-.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-equipos" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.500-1 8-4 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <defs>
+      <linearGradient id="tela-jugador" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cam-a)"/><stop offset="1" style="stop-color:var(--cam-b)"/></linearGradient>
+      <linearGradient id="tela-portero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--por-a)"/><stop offset="1" style="stop-color:var(--por-b)"/></linearGradient>
+      <linearGradient id="pliegues" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.28"/><stop offset="0.3" stop-color="#000" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.08"/><stop offset="0.7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.28"/></linearGradient>
+    </defs>
+  </svg>
+
+  <a class="saltar" href="#app">Ir al contenido</a>
+
+  <div class="franja">
+    <span>Temporada 2026-27 · O Burgo, Culleredo, desde 1976</span>
+    <span class="franja-enlaces"><a href="#/mi-equipo" data-seccion="mi-equipo">Mi equipo</a><a href="#/noticias">Noticias</a><a class="solo-movil" href="#/historia">Historia</a><a class="solo-movil" href="#/socios">Hazte socio</a><a id="franja-fed" target="_blank" rel="noopener">Federación</a></span>
+  </div>
+  <header class="menu">
+    <a href="#/" class="menu-marca" aria-label="Inicio · Sporting Burgo">
+      <img src="img/escudo.png" alt="" width="145" height="200">
+      <span translate="no">Sporting Burgo</span>
+    </a>
+    <nav class="menu-enlaces" id="menu-enlaces" aria-label="Principal">
+      <a href="#/partidos" data-seccion="partidos">Partidos</a>
+      <a href="#/cantera" data-seccion="cantera">Equipos</a>
+      <a href="#/equipo/senior-a" data-seccion="equipo/senior-a">Primer equipo</a>
+      <a href="#/historia" data-seccion="historia">Historia</a>
+      <a href="#/socios" data-seccion="socios" class="menu-socio">Hazte socio</a>
+    </nav>
+    <button class="menu-buscar" type="button" data-paleta aria-label="Buscar jugador o equipo"><svg class="icono" aria-hidden="true"><use href="#i-buscar"/></svg></button>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <nav class="barra-movil" aria-label="Accesos rápidos">
+    <a href="#/" data-seccion=""><svg class="icono" aria-hidden="true"><use href="#i-inicio"/></svg>Inicio</a>
+    <a href="#/partidos" data-seccion="partidos"><svg class="icono" aria-hidden="true"><use href="#i-cal"/></svg>Partidos</a>
+    <a href="#/mi-equipo" data-seccion="mi-equipo"><svg class="icono" aria-hidden="true"><use href="#i-estrella"/></svg>Mi equipo</a>
+    <a href="#/cantera" data-seccion="cantera"><svg class="icono" aria-hidden="true"><use href="#i-equipos"/></svg>Equipos</a>
+    <button type="button" data-paleta><svg class="icono" aria-hidden="true"><use href="#i-buscar"/></svg>Buscar</button>
+  </nav>
+
+  <dialog class="paleta" id="paleta" aria-label="Buscar">
+    <input type="search" placeholder="Busca un jugador, equipo o categoría…" autocomplete="off" spellcheck="false" aria-label="Buscar">
+    <ul></ul>
+  </dialog>
+
+  <footer class="pie">
+    <div class="pie-dentro">
+      <div class="pie-club"><img src="img/escudo.png" alt="" width="145" height="200"><div><strong>Sporting Burgo</strong><p>O Burgo, Culleredo (A Coruña), desde 1976.<span id="pie-contacto"></span></p></div></div>
+      <nav aria-label="Secundaria"><a href="#/cantera">Equipos</a><a href="#/equipo/senior-a">Primer equipo</a><a href="#/historia">Historia</a><a href="#/noticias">Noticias</a><a href="#/socios">Hazte socio</a></nav>
+      <nav aria-label="Enlaces"><a id="pie-x" target="_blank" rel="noopener">Redes</a><a id="pie-fed" target="_blank" rel="noopener">El club en la federación</a><a href="#/buscar">Buscar</a></nav>
+    </div>
+    <p id="pie-fuente"></p>
+    <p class="pie-creditos">Fotos (Wikimedia Commons): <a href="https://commons.wikimedia.org/wiki/File:R%C3%ADa_do_Burgo_desde_o_Port%C3%A1dego.jpg">Ría do Burgo desde o Portádego</a>, CC0; <a href="https://commons.wikimedia.org/wiki/File:R%C3%ADa_do_Burgo,_dende_Cambre.jpg">Ría do Burgo, dende Cambre</a>, Elisardojm, CC BY-SA 4.0; <a href="https://commons.wikimedia.org/wiki/File:O_Burgo,_Culleredo,_Galicia.jpg">O Burgo, Culleredo, Galicia</a>, Luis Miguel Bugallo Sánchez (Lmbuga), CC BY-SA 3.0; <a href="https://commons.wikimedia.org/wiki/File:Grass_roots_English_football_-_geograph.org.uk_-_4234422.jpg">Grass roots English football</a>, Fernweh, CC BY-SA 2.0; <a href="https://commons.wikimedia.org/wiki/File:Football_goal_net.jpg">Football goal net</a>, Santeri Viinamäki, CC BY-SA 4.0.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="federacion.js"></script>
+  <script src="escudos.js"></script>
+  <script src="portada.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
