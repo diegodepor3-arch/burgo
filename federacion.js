@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-07T13:00";
+const ACTUALIZADO = "2026-11-07T18:04";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -6515,8 +6515,385 @@ const EQUIPOS = [
   "delegados": [
    "Leonardo Martín Cao Mena"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "ONCE CABALLEROS C.F. \"B\"",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 30,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 9,
+    "pj": 4,
+    "g": 3,
+    "e": 0,
+    "p": 1,
+    "gf": 17,
+    "gc": 6,
+    "propio": true
+   },
+   {
+    "equipo": "OLIMPICO C.F. \"C\"",
+    "pts": 9,
+    "pj": 4,
+    "g": 3,
+    "e": 0,
+    "p": 1,
+    "gf": 17,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "U.D.J. ALMEIRAS \"B\"",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
+    "e": 0,
+    "p": 2,
+    "gf": 20,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "ATLETICO SAN PEDRO \"B\"",
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
+    "e": 0,
+    "p": 3,
+    "gf": 19,
+    "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
+    "e": 0,
+    "p": 3,
+    "gf": 7,
+    "gc": 20,
+    "propio": false
+   },
+   {
+    "equipo": "PORTAZGO S.D. \"A\"",
+    "pts": 0,
+    "pj": 5,
+    "g": 0,
+    "e": 0,
+    "p": 5,
+    "gf": 3,
+    "gc": 31,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-10",
+    "hora": "12:00",
+    "local": false,
+    "rival": "PORTAZGO S.D. \"A\"",
+    "resultado": "1-9",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-24",
+    "hora": "12:00",
+    "local": true,
+    "rival": "A.D. CULLEREDO",
+    "resultado": "3-0",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-10-31",
+    "hora": "12:00",
+    "local": false,
+    "rival": "ONCE CABALLEROS C.F. \"B\"",
+    "resultado": "3-2",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-07",
+    "hora": "13:00",
+    "local": true,
+    "rival": "U.D.J. ALMEIRAS \"B\"",
+    "resultado": "3-2",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-14",
+    "hora": "",
+    "local": false,
+    "rival": "OLIMPICO C.F. \"C\"",
+    "resultado": "",
+    "campo": "Complejo Deportivo, (Vilaboa)"
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-11-21",
+    "hora": "",
+    "local": true,
+    "rival": "ATLETICO SAN PEDRO \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-28",
+    "hora": "",
+    "local": true,
+    "rival": "PORTAZGO S.D. \"A\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-12-19",
+    "hora": "",
+    "local": false,
+    "rival": "A.D. CULLEREDO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2027-01-09",
+    "hora": "",
+    "local": true,
+    "rival": "ONCE CABALLEROS C.F. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2027-01-16",
+    "hora": "",
+    "local": false,
+    "rival": "U.D.J. ALMEIRAS \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2027-01-23",
+    "hora": "",
+    "local": true,
+    "rival": "OLIMPICO C.F. \"C\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 14,
+    "fecha": "2027-01-30",
+    "hora": "",
+    "local": false,
+    "rival": "ATLETICO SAN PEDRO \"B\"",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Alevin F-7 - Tercera Futgal · A Coruña | Mariñas | 1ª Fase G1",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991664&codcompeticion=26991642",
+  "escudos": {
+   "ONCE CABALLEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
+   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "PORTAZGO S.D. \"A\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Eric Caceres Gómez",
+     "Josue Miguel Moucot Cabeza",
+     "Alonso Riva Saldaña",
+     "Matias Otero Servier",
+     "Gael Mosquera Brea",
+     "Leo Armando Cao Alonso",
+     "Liham Smith Liberato Rodríguez"
+    ],
+    "s": [
+     "Thiago Canelas Da Silva",
+     "Lois García Dobarro",
+     "Benjamin Adrián Cano Zapata",
+     "Alejandro Suárez Torres",
+     "Natanael Roca Lobo"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eric Caceres Gómez": 1,
+     "Josue Miguel Moucot Cabeza": 2,
+     "Alonso Riva Saldaña": 3,
+     "Matias Otero Servier": 5,
+     "Gael Mosquera Brea": 7,
+     "Leo Armando Cao Alonso": 9,
+     "Liham Smith Liberato Rodríguez": 11,
+     "Thiago Canelas Da Silva": 4,
+     "Lois García Dobarro": 6,
+     "Benjamin Adrián Cano Zapata": 8,
+     "Alejandro Suárez Torres": 14,
+     "Natanael Roca Lobo": 15
+    },
+    "c": [],
+    "rm": {},
+    "id": "1517944"
+   },
+   "3": {
+    "t": [
+     "Eric Caceres Gómez",
+     "Alonso Riva Saldaña",
+     "Josue Miguel Moucot Cabeza",
+     "Matias Otero Servier",
+     "Ariadna López Fernández",
+     "Gael Mosquera Brea",
+     "Liham Smith Liberato Rodríguez"
+    ],
+    "s": [
+     "Thiago Canelas Da Silva",
+     "Lois García Dobarro",
+     "Benjamin Adrián Cano Zapata",
+     "Gabriel Franco Franchino",
+     "Alejandro Suárez Torres",
+     "Natanael Roca Lobo"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eric Caceres Gómez": 1,
+     "Alonso Riva Saldaña": 2,
+     "Josue Miguel Moucot Cabeza": 3,
+     "Matias Otero Servier": 5,
+     "Ariadna López Fernández": 7,
+     "Gael Mosquera Brea": 10,
+     "Liham Smith Liberato Rodríguez": 11,
+     "Thiago Canelas Da Silva": 4,
+     "Lois García Dobarro": 6,
+     "Benjamin Adrián Cano Zapata": 8,
+     "Gabriel Franco Franchino": 9,
+     "Alejandro Suárez Torres": 12,
+     "Natanael Roca Lobo": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1517952"
+   },
+   "4": {
+    "t": [
+     "Eric Caceres Gómez",
+     "Alonso Riva Saldaña",
+     "Matias Otero Servier",
+     "Ariadna López Fernández",
+     "Gael Mosquera Brea"
+    ],
+    "s": [
+     "Thiago Canelas Da Silva",
+     "Lois García Dobarro",
+     "Benjamin Adrián Cano Zapata",
+     "Gabriel Franco Franchino",
+     "Alejandro Suárez Torres",
+     "Natanael Roca Lobo"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eric Caceres Gómez": 1,
+     "Alonso Riva Saldaña": 2,
+     "Matias Otero Servier": 5,
+     "Ariadna López Fernández": 7,
+     "Gael Mosquera Brea": 10,
+     "Thiago Canelas Da Silva": 4,
+     "Lois García Dobarro": 6,
+     "Benjamin Adrián Cano Zapata": 8,
+     "Gabriel Franco Franchino": 9,
+     "Alejandro Suárez Torres": 12,
+     "Natanael Roca Lobo": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1517957"
+   },
+   "5": {
+    "t": [
+     "Eric Caceres Gómez",
+     "Josue Miguel Moucot Cabeza",
+     "Matias Otero Servier",
+     "Ariadna López Fernández",
+     "Leo Armando Cao Alonso",
+     "Gael Mosquera Brea",
+     "Liham Smith Liberato Rodríguez"
+    ],
+    "s": [
+     "Alonso Riva Saldaña",
+     "Gabriel Franco Franchino",
+     "Lois García Dobarro",
+     "Benjamin Adrián Cano Zapata",
+     "Alejandro Suárez Torres",
+     "Natanael Roca Lobo",
+     "Thiago Canelas Da Silva"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eric Caceres Gómez": 1,
+     "Josue Miguel Moucot Cabeza": 3,
+     "Matias Otero Servier": 5,
+     "Ariadna López Fernández": 7,
+     "Leo Armando Cao Alonso": 9,
+     "Gael Mosquera Brea": 10,
+     "Liham Smith Liberato Rodríguez": 11,
+     "Alonso Riva Saldaña": 2,
+     "Gabriel Franco Franchino": 4,
+     "Lois García Dobarro": 6,
+     "Benjamin Adrián Cano Zapata": 8,
+     "Alejandro Suárez Torres": 12,
+     "Natanael Roca Lobo": 14,
+     "Thiago Canelas Da Silva": 16
+    },
+    "c": [],
+    "rm": {},
+    "id": "1517961"
+   }
+  },
+  "dorsales": {
+   "Eric Caceres Gómez": 1,
+   "Matias Otero Servier": 5,
+   "Lois García Dobarro": 6,
+   "Benjamin Adrián Cano Zapata": 8,
+   "Alonso Riva Saldaña": 2,
+   "Ariadna López Fernández": 7,
+   "Gael Mosquera Brea": 10,
+   "Liham Smith Liberato Rodríguez": 11,
+   "Alejandro Suárez Torres": 12,
+   "Natanael Roca Lobo": 14,
+   "Thiago Canelas Da Silva": 4,
+   "Josue Miguel Moucot Cabeza": 3,
+   "Leo Armando Cao Alonso": 9,
+   "Gabriel Franco Franchino": 13
+  },
+  "descargado": "2026-11-07T18:03"
  },
  {
   "id": "benjamin-a",
@@ -6554,8 +6931,440 @@ const EQUIPOS = [
   "delegados": [
    "Anxo Sánchez Maceiras"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "U.D.J. ALMEIRAS",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 48,
+    "gc": 8,
+    "propio": false
+   },
+   {
+    "equipo": "ONCE CABALLEROS C.F.",
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
+    "e": 0,
+    "p": 0,
+    "gf": 27,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 29,
+    "gc": 24,
+    "propio": true
+   },
+   {
+    "equipo": "SPORTING CAMBRE \"B\"",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
+    "e": 0,
+    "p": 2,
+    "gf": 29,
+    "gc": 18,
+    "propio": false
+   },
+   {
+    "equipo": "OLIMPICO C.F. \"C\"",
+    "pts": 0,
+    "pj": 3,
+    "g": 0,
+    "e": 0,
+    "p": 3,
+    "gf": 7,
+    "gc": 18,
+    "propio": false
+   },
+   {
+    "equipo": "ATLETICO SAN PEDRO \"B\"",
+    "pts": 0,
+    "pj": 3,
+    "g": 0,
+    "e": 0,
+    "p": 3,
+    "gf": 9,
+    "gc": 25,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 0,
+    "pj": 4,
+    "g": 0,
+    "e": 0,
+    "p": 4,
+    "gf": 7,
+    "gc": 53,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-10",
+    "hora": "16:00",
+    "local": false,
+    "rival": "U.D.J. ALMEIRAS",
+    "resultado": "7-0",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-17",
+    "hora": "13:00",
+    "local": true,
+    "rival": "ONCE CABALLEROS C.F.",
+    "resultado": "4-10",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-24",
+    "hora": "13:00",
+    "local": true,
+    "rival": "OLIMPICO C.F. \"C\"",
+    "resultado": "7-2",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-11-01",
+    "hora": "11:00",
+    "local": false,
+    "rival": "ATLETICO SAN PEDRO \"B\"",
+    "resultado": "3-6",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-07",
+    "hora": "13:00",
+    "local": true,
+    "rival": "A.D. CULLEREDO",
+    "resultado": "12-2",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-14",
+    "hora": "",
+    "local": false,
+    "rival": "SPORTING CAMBRE \"B\"",
+    "resultado": "",
+    "campo": "Dani Mallo (Cambre)"
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-28",
+    "hora": "",
+    "local": true,
+    "rival": "U.D.J. ALMEIRAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2026-12-12",
+    "hora": "",
+    "local": false,
+    "rival": "ONCE CABALLEROS C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-12-19",
+    "hora": "",
+    "local": false,
+    "rival": "OLIMPICO C.F. \"C\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2027-01-09",
+    "hora": "",
+    "local": true,
+    "rival": "ATLETICO SAN PEDRO \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2027-01-16",
+    "hora": "",
+    "local": false,
+    "rival": "A.D. CULLEREDO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2027-01-23",
+    "hora": "",
+    "local": true,
+    "rival": "SPORTING CAMBRE \"B\"",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Benjamin F-8 - Tercera Futgal · A Coruña | Mariñas | 1ª Fase G1",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991208&codcompeticion=26991185",
+  "escudos": {
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Xan Martínez Uzal",
+     "Luca Sabal Pérez",
+     "Pool Dereck Montoya Cedeño",
+     "Anxo García Dobarro",
+     "Daniel Andrei Scarlat",
+     "Michael Rodríguez Bermúdez",
+     "Leo Liñares Lustres",
+     "Yadiel De La Cruz González"
+    ],
+    "s": [
+     "Xian Suárez Fabeiro",
+     "José Tomás Gómez Nuñez",
+     "Joan Rodríguez Miranda",
+     "Imran Ourkha Razine",
+     "Miguel Valverde De Azevedo"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xan Martínez Uzal": 1,
+     "Luca Sabal Pérez": 3,
+     "Pool Dereck Montoya Cedeño": 4,
+     "Anxo García Dobarro": 5,
+     "Daniel Andrei Scarlat": 6,
+     "Michael Rodríguez Bermúdez": 8,
+     "Leo Liñares Lustres": 9,
+     "Yadiel De La Cruz González": 10,
+     "Xian Suárez Fabeiro": 2,
+     "José Tomás Gómez Nuñez": 7,
+     "Joan Rodríguez Miranda": 11,
+     "Imran Ourkha Razine": 12,
+     "Miguel Valverde De Azevedo": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518280"
+   },
+   "2": {
+    "t": [
+     "Xan Martínez Uzal",
+     "Santiago Andrés Martín Rodríguez",
+     "Anxo García Dobarro",
+     "Yadiel De La Cruz González",
+     "José Tomás Gómez Nuñez",
+     "Leo Liñares Lustres",
+     "Enzo Peña Moreno",
+     "Joan Rodríguez Miranda"
+    ],
+    "s": [
+     "Xian Suárez Fabeiro",
+     "Breogan Rojo Tedin",
+     "Hugo Fontenla Macias",
+     "Imran Ourkha Razine",
+     "Miguel Valverde De Azevedo",
+     "Luca Sabal Pérez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xan Martínez Uzal": 1,
+     "Santiago Andrés Martín Rodríguez": 4,
+     "Anxo García Dobarro": 5,
+     "Yadiel De La Cruz González": 6,
+     "José Tomás Gómez Nuñez": 8,
+     "Leo Liñares Lustres": 9,
+     "Enzo Peña Moreno": 10,
+     "Joan Rodríguez Miranda": 11,
+     "Xian Suárez Fabeiro": 2,
+     "Breogan Rojo Tedin": 3,
+     "Hugo Fontenla Macias": 7,
+     "Imran Ourkha Razine": 12,
+     "Miguel Valverde De Azevedo": 14,
+     "Luca Sabal Pérez": 18
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518284"
+   },
+   "3": {
+    "t": [
+     "Xan Martínez Uzal",
+     "Santiago Andrés Martín Rodríguez",
+     "Anxo García Dobarro",
+     "Yadiel De La Cruz González",
+     "José Tomás Gómez Nuñez",
+     "Leo Liñares Lustres",
+     "Enzo Peña Moreno",
+     "Joan Rodríguez Miranda"
+    ],
+    "s": [
+     "Xian Suárez Fabeiro",
+     "Hugo Fontenla Macias",
+     "Imran Ourkha Razine",
+     "Miguel Valverde De Azevedo",
+     "Luca Sabal Pérez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xan Martínez Uzal": 1,
+     "Santiago Andrés Martín Rodríguez": 4,
+     "Anxo García Dobarro": 5,
+     "Yadiel De La Cruz González": 6,
+     "José Tomás Gómez Nuñez": 8,
+     "Leo Liñares Lustres": 9,
+     "Enzo Peña Moreno": 10,
+     "Joan Rodríguez Miranda": 11,
+     "Xian Suárez Fabeiro": 2,
+     "Hugo Fontenla Macias": 7,
+     "Imran Ourkha Razine": 12,
+     "Miguel Valverde De Azevedo": 14,
+     "Luca Sabal Pérez": 18
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518288"
+   },
+   "4": {
+    "t": [
+     "Xan Martínez Uzal",
+     "Santiago Andrés Martín Rodríguez",
+     "Anxo García Dobarro",
+     "Yadiel De La Cruz González",
+     "Michael Rodríguez Bermúdez",
+     "Leo Liñares Lustres",
+     "Enzo Peña Moreno",
+     "Joan Rodríguez Miranda"
+    ],
+    "s": [
+     "Xian Suárez Fabeiro",
+     "Daniel Andrei Scarlat",
+     "Hugo Fontenla Macias",
+     "Imran Ourkha Razine",
+     "Miguel Valverde De Azevedo",
+     "Pool Dereck Montoya Cedeño"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Xan Martínez Uzal": 1,
+     "Santiago Andrés Martín Rodríguez": 4,
+     "Anxo García Dobarro": 5,
+     "Yadiel De La Cruz González": 6,
+     "Michael Rodríguez Bermúdez": 8,
+     "Leo Liñares Lustres": 9,
+     "Enzo Peña Moreno": 10,
+     "Joan Rodríguez Miranda": 11,
+     "Xian Suárez Fabeiro": 2,
+     "Daniel Andrei Scarlat": 3,
+     "Hugo Fontenla Macias": 7,
+     "Imran Ourkha Razine": 12,
+     "Miguel Valverde De Azevedo": 14,
+     "Pool Dereck Montoya Cedeño": 16
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518293"
+   },
+   "5": {
+    "t": [
+     "Ismael López Fernández",
+     "Daniel Andrei Scarlat",
+     "Anxo García Dobarro",
+     "Yadiel De La Cruz González",
+     "Hugo Fontenla Macias",
+     "Leo Liñares Lustres",
+     "José Tomás Gómez Nuñez",
+     "Imran Ourkha Razine"
+    ],
+    "s": [
+     "Xan Martínez Uzal",
+     "Luca Sabal Pérez",
+     "Santiago Andrés Martín Rodríguez",
+     "Michael Rodríguez Bermúdez",
+     "Joan Rodríguez Miranda",
+     "Miguel Valverde De Azevedo"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Ismael López Fernández": 1,
+     "Daniel Andrei Scarlat": 3,
+     "Anxo García Dobarro": 5,
+     "Yadiel De La Cruz González": 6,
+     "Hugo Fontenla Macias": 7,
+     "Leo Liñares Lustres": 9,
+     "José Tomás Gómez Nuñez": 10,
+     "Imran Ourkha Razine": 12,
+     "Xan Martínez Uzal": 13,
+     "Luca Sabal Pérez": 2,
+     "Santiago Andrés Martín Rodríguez": 4,
+     "Michael Rodríguez Bermúdez": 8,
+     "Joan Rodríguez Miranda": 11,
+     "Miguel Valverde De Azevedo": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518297"
+   }
+  },
+  "dorsales": {
+   "Anxo García Dobarro": 5,
+   "Leo Liñares Lustres": 9,
+   "Joan Rodríguez Miranda": 11,
+   "Imran Ourkha Razine": 12,
+   "Miguel Valverde De Azevedo": 14,
+   "Santiago Andrés Martín Rodríguez": 4,
+   "Yadiel De La Cruz González": 6,
+   "Hugo Fontenla Macias": 7,
+   "Xan Martínez Uzal": 1,
+   "Xian Suárez Fabeiro": 2,
+   "Michael Rodríguez Bermúdez": 8,
+   "Enzo Peña Moreno": 10,
+   "Daniel Andrei Scarlat": 3,
+   "Luca Sabal Pérez": 18,
+   "Pool Dereck Montoya Cedeño": 16,
+   "José Tomás Gómez Nuñez": 13,
+   "Breogan Rojo Tedin": 15,
+   "Ismael López Fernández": 17
+  },
+  "descargado": "2026-11-07T18:04"
  },
  {
   "id": "prebenjamin-a",
