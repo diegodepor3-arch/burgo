@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-07T18:04";
+const ACTUALIZADO = "2026-11-07T21:50";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -7394,8 +7394,543 @@ const EQUIPOS = [
    "Ainhoa Veiga Brandariz"
   ],
   "delegados": [],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "ONCE CABALLEROS C.F.",
+    "pts": 13,
+    "pj": 5,
+    "g": 4,
+    "e": 1,
+    "p": 0,
+    "gf": 15,
+    "gc": 3,
+    "propio": false
+   },
+   {
+    "equipo": "MARINO C.F.",
+    "pts": 13,
+    "pj": 5,
+    "g": 4,
+    "e": 1,
+    "p": 0,
+    "gf": 10,
+    "gc": 4,
+    "propio": false
+   },
+   {
+    "equipo": "S.C.D. PASTORIZA",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
+    "e": 0,
+    "p": 1,
+    "gf": 11,
+    "gc": 4,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. OZACESURAS",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
+    "e": 0,
+    "p": 1,
+    "gf": 11,
+    "gc": 5,
+    "propio": false
+   },
+   {
+    "equipo": "ATLETICO SAN PEDRO",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 11,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "SAN TIRSO S.D.",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 9,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. PAIOSACO H.AÑON",
+    "pts": 7,
+    "pj": 5,
+    "g": 2,
+    "e": 1,
+    "p": 2,
+    "gf": 7,
+    "gc": 7,
+    "propio": false
+   },
+   {
+    "equipo": "U.D.J. ALMEIRAS",
+    "pts": 4,
+    "pj": 5,
+    "g": 1,
+    "e": 1,
+    "p": 3,
+    "gf": 6,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "ATL. CERCEDENSE",
+    "pts": 4,
+    "pj": 5,
+    "g": 1,
+    "e": 1,
+    "p": 3,
+    "gf": 3,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CRISTO REY",
+    "pts": 3,
+    "pj": 5,
+    "g": 1,
+    "e": 0,
+    "p": 4,
+    "gf": 6,
+    "gc": 8,
+    "propio": false
+   },
+   {
+    "equipo": "S.E. ABELLA S.D.E C.",
+    "pts": 1,
+    "pj": 5,
+    "g": 0,
+    "e": 1,
+    "p": 4,
+    "gf": 2,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 0,
+    "pj": 5,
+    "g": 0,
+    "e": 0,
+    "p": 5,
+    "gf": 1,
+    "gc": 18,
+    "propio": true
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-11",
+    "hora": "11:00",
+    "local": false,
+    "rival": "ATLETICO SAN PEDRO",
+    "resultado": "4-0",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-17",
+    "hora": "12:00",
+    "local": true,
+    "rival": "ONCE CABALLEROS C.F.",
+    "resultado": "0-4",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-25",
+    "hora": "11:00",
+    "local": false,
+    "rival": "U.D.J. ALMEIRAS",
+    "resultado": "3-0",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-11-01",
+    "hora": "12:00",
+    "local": true,
+    "rival": "C.F. OZACESURAS",
+    "resultado": "1-3",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-07",
+    "hora": "10:00",
+    "local": false,
+    "rival": "U.D. PAIOSACO H.AÑON",
+    "resultado": "4-0",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-14",
+    "hora": "",
+    "local": true,
+    "rival": "A.D. CRISTO REY",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-11-21",
+    "hora": "",
+    "local": true,
+    "rival": "S.C.D. PASTORIZA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-28",
+    "hora": "",
+    "local": false,
+    "rival": "ATL. CERCEDENSE",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2026-12-12",
+    "hora": "",
+    "local": true,
+    "rival": "MARINO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-12-19",
+    "hora": "",
+    "local": false,
+    "rival": "SAN TIRSO S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2027-01-09",
+    "hora": "",
+    "local": true,
+    "rival": "S.E. ABELLA S.D.E C.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2027-01-16",
+    "hora": "",
+    "local": true,
+    "rival": "ATLETICO SAN PEDRO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2027-01-23",
+    "hora": "",
+    "local": false,
+    "rival": "ONCE CABALLEROS C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 14,
+    "fecha": "2027-01-30",
+    "hora": "",
+    "local": true,
+    "rival": "U.D.J. ALMEIRAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 15,
+    "fecha": "2027-02-13",
+    "hora": "",
+    "local": false,
+    "rival": "C.F. OZACESURAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 16,
+    "fecha": "2027-02-20",
+    "hora": "",
+    "local": true,
+    "rival": "U.D. PAIOSACO H.AÑON",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 17,
+    "fecha": "2027-02-27",
+    "hora": "",
+    "local": false,
+    "rival": "A.D. CRISTO REY",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 18,
+    "fecha": "2027-03-06",
+    "hora": "",
+    "local": false,
+    "rival": "S.C.D. PASTORIZA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 19,
+    "fecha": "2027-03-13",
+    "hora": "",
+    "local": true,
+    "rival": "ATL. CERCEDENSE",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 20,
+    "fecha": "2027-03-20",
+    "hora": "",
+    "local": false,
+    "rival": "MARINO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 21,
+    "fecha": "2027-04-03",
+    "hora": "",
+    "local": true,
+    "rival": "SAN TIRSO S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 22,
+    "fecha": "2027-04-10",
+    "hora": "",
+    "local": false,
+    "rival": "S.E. ABELLA S.D.E C.",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Prebenjamin - Segunda Futgal · A Coruña | As Mariñas",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=27039469&codcompeticion=26991921",
+  "escudos": {
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
+   "U.D. PAIOSACO H.AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
+   "ATL. CERCEDENSE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000892398_escudo_en_negro.jpg",
+   "C.F. OZACESURAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001117000_ESCUDO_BUENO_RECTIFICADO.jpg",
+   "MARINO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
+   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
+   "SAN TIRSO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg",
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "S.E. ABELLA S.D.E C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000871758_ESCUDO.JPG",
+   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Manuel García Dobarro",
+     "Aria Canelas Rey",
+     "Dame Seck",
+     "Brais García Fernández",
+     "Breogan Rojo Tedin",
+     "Idris Roque Mhamed",
+     "Gonzalo Riva Sadaña",
+     "Deyanira Agustina Vizcaino García"
+    ],
+    "s": [
+     "Ares Mecorio Castro"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuel García Dobarro": 1,
+     "Aria Canelas Rey": 2,
+     "Dame Seck": 3,
+     "Brais García Fernández": 4,
+     "Breogan Rojo Tedin": 5,
+     "Idris Roque Mhamed": 6,
+     "Gonzalo Riva Sadaña": 7,
+     "Deyanira Agustina Vizcaino García": 8,
+     "Ares Mecorio Castro": 9
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518562"
+   },
+   "2": {
+    "t": [
+     "Manuel García Dobarro",
+     "Deyanira Agustina Vizcaino García",
+     "Aria Canelas Rey",
+     "Santiago Gael Hernández López",
+     "Breogan Rojo Tedin",
+     "Gonzalo Riva Sadaña",
+     "Idris Roque Mhamed",
+     "Mateo José Hernández López"
+    ],
+    "s": [
+     "Brais García Fernández",
+     "Ares Mecorio Castro",
+     "Oier Buzon Garrido",
+     "Dame Seck"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuel García Dobarro": 1,
+     "Deyanira Agustina Vizcaino García": 3,
+     "Aria Canelas Rey": 4,
+     "Santiago Gael Hernández López": 5,
+     "Breogan Rojo Tedin": 6,
+     "Gonzalo Riva Sadaña": 9,
+     "Idris Roque Mhamed": 11,
+     "Mateo José Hernández López": 17,
+     "Brais García Fernández": 2,
+     "Ares Mecorio Castro": 7,
+     "Oier Buzon Garrido": 10,
+     "Dame Seck": 12
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518568"
+   },
+   "3": {
+    "t": [
+     "Manuel García Dobarro",
+     "Breogan Rojo Tedin",
+     "Gonzalo Riva Sadaña",
+     "Idris Roque Mhamed",
+     "Ares Mecorio Castro",
+     "Deyanira Agustina Vizcaino García",
+     "Brais García Fernández",
+     "Oier Buzon Garrido"
+    ],
+    "s": [
+     "Dame Seck",
+     "Santiago Gael Hernández López",
+     "Mateo José Hernández López"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuel García Dobarro": 1,
+     "Breogan Rojo Tedin": 2,
+     "Gonzalo Riva Sadaña": 3,
+     "Idris Roque Mhamed": 4,
+     "Ares Mecorio Castro": 5,
+     "Deyanira Agustina Vizcaino García": 7,
+     "Brais García Fernández": 8,
+     "Oier Buzon Garrido": 9,
+     "Dame Seck": 6,
+     "Santiago Gael Hernández López": 10,
+     "Mateo José Hernández López": 18
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518573"
+   },
+   "4": {
+    "t": [
+     "Manuel García Dobarro",
+     "Ares Mecorio Castro",
+     "Idris Roque Mhamed",
+     "Oier Buzon Garrido",
+     "Brais García Fernández",
+     "Aria Canelas Rey",
+     "Deyanira Agustina Vizcaino García",
+     "Roi González Martínez"
+    ],
+    "s": [],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuel García Dobarro": 1,
+     "Ares Mecorio Castro": 2,
+     "Idris Roque Mhamed": 3,
+     "Oier Buzon Garrido": 4,
+     "Brais García Fernández": 5,
+     "Aria Canelas Rey": 6,
+     "Deyanira Agustina Vizcaino García": 7,
+     "Roi González Martínez": 9
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518579"
+   },
+   "5": {
+    "t": [
+     "Manuel García Dobarro",
+     "Deyanira Agustina Vizcaino García",
+     "Idris Roque Mhamed",
+     "Gonzalo Riva Sadaña",
+     "Aria Canelas Rey",
+     "Breogan Rojo Tedin",
+     "Brais García Fernández",
+     "Ares Mecorio Castro"
+    ],
+    "s": [],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuel García Dobarro": 1,
+     "Deyanira Agustina Vizcaino García": 2,
+     "Idris Roque Mhamed": 3,
+     "Gonzalo Riva Sadaña": 4,
+     "Aria Canelas Rey": 5,
+     "Breogan Rojo Tedin": 6,
+     "Brais García Fernández": 7,
+     "Ares Mecorio Castro": 8
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518584"
+   }
+  },
+  "dorsales": {
+   "Manuel García Dobarro": 1,
+   "Idris Roque Mhamed": 3,
+   "Breogan Rojo Tedin": 6,
+   "Deyanira Agustina Vizcaino García": 7,
+   "Gonzalo Riva Sadaña": 4,
+   "Aria Canelas Rey": 5,
+   "Ares Mecorio Castro": 8,
+   "Roi González Martínez": 9,
+   "Santiago Gael Hernández López": 10,
+   "Mateo José Hernández López": 18,
+   "Brais García Fernández": 2,
+   "Dame Seck": 12,
+   "Oier Buzon Garrido": 13
+  },
+  "descargado": "2026-11-07T21:49"
  },
  {
   "id": "infantil-a-fem",
@@ -7434,8 +7969,420 @@ const EQUIPOS = [
   "delegados": [
    "Ainhoa Veiga Brandariz"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "ORZÁN S.D.",
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
+    "e": 0,
+    "p": 0,
+    "gf": 28,
+    "gc": 1,
+    "propio": false
+   },
+   {
+    "equipo": "RACING CLUB FERROL S.A.D.",
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
+    "e": 0,
+    "p": 0,
+    "gf": 17,
+    "gc": 1,
+    "propio": false
+   },
+   {
+    "equipo": "VICTORIA C.F.",
+    "pts": 9,
+    "pj": 3,
+    "g": 3,
+    "e": 0,
+    "p": 0,
+    "gf": 28,
+    "gc": 2,
+    "propio": false
+   },
+   {
+    "equipo": "S.C.D. PASTORIZA",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
+    "e": 0,
+    "p": 2,
+    "gf": 19,
+    "gc": 8,
+    "propio": false
+   },
+   {
+    "equipo": "OZA JUVENIL S.D.",
+    "pts": 6,
+    "pj": 3,
+    "g": 2,
+    "e": 0,
+    "p": 1,
+    "gf": 4,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CRISTO REY",
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
+    "e": 0,
+    "p": 3,
+    "gf": 16,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. BATALLADOR S.D.",
+    "pts": 2,
+    "pj": 4,
+    "g": 0,
+    "e": 2,
+    "p": 2,
+    "gf": 3,
+    "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "SANTA CRUZ C.F.",
+    "pts": 1,
+    "pj": 3,
+    "g": 0,
+    "e": 1,
+    "p": 2,
+    "gf": 4,
+    "gc": 11,
+    "propio": false
+   },
+   {
+    "equipo": "S.D. O VAL",
+    "pts": 1,
+    "pj": 3,
+    "g": 0,
+    "e": 1,
+    "p": 2,
+    "gf": 2,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 0,
+    "pj": 4,
+    "g": 0,
+    "e": 0,
+    "p": 4,
+    "gf": 0,
+    "gc": 46,
+    "propio": true
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-11",
+    "hora": "12:15",
+    "local": false,
+    "rival": "ORZÁN S.D.",
+    "resultado": "10-0",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-17",
+    "hora": "20:00",
+    "local": true,
+    "rival": "VICTORIA C.F.",
+    "resultado": "0-12",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-24",
+    "hora": "18:00",
+    "local": true,
+    "rival": "A.D. CRISTO REY",
+    "resultado": "0-13",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-11-07",
+    "hora": "11:00",
+    "local": false,
+    "rival": "S.C.D. PASTORIZA",
+    "resultado": "11-0",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-15",
+    "hora": "",
+    "local": true,
+    "rival": "C.F. BATALLADOR S.D.",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-29",
+    "hora": "",
+    "local": false,
+    "rival": "OZA JUVENIL S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-12-20",
+    "hora": "",
+    "local": true,
+    "rival": "S.D. O VAL",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2027-01-10",
+    "hora": "",
+    "local": false,
+    "rival": "SANTA CRUZ C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2027-01-24",
+    "hora": "",
+    "local": true,
+    "rival": "RACING CLUB FERROL S.A.D.",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Femenina - Liga Galega Infantil · Grupo A",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=29005645&codcompeticion=26991146",
+  "escudos": {
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
+   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Eva Esporas Tudoli",
+     "Gabriela Rivas García",
+     "Sheila Esperante Rodríguez",
+     "Daniela Sar Miguez",
+     "Clara De Leon Martínez",
+     "Emma Álvarez",
+     "Victoria Sophia Montoya Cedeño",
+     "Daniela Domínguez Corral",
+     "Mia Villaverde Astray",
+     "Haizea Sánchez Blanco",
+     "Zaira López García"
+    ],
+    "s": [
+     "Nerea García Fernández",
+     "Uxia Vaamonde Cao"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eva Esporas Tudoli": 13,
+     "Gabriela Rivas García": 2,
+     "Sheila Esperante Rodríguez": 3,
+     "Daniela Sar Miguez": 4,
+     "Clara De Leon Martínez": 5,
+     "Emma Álvarez": 6,
+     "Victoria Sophia Montoya Cedeño": 7,
+     "Daniela Domínguez Corral": 8,
+     "Mia Villaverde Astray": 9,
+     "Haizea Sánchez Blanco": 10,
+     "Zaira López García": 11,
+     "Nerea García Fernández": 12,
+     "Uxia Vaamonde Cao": 14
+    },
+    "c": [],
+    "rm": {},
+    "id": "1520086"
+   },
+   "2": {
+    "t": [
+     "Eva Esporas Tudoli",
+     "Nerea García Fernández",
+     "Victoria Sophia Montoya Cedeño",
+     "Daniela Sar Miguez",
+     "Gabriela Rivas García",
+     "Emma Álvarez",
+     "Zaira López García",
+     "Mia Villaverde Astray",
+     "Monica Valentina Mendonça Montaña",
+     "Haizea Sánchez Blanco",
+     "Sheila Esperante Rodríguez"
+    ],
+    "s": [
+     "Uxia Vaamonde Cao",
+     "Sara Bravo Rojas",
+     "Leire Calvo Tubio",
+     "Iris Rodríguez González"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eva Esporas Tudoli": 13,
+     "Nerea García Fernández": 2,
+     "Victoria Sophia Montoya Cedeño": 3,
+     "Daniela Sar Miguez": 4,
+     "Gabriela Rivas García": 5,
+     "Emma Álvarez": 6,
+     "Zaira López García": 7,
+     "Mia Villaverde Astray": 8,
+     "Monica Valentina Mendonça Montaña": 9,
+     "Haizea Sánchez Blanco": 10,
+     "Sheila Esperante Rodríguez": 11,
+     "Uxia Vaamonde Cao": 14,
+     "Sara Bravo Rojas": 15,
+     "Leire Calvo Tubio": 16,
+     "Iris Rodríguez González": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1520091"
+   },
+   "3": {
+    "t": [
+     "Eva Esporas Tudoli",
+     "Nerea García Fernández",
+     "Iris Rodríguez González",
+     "Sara Martins Alves",
+     "Clara De Leon Martínez",
+     "Mia Villaverde Astray",
+     "Zaira López García",
+     "Emma Álvarez",
+     "Monica Valentina Mendonça Montaña",
+     "Haizea Sánchez Blanco",
+     "Sara Bravo Rojas"
+    ],
+    "s": [
+     "Carlota Abad Medrano",
+     "Sheila Esperante Rodríguez",
+     "Leire Calvo Tubio",
+     "Claudia María Tomé Loureda",
+     "Uxia Vaamonde Cao"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eva Esporas Tudoli": 13,
+     "Nerea García Fernández": 2,
+     "Iris Rodríguez González": 3,
+     "Sara Martins Alves": 4,
+     "Clara De Leon Martínez": 5,
+     "Mia Villaverde Astray": 6,
+     "Zaira López García": 7,
+     "Emma Álvarez": 8,
+     "Monica Valentina Mendonça Montaña": 9,
+     "Haizea Sánchez Blanco": 10,
+     "Sara Bravo Rojas": 11,
+     "Carlota Abad Medrano": 12,
+     "Sheila Esperante Rodríguez": 14,
+     "Leire Calvo Tubio": 15,
+     "Claudia María Tomé Loureda": 16,
+     "Uxia Vaamonde Cao": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1520096"
+   },
+   "4": {
+    "t": [
+     "Eva Esporas Tudoli",
+     "Nerea García Fernández",
+     "Iris Rodríguez González",
+     "Gabriela Rivas García",
+     "Clara De Leon Martínez",
+     "Victoria Sophia Montoya Cedeño",
+     "Zaira López García",
+     "Emma Álvarez",
+     "Uxia Vaamonde Cao",
+     "Haizea Sánchez Blanco",
+     "Carlota Abad Medrano"
+    ],
+    "s": [
+     "Daniela Sar Miguez",
+     "Leire Calvo Tubio",
+     "Claudia María Tomé Loureda",
+     "Mia Villaverde Astray",
+     "Sheila Esperante Rodríguez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eva Esporas Tudoli": 13,
+     "Nerea García Fernández": 2,
+     "Iris Rodríguez González": 3,
+     "Gabriela Rivas García": 4,
+     "Clara De Leon Martínez": 5,
+     "Victoria Sophia Montoya Cedeño": 6,
+     "Zaira López García": 7,
+     "Emma Álvarez": 8,
+     "Uxia Vaamonde Cao": 9,
+     "Haizea Sánchez Blanco": 10,
+     "Carlota Abad Medrano": 11,
+     "Daniela Sar Miguez": 12,
+     "Leire Calvo Tubio": 14,
+     "Claudia María Tomé Loureda": 15,
+     "Mia Villaverde Astray": 16,
+     "Sheila Esperante Rodríguez": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1520102"
+   }
+  },
+  "dorsales": {
+   "Haizea Sánchez Blanco": 10,
+   "Eva Esporas Tudoli": 13,
+   "Nerea García Fernández": 2,
+   "Clara De Leon Martínez": 5,
+   "Zaira López García": 7,
+   "Iris Rodríguez González": 3,
+   "Emma Álvarez": 8,
+   "Monica Valentina Mendonça Montaña": 9,
+   "Daniela Sar Miguez": 4,
+   "Uxia Vaamonde Cao": 14,
+   "Victoria Sophia Montoya Cedeño": 6,
+   "Carlota Abad Medrano": 11,
+   "Claudia María Tomé Loureda": 15,
+   "Mia Villaverde Astray": 16,
+   "Sheila Esperante Rodríguez": 17,
+   "Gabriela Rivas García": 12,
+   "Leire Calvo Tubio": 18,
+   "Sara Bravo Rojas": 19,
+   "Daniela Domínguez Corral": 20,
+   "Sara Martins Alves": 21
+  },
+  "descargado": "2026-11-07T21:50"
  },
  {
   "id": "senior-c-fem",

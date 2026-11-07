@@ -35,6 +35,7 @@ const ESCUDOS = {
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg": "img/escudos/00100_0000901695_EscudoSantaExpandido_002.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png": "img/escudos/00100_0000911974_ESCUDO__IMPERATOR_final.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg": "img/escudos/00100_0000914840_SDC__rdenes_Escudo.webp",
+ "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000916862_ESCUDO_20_21.jpg": "img/escudos/00100_0000916862_ESCUDO_20_21.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg": "img/escudos/00100_0000918106_ESCUDO_.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png": "img/escudos/00100_0000931604_Sada_CF_escudo_FUTGAL.webp",
  "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png": "img/escudos/00100_0000934032_Eiris.webp",
