@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-07T00:33";
+const ACTUALIZADO = "2026-11-07T05:58";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -3431,8 +3431,836 @@ const EQUIPOS = [
   "delegados": [
    "Ignacio Manuel Riveiro Varela"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "A.D. CRISTO REY",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 34,
+    "gc": 4,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. LICEO",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 27,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CULLEREDO \"B\"",
+    "pts": 13,
+    "pj": 5,
+    "g": 4,
+    "e": 1,
+    "p": 0,
+    "gf": 22,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. CIUDAD \"B\"",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
+    "e": 0,
+    "p": 1,
+    "gf": 26,
+    "gc": 11,
+    "propio": false
+   },
+   {
+    "equipo": "ATLETICO PERILLO",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
+    "e": 0,
+    "p": 1,
+    "gf": 17,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "CLUB DE FÚTBOL BATALLADOR S.D.",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 23,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO \"B\"",
+    "pts": 7,
+    "pj": 5,
+    "g": 2,
+    "e": 1,
+    "p": 2,
+    "gf": 13,
+    "gc": 13,
+    "propio": true
+   },
+   {
+    "equipo": "RELÁMPAGO S.D. \"B\"",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 12,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "S.C.D. PASTORIZA",
+    "pts": 5,
+    "pj": 5,
+    "g": 1,
+    "e": 2,
+    "p": 2,
+    "gf": 9,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "UNION CAMPESTRE \"B\"",
+    "pts": 3,
+    "pj": 5,
+    "g": 1,
+    "e": 0,
+    "p": 4,
+    "gf": 9,
+    "gc": 18,
+    "propio": false
+   },
+   {
+    "equipo": "MARINO C.F. \"B\"",
+    "pts": 3,
+    "pj": 5,
+    "g": 1,
+    "e": 0,
+    "p": 4,
+    "gf": 10,
+    "gc": 24,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. JUVENIL DE ALMEIRAS \"B\"",
+    "pts": 1,
+    "pj": 5,
+    "g": 0,
+    "e": 1,
+    "p": 4,
+    "gf": 11,
+    "gc": 23,
+    "propio": false
+   },
+   {
+    "equipo": "CLUB ROSALÍA MERA \"B\"",
+    "pts": 1,
+    "pj": 5,
+    "g": 0,
+    "e": 1,
+    "p": 4,
+    "gf": 7,
+    "gc": 41,
+    "propio": false
+   },
+   {
+    "equipo": "CORUÑA ARBOCO C.F.",
+    "pts": 0,
+    "pj": 5,
+    "g": 0,
+    "e": 0,
+    "p": 5,
+    "gf": 10,
+    "gc": 35,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-03",
+    "hora": "16:00",
+    "local": true,
+    "rival": "A.D. CRISTO REY",
+    "resultado": "0-5",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-10",
+    "hora": "12:00",
+    "local": false,
+    "rival": "A.D. CULLEREDO \"B\"",
+    "resultado": "4-3",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-17",
+    "hora": "13:00",
+    "local": false,
+    "rival": "U.D. JUVENIL DE ALMEIRAS \"B\"",
+    "resultado": "0-0",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-10-24",
+    "hora": "20:00",
+    "local": true,
+    "rival": "MARINO C.F. \"B\"",
+    "resultado": "3-1",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-10-31",
+    "hora": "12:30",
+    "local": false,
+    "rival": "CORUÑA ARBOCO C.F.",
+    "resultado": "3-7",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-07",
+    "hora": "16:00",
+    "local": true,
+    "rival": "S.C.D. PASTORIZA",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-11-14",
+    "hora": "",
+    "local": false,
+    "rival": "UNION CAMPESTRE \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-21",
+    "hora": "",
+    "local": true,
+    "rival": "A.D. LICEO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2026-11-28",
+    "hora": "",
+    "local": false,
+    "rival": "C.D. CIUDAD \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-12-12",
+    "hora": "",
+    "local": true,
+    "rival": "CLUB DE FÚTBOL BATALLADOR S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2026-12-19",
+    "hora": "",
+    "local": false,
+    "rival": "CLUB ROSALÍA MERA \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2027-01-09",
+    "hora": "",
+    "local": true,
+    "rival": "RELÁMPAGO S.D. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2027-01-16",
+    "hora": "",
+    "local": false,
+    "rival": "ATLETICO PERILLO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 14,
+    "fecha": "2027-01-23",
+    "hora": "",
+    "local": false,
+    "rival": "A.D. CRISTO REY",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 15,
+    "fecha": "2027-01-30",
+    "hora": "",
+    "local": true,
+    "rival": "A.D. CULLEREDO \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 16,
+    "fecha": "2027-02-06",
+    "hora": "",
+    "local": true,
+    "rival": "U.D. JUVENIL DE ALMEIRAS \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 17,
+    "fecha": "2027-02-13",
+    "hora": "",
+    "local": false,
+    "rival": "MARINO C.F. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 18,
+    "fecha": "2027-02-20",
+    "hora": "",
+    "local": true,
+    "rival": "CORUÑA ARBOCO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 19,
+    "fecha": "2027-02-27",
+    "hora": "",
+    "local": false,
+    "rival": "S.C.D. PASTORIZA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 20,
+    "fecha": "2027-03-06",
+    "hora": "",
+    "local": true,
+    "rival": "UNION CAMPESTRE \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 21,
+    "fecha": "2027-03-13",
+    "hora": "",
+    "local": false,
+    "rival": "A.D. LICEO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 22,
+    "fecha": "2027-03-20",
+    "hora": "",
+    "local": true,
+    "rival": "C.D. CIUDAD \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 23,
+    "fecha": "2027-04-03",
+    "hora": "",
+    "local": false,
+    "rival": "CLUB DE FÚTBOL BATALLADOR S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 24,
+    "fecha": "2027-04-10",
+    "hora": "",
+    "local": true,
+    "rival": "CLUB ROSALÍA MERA \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 25,
+    "fecha": "2027-04-17",
+    "hora": "",
+    "local": false,
+    "rival": "RELÁMPAGO S.D. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 26,
+    "fecha": "2027-04-24",
+    "hora": "",
+    "local": true,
+    "rival": "ATLETICO PERILLO",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Juvenil - 3ª Futgal · A Coruña | G2",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28950545&codcompeticion=26991108",
+  "escudos": {
+   "SPORTING BURGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
+   "MARINO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
+   "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
+   "U.D. JUVENIL DE ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
+   "ATLETICO PERILLO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000034822_ESCUDO_PERILLO.jpg",
+   "C.D. CIUDAD \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
+   "A.D. CULLEREDO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "UNION CAMPESTRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "A.D. LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
+   "RELÁMPAGO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "CLUB DE FÚTBOL BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Gabriel López Fernández",
+     "Sergio Albores Herrero",
+     "Antonio Gabarri Suárez",
+     "Malick Diop",
+     "Franklin José Nava Parra",
+     "Iago Riveiro Peon",
+     "Manuel Álvarez Cabrillana",
+     "Raul Leites Amor",
+     "Diego Vecino Vilar",
+     "Luca Sebastián Seoane Torres"
+    ],
+    "s": [
+     "Isaias Facundo Martínez Barreto",
+     "Mohamed Rayane Lakhlifi",
+     "Dhiaa Eddine Bachir",
+     "Yohan Luis Caceres Bastardo",
+     "Pablo Casais Domínguez"
+    ],
+    "e": [
+     "Dhiaa Eddine Bachir",
+     "Yohan Luis Caceres Bastardo",
+     "Pablo Casais Domínguez",
+     "Mohamed Rayane Lakhlifi",
+     "Isaias Facundo Martínez Barreto"
+    ],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Gabriel López Fernández": 2,
+     "Sergio Albores Herrero": 3,
+     "Antonio Gabarri Suárez": 4,
+     "Malick Diop": 5,
+     "Franklin José Nava Parra": 6,
+     "Iago Riveiro Peon": 7,
+     "Manuel Álvarez Cabrillana": 8,
+     "Raul Leites Amor": 9,
+     "Diego Vecino Vilar": 10,
+     "Luca Sebastián Seoane Torres": 11,
+     "Isaias Facundo Martínez Barreto": 12,
+     "Mohamed Rayane Lakhlifi": 14,
+     "Dhiaa Eddine Bachir": 15,
+     "Yohan Luis Caceres Bastardo": 16,
+     "Pablo Casais Domínguez": 17
+    },
+    "c": [
+     [
+      "Dhiaa Eddine Bachir",
+      "Franklin José Nava Parra",
+      46
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Gabriel López Fernández",
+      54
+     ],
+     [
+      "Pablo Casais Domínguez",
+      "Manuel Álvarez Cabrillana",
+      62
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "Raul Leites Amor",
+      62
+     ],
+     [
+      "Isaias Facundo Martínez Barreto",
+      "Iago Riveiro Peon",
+      73
+     ]
+    ],
+    "rm": {},
+    "id": "1502398"
+   },
+   "2": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Javier Pena López",
+     "Sergio Albores Herrero",
+     "Antonio Gabarri Suárez",
+     "Luca Sebastián Seoane Torres",
+     "Manuel Álvarez Cabrillana",
+     "Iago Riveiro Peon",
+     "Pablo Bouza Pedre",
+     "Raul Leites Amor",
+     "Diego Vecino Vilar",
+     "Pablo López López"
+    ],
+    "s": [
+     "Yohan Luis Caceres Bastardo",
+     "Dhiaa Eddine Bachir",
+     "Mohamed Rayane Lakhlifi",
+     "Isaias Facundo Martínez Barreto"
+    ],
+    "e": [
+     "Yohan Luis Caceres Bastardo",
+     "Dhiaa Eddine Bachir",
+     "Isaias Facundo Martínez Barreto",
+     "Mohamed Rayane Lakhlifi"
+    ],
+    "g": {
+     "Pablo López López": 2,
+     "Raul Leites Amor": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Javier Pena López": 2,
+     "Sergio Albores Herrero": 3,
+     "Antonio Gabarri Suárez": 4,
+     "Luca Sebastián Seoane Torres": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "Iago Riveiro Peon": 7,
+     "Pablo Bouza Pedre": 8,
+     "Raul Leites Amor": 9,
+     "Diego Vecino Vilar": 10,
+     "Pablo López López": 11,
+     "Yohan Luis Caceres Bastardo": 12,
+     "Dhiaa Eddine Bachir": 14,
+     "Mohamed Rayane Lakhlifi": 15,
+     "Isaias Facundo Martínez Barreto": 16
+    },
+    "c": [
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Sergio Albores Herrero",
+      46
+     ],
+     [
+      "Dhiaa Eddine Bachir",
+      "Diego Vecino Vilar",
+      64
+     ],
+     [
+      "Isaias Facundo Martínez Barreto",
+      "Raul Leites Amor",
+      86
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "Iago Riveiro Peon",
+      86
+     ]
+    ],
+    "rm": {},
+    "id": "1502406"
+   },
+   "3": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Luca Sebastián Seoane Torres",
+     "Sergio Albores Herrero",
+     "Antonio Gabarri Suárez",
+     "Malick Diop",
+     "Manuel Álvarez Cabrillana",
+     "Gabriel López Fernández",
+     "Iago Riveiro Peon",
+     "Raul Leites Amor",
+     "Diego Vecino Vilar",
+     "David Ferreiro Pérez"
+    ],
+    "s": [
+     "Yohan Luis Caceres Bastardo",
+     "José Luis Pereira Pérez",
+     "Isaias Facundo Martínez Barreto",
+     "Franklin José Nava Parra",
+     "Mohamed Rayane Lakhlifi"
+    ],
+    "e": [
+     "José Luis Pereira Pérez",
+     "Franklin José Nava Parra",
+     "Yohan Luis Caceres Bastardo",
+     "Isaias Facundo Martínez Barreto",
+     "Mohamed Rayane Lakhlifi"
+    ],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Luca Sebastián Seoane Torres": 2,
+     "Sergio Albores Herrero": 3,
+     "Antonio Gabarri Suárez": 4,
+     "Malick Diop": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "Gabriel López Fernández": 7,
+     "Iago Riveiro Peon": 8,
+     "Raul Leites Amor": 9,
+     "Diego Vecino Vilar": 10,
+     "David Ferreiro Pérez": 11,
+     "Yohan Luis Caceres Bastardo": 12,
+     "José Luis Pereira Pérez": 14,
+     "Isaias Facundo Martínez Barreto": 15,
+     "Franklin José Nava Parra": 16,
+     "Mohamed Rayane Lakhlifi": 17
+    },
+    "c": [
+     [
+      "José Luis Pereira Pérez",
+      "Gabriel López Fernández",
+      45
+     ],
+     [
+      "Franklin José Nava Parra",
+      "Iago Riveiro Peon",
+      53
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Sergio Albores Herrero",
+      70
+     ],
+     [
+      "Isaias Facundo Martínez Barreto",
+      "Manuel Álvarez Cabrillana",
+      85
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "David Ferreiro Pérez",
+      85
+     ]
+    ],
+    "rm": {},
+    "id": "1502413"
+   },
+   "4": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Sergio Albores Herrero",
+     "Rodrigo Cacheiro Permuy",
+     "Luca Sebastián Seoane Torres",
+     "Malick Diop",
+     "Manuel Álvarez Cabrillana",
+     "Gabriel López Fernández",
+     "Iago Riveiro Peon",
+     "Raul Leites Amor",
+     "Diego Vecino Vilar",
+     "José Luis Pereira Pérez"
+    ],
+    "s": [
+     "Yohan Luis Caceres Bastardo",
+     "Isaias Facundo Martínez Barreto",
+     "Mohamed Rayane Lakhlifi",
+     "Dhiaa Eddine Bachir"
+    ],
+    "e": [
+     "Dhiaa Eddine Bachir",
+     "Yohan Luis Caceres Bastardo",
+     "Isaias Facundo Martínez Barreto",
+     "Mohamed Rayane Lakhlifi"
+    ],
+    "g": {
+     "Raul Leites Amor": 2,
+     "Sergio Albores Herrero": 1
+    },
+    "a": [
+     "Gabriel López Fernández",
+     "Malick Diop",
+     "Adrián Varela Herranz"
+    ],
+    "r": [],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Sergio Albores Herrero": 2,
+     "Rodrigo Cacheiro Permuy": 3,
+     "Luca Sebastián Seoane Torres": 4,
+     "Malick Diop": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "Gabriel López Fernández": 7,
+     "Iago Riveiro Peon": 8,
+     "Raul Leites Amor": 9,
+     "Diego Vecino Vilar": 10,
+     "José Luis Pereira Pérez": 11,
+     "Yohan Luis Caceres Bastardo": 12,
+     "Isaias Facundo Martínez Barreto": 14,
+     "Mohamed Rayane Lakhlifi": 15,
+     "Dhiaa Eddine Bachir": 16
+    },
+    "c": [
+     [
+      "Dhiaa Eddine Bachir",
+      "José Luis Pereira Pérez",
+      68
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Raul Leites Amor",
+      76
+     ],
+     [
+      "Isaias Facundo Martínez Barreto",
+      "Rodrigo Cacheiro Permuy",
+      85
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "Iago Riveiro Peon",
+      85
+     ]
+    ],
+    "rm": {},
+    "id": "1502420"
+   },
+   "5": {
+    "t": [
+     "Marcos Sánchez Miguez",
+     "Sergio Albores Herrero",
+     "Rodrigo Cacheiro Permuy",
+     "Antonio Gabarri Suárez",
+     "Malick Diop",
+     "Manuel Álvarez Cabrillana",
+     "David Ferreiro Pérez",
+     "Iago Riveiro Peon",
+     "Raul Leites Amor",
+     "Diego Vecino Vilar",
+     "Gabriel López Fernández"
+    ],
+    "s": [
+     "Yohan Luis Caceres Bastardo",
+     "José Luis Pereira Pérez",
+     "Isaias Facundo Martínez Barreto",
+     "Franklin José Nava Parra"
+    ],
+    "e": [
+     "José Luis Pereira Pérez",
+     "Yohan Luis Caceres Bastardo",
+     "Isaias Facundo Martínez Barreto",
+     "Franklin José Nava Parra"
+    ],
+    "g": {
+     "Raul Leites Amor": 2,
+     "Gabriel López Fernández": 1,
+     "Sergio Albores Herrero": 1,
+     "Antonio Gabarri Suárez": 1,
+     "Yohan Luis Caceres Bastardo": 1,
+     "José Luis Pereira Pérez": 1
+    },
+    "a": [
+     "David Ferreiro Pérez",
+     "Malick Diop",
+     "Sergio Albores Herrero"
+    ],
+    "r": [],
+    "d": {
+     "Marcos Sánchez Miguez": 1,
+     "Sergio Albores Herrero": 2,
+     "Rodrigo Cacheiro Permuy": 3,
+     "Antonio Gabarri Suárez": 4,
+     "Malick Diop": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "David Ferreiro Pérez": 7,
+     "Iago Riveiro Peon": 8,
+     "Raul Leites Amor": 9,
+     "Diego Vecino Vilar": 10,
+     "Gabriel López Fernández": 11,
+     "Yohan Luis Caceres Bastardo": 12,
+     "José Luis Pereira Pérez": 15,
+     "Isaias Facundo Martínez Barreto": 16,
+     "Franklin José Nava Parra": 17
+    },
+    "c": [
+     [
+      "José Luis Pereira Pérez",
+      "David Ferreiro Pérez",
+      58
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Raul Leites Amor",
+      58
+     ],
+     [
+      "Isaias Facundo Martínez Barreto",
+      "Rodrigo Cacheiro Permuy",
+      69
+     ],
+     [
+      "Franklin José Nava Parra",
+      "Manuel Álvarez Cabrillana",
+      69
+     ]
+    ],
+    "rm": {},
+    "id": "1502426"
+   }
+  },
+  "dorsales": {
+   "Raul Leites Amor": 9,
+   "Diego Vecino Vilar": 10,
+   "Antonio Gabarri Suárez": 4,
+   "Malick Diop": 5,
+   "Manuel Álvarez Cabrillana": 6,
+   "Yohan Luis Caceres Bastardo": 12,
+   "Adrián Varela Herranz": 1,
+   "Iago Riveiro Peon": 8,
+   "Sergio Albores Herrero": 3,
+   "Isaias Facundo Martínez Barreto": 16,
+   "Gabriel López Fernández": 7,
+   "Mohamed Rayane Lakhlifi": 15,
+   "Franklin José Nava Parra": 17,
+   "José Luis Pereira Pérez": 11,
+   "Luca Sebastián Seoane Torres": 2,
+   "Dhiaa Eddine Bachir": 14,
+   "David Ferreiro Pérez": 13,
+   "Rodrigo Cacheiro Permuy": 18,
+   "Javier Pena López": 19,
+   "Marcos Sánchez Miguez": 20,
+   "Pablo Bouza Pedre": 21,
+   "Pablo Casais Domínguez": 22,
+   "Pablo López López": 23
+  },
+  "descargado": "2026-11-07T05:57"
  },
  {
   "id": "cadete-a-fem",
@@ -3468,8 +4296,464 @@ const EQUIPOS = [
   "delegados": [
    "Adrián Blanco Pallares"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "ORZÁN S.D.",
+    "pts": 12,
+    "pj": 4,
+    "g": 4,
+    "e": 0,
+    "p": 0,
+    "gf": 34,
+    "gc": 2,
+    "propio": false
+   },
+   {
+    "equipo": "VICTORIA C.F.",
+    "pts": 10,
+    "pj": 4,
+    "g": 3,
+    "e": 1,
+    "p": 0,
+    "gf": 22,
+    "gc": 0,
+    "propio": false
+   },
+   {
+    "equipo": "C. F. BATALLADOR S.D.",
+    "pts": 9,
+    "pj": 4,
+    "g": 3,
+    "e": 0,
+    "p": 1,
+    "gf": 18,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "RACING CLUB FERROL S.A.D.",
+    "pts": 9,
+    "pj": 4,
+    "g": 3,
+    "e": 0,
+    "p": 1,
+    "gf": 12,
+    "gc": 6,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 9,
+    "pj": 4,
+    "g": 3,
+    "e": 0,
+    "p": 1,
+    "gf": 9,
+    "gc": 12,
+    "propio": true
+   },
+   {
+    "equipo": "SPORTING CAMBRE",
+    "pts": 6,
+    "pj": 4,
+    "g": 2,
+    "e": 0,
+    "p": 2,
+    "gf": 5,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "S.D.RAPIDO NEDA",
+    "pts": 4,
+    "pj": 4,
+    "g": 1,
+    "e": 1,
+    "p": 2,
+    "gf": 3,
+    "gc": 5,
+    "propio": false
+   },
+   {
+    "equipo": "OZA JUVENIL S.D.",
+    "pts": 4,
+    "pj": 4,
+    "g": 1,
+    "e": 1,
+    "p": 2,
+    "gf": 10,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. AS PONTES",
+    "pts": 3,
+    "pj": 4,
+    "g": 1,
+    "e": 0,
+    "p": 3,
+    "gf": 9,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "SANTA CRUZ C.F.",
+    "pts": 2,
+    "pj": 4,
+    "g": 0,
+    "e": 2,
+    "p": 2,
+    "gf": 3,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "CLUB DEPORTIVO NARON",
+    "pts": 1,
+    "pj": 4,
+    "g": 0,
+    "e": 1,
+    "p": 3,
+    "gf": 1,
+    "gc": 20,
+    "propio": false
+   },
+   {
+    "equipo": "S.D. O VAL",
+    "pts": 0,
+    "pj": 4,
+    "g": 0,
+    "e": 0,
+    "p": 4,
+    "gf": 3,
+    "gc": 22,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-10",
+    "hora": "16:00",
+    "local": true,
+    "rival": "RACING CLUB FERROL S.A.D.",
+    "resultado": "0-8",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-17",
+    "hora": "18:15",
+    "local": false,
+    "rival": "S.D. O VAL",
+    "resultado": "1-4",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-24",
+    "hora": "16:00",
+    "local": true,
+    "rival": "OZA JUVENIL S.D.",
+    "resultado": "2-1",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-10-31",
+    "hora": "11:00",
+    "local": false,
+    "rival": "C.D. AS PONTES",
+    "resultado": "2-3",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-07",
+    "hora": "11:00",
+    "local": true,
+    "rival": "CLUB DEPORTIVO NARON",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-15",
+    "hora": "",
+    "local": false,
+    "rival": "VICTORIA C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-11-29",
+    "hora": "",
+    "local": true,
+    "rival": "SANTA CRUZ C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-12-20",
+    "hora": "",
+    "local": false,
+    "rival": "C. F. BATALLADOR S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2027-01-10",
+    "hora": "",
+    "local": false,
+    "rival": "S.D.RAPIDO NEDA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2027-01-17",
+    "hora": "",
+    "local": true,
+    "rival": "ORZÁN S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2027-01-24",
+    "hora": "",
+    "local": false,
+    "rival": "SPORTING CAMBRE",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Femenina - Liga Gallega Cadete · Grupo A",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=29005495&codcompeticion=26991145",
+  "escudos": {
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
+   "C. F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "CLUB DEPORTIVO NARON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
+   "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png",
+   "C.D. AS PONTES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003337_ESCUDO_CD_AS_PONTES.jpg",
+   "S.D.RAPIDO NEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000942976_ESCUDO_NEDA.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Lucero Aymar De Las Mercedes Martínez Puyen",
+     "Sheila Del Carmen Romero Gutiérrez",
+     "Carla Ojea Corzo",
+     "Hadriana Rojo Tedin",
+     "Yeireny Camila Santana Asencio",
+     "Adriana Pardo Rodríguez",
+     "Emma Álvarez",
+     "Noa Vieites Cancelo",
+     "Nansy Suárez Isaac",
+     "Mariana Florez Cuero",
+     "Bianca Ventureira Loschiavo"
+    ],
+    "s": [
+     "Julia López Roel",
+     "Ines Riveiro Mariño",
+     "Zaira López García",
+     "Haizea Sánchez Blanco",
+     "Marta Varela Catoira"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Lucero Aymar De Las Mercedes Martínez Puyen": 1,
+     "Sheila Del Carmen Romero Gutiérrez": 2,
+     "Carla Ojea Corzo": 3,
+     "Hadriana Rojo Tedin": 4,
+     "Yeireny Camila Santana Asencio": 5,
+     "Adriana Pardo Rodríguez": 6,
+     "Emma Álvarez": 7,
+     "Noa Vieites Cancelo": 8,
+     "Nansy Suárez Isaac": 9,
+     "Mariana Florez Cuero": 10,
+     "Bianca Ventureira Loschiavo": 11,
+     "Julia López Roel": 12,
+     "Ines Riveiro Mariño": 14,
+     "Zaira López García": 15,
+     "Haizea Sánchez Blanco": 16,
+     "Marta Varela Catoira": 99
+    },
+    "c": [],
+    "rm": {},
+    "id": "1519402"
+   },
+   "2": {
+    "t": [
+     "Lucero Aymar De Las Mercedes Martínez Puyen",
+     "Ines Riveiro Mariño",
+     "Carla Ojea Corzo",
+     "Sheila Del Carmen Romero Gutiérrez",
+     "Adriana Pardo Rodríguez",
+     "Julia López Roel",
+     "Noa Vieites Cancelo",
+     "Nansy Suárez Isaac",
+     "Mariana Florez Cuero",
+     "Bianca Ventureira Loschiavo",
+     "Hadriana Rojo Tedin"
+    ],
+    "s": [
+     "Marta Varela Catoira"
+    ],
+    "e": [],
+    "g": {
+     "Bianca Ventureira Loschiavo": 1,
+     "Sheila Del Carmen Romero Gutiérrez": 1,
+     "Nansy Suárez Isaac": 1,
+     "Mariana Florez Cuero": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Lucero Aymar De Las Mercedes Martínez Puyen": 13,
+     "Ines Riveiro Mariño": 2,
+     "Carla Ojea Corzo": 3,
+     "Sheila Del Carmen Romero Gutiérrez": 4,
+     "Adriana Pardo Rodríguez": 6,
+     "Julia López Roel": 7,
+     "Noa Vieites Cancelo": 8,
+     "Nansy Suárez Isaac": 9,
+     "Mariana Florez Cuero": 10,
+     "Bianca Ventureira Loschiavo": 11,
+     "Hadriana Rojo Tedin": 12,
+     "Marta Varela Catoira": 67
+    },
+    "c": [],
+    "rm": {},
+    "id": "1519409"
+   },
+   "3": {
+    "t": [
+     "Lucero Aymar De Las Mercedes Martínez Puyen",
+     "Ines Riveiro Mariño",
+     "Carla Ojea Corzo",
+     "Sheila Del Carmen Romero Gutiérrez",
+     "Hadriana Rojo Tedin",
+     "Adriana Pardo Rodríguez",
+     "Julia López Roel",
+     "Noa Vieites Cancelo",
+     "Nansy Suárez Isaac",
+     "Mariana Florez Cuero",
+     "Bianca Ventureira Loschiavo"
+    ],
+    "s": [
+     "Yeireny Camila Santana Asencio",
+     "Marta Varela Catoira"
+    ],
+    "e": [],
+    "g": {
+     "Sheila Del Carmen Romero Gutiérrez": 1,
+     "Nansy Suárez Isaac": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Lucero Aymar De Las Mercedes Martínez Puyen": 13,
+     "Ines Riveiro Mariño": 2,
+     "Carla Ojea Corzo": 3,
+     "Sheila Del Carmen Romero Gutiérrez": 4,
+     "Hadriana Rojo Tedin": 5,
+     "Adriana Pardo Rodríguez": 6,
+     "Julia López Roel": 7,
+     "Noa Vieites Cancelo": 8,
+     "Nansy Suárez Isaac": 9,
+     "Mariana Florez Cuero": 10,
+     "Bianca Ventureira Loschiavo": 11,
+     "Yeireny Camila Santana Asencio": 12,
+     "Marta Varela Catoira": 67
+    },
+    "c": [],
+    "rm": {},
+    "id": "1519415"
+   },
+   "4": {
+    "t": [
+     "Lucero Aymar De Las Mercedes Martínez Puyen",
+     "Yeireny Camila Santana Asencio",
+     "Carla Ojea Corzo",
+     "Candela Sinde Vieites",
+     "Sheila Del Carmen Romero Gutiérrez",
+     "Hadriana Rojo Tedin",
+     "Julia López Roel",
+     "Noa Vieites Cancelo",
+     "Nansy Suárez Isaac",
+     "Emma Álvarez",
+     "Bianca Ventureira Loschiavo"
+    ],
+    "s": [
+     "Ines Riveiro Mariño",
+     "Zaira López García",
+     "Haizea Sánchez Blanco",
+     "Eva Esporas Tudoli"
+    ],
+    "e": [],
+    "g": {
+     "Nansy Suárez Isaac": 1,
+     "Bianca Ventureira Loschiavo": 1,
+     "Noa Vieites Cancelo": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Lucero Aymar De Las Mercedes Martínez Puyen": 13,
+     "Yeireny Camila Santana Asencio": 2,
+     "Carla Ojea Corzo": 3,
+     "Candela Sinde Vieites": 4,
+     "Sheila Del Carmen Romero Gutiérrez": 5,
+     "Hadriana Rojo Tedin": 6,
+     "Julia López Roel": 7,
+     "Noa Vieites Cancelo": 8,
+     "Nansy Suárez Isaac": 9,
+     "Emma Álvarez": 10,
+     "Bianca Ventureira Loschiavo": 11,
+     "Ines Riveiro Mariño": 12,
+     "Zaira López García": 14,
+     "Haizea Sánchez Blanco": 15,
+     "Eva Esporas Tudoli": 16
+    },
+    "c": [],
+    "rm": {},
+    "id": "1519422"
+   }
+  },
+  "dorsales": {
+   "Carla Ojea Corzo": 3,
+   "Noa Vieites Cancelo": 8,
+   "Nansy Suárez Isaac": 9,
+   "Bianca Ventureira Loschiavo": 11,
+   "Julia López Roel": 7,
+   "Lucero Aymar De Las Mercedes Martínez Puyen": 13,
+   "Adriana Pardo Rodríguez": 6,
+   "Mariana Florez Cuero": 10,
+   "Ines Riveiro Mariño": 2,
+   "Sheila Del Carmen Romero Gutiérrez": 4,
+   "Marta Varela Catoira": 67,
+   "Zaira López García": 14,
+   "Haizea Sánchez Blanco": 15,
+   "Eva Esporas Tudoli": 16,
+   "Hadriana Rojo Tedin": 5,
+   "Yeireny Camila Santana Asencio": 12,
+   "Emma Álvarez": 17,
+   "Candela Sinde Vieites": 18
+  },
+  "descargado": "2026-11-07T05:58"
  },
  {
   "id": "cadete-a",
