@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T13:46";
+const ACTUALIZADO = "2026-11-08T13:49";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -1279,7 +1279,7 @@ const EQUIPOS = [
    "Pablo Veira Canzobre": 20,
    "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-08T13:35"
+  "descargado": "2026-11-08T13:49"
  },
  {
   "id": "senior-b",
@@ -3176,7 +3176,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 28,
    "Yeireny Camila Santana Asencio": 29
   },
-  "descargado": "2026-11-08T13:35"
+  "descargado": "2026-11-08T13:49"
  },
  {
   "id": "juvenil-a",
@@ -9209,7 +9209,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-08T13:29"
+  "descargado": "2026-11-08T13:47"
  },
  {
   "id": "infantil-a-fem",
@@ -9661,7 +9661,7 @@ const EQUIPOS = [
    "Daniela Domínguez Corral": 20,
    "Sara Martins Alves": 21
   },
-  "descargado": "2026-11-08T13:29"
+  "descargado": "2026-11-08T13:48"
  },
  {
   "id": "senior-c-fem",
@@ -10425,7 +10425,7 @@ const EQUIPOS = [
    "Manuela Blanco Casas": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-08T13:30"
+  "descargado": "2026-11-08T13:48"
  },
  {
   "id": "veteranos-a",
@@ -11370,6 +11370,6 @@ const EQUIPOS = [
    "Martín Sánchez López": 16,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-08T13:34"
+  "descargado": "2026-11-08T13:48"
  }
 ];
