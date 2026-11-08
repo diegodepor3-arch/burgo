@@ -128,3 +128,9 @@ h1, h2, h3, .titulo, .cab-titulo { font-stretch: 112%; }
 .cg-cifras dd { margin: 0; font: 850 1.375rem/1 var(--titulo); }
 .cg-cifras dt { font-size: 0.6875rem; color: #b9d3e6; text-transform: uppercase; letter-spacing: 0.04em; }
 .cg-dorso .boton { min-height: 40px; padding: 8px 16px; background: var(--celeste); color: var(--marino); }
+
+/* Con cartel del club (cuadrado): entero arriba y el nombre completo debajo, sin taparlo */
+.cg-con-foto ~ .cg-foto { bottom: auto; height: auto; aspect-ratio: 1; }
+.cg-con-foto ~ .cg-nombre { top: 75%; align-content: center; padding: 8px 16px; background: var(--marino); }
+.cg-con-foto ~ .cg-nombre b { font-size: 1rem; }
+.cg-con-foto ~ .cg-nombre small { font-size: 0.75rem; }

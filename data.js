@@ -38,7 +38,26 @@ const CATEGORIAS = [
 const EXTRA = {
   // Primer equipo: las fotos salen en las cartas de la plantilla (jugadores y cuerpo técnico), con el nombre tal cual lo da la federación.
   // Ejemplo: "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles.jpg"
-  "senior-a": { fotos: {}, videos: [], jugadores: {} },
+  // Carteles de renovación 2026/27 del Instagram del club (@sportingburgocf)
+  "senior-a": {
+    fotos: {
+    "Nicolás Anido Castro": "img/jugadores/nicolas-anido-castro.webp",
+    "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles-rodriguez.webp",
+    "Martín López Lodeiro": "img/jugadores/martin-lopez-lodeiro.webp",
+    "Jorge Barreiro Sánchez": "img/jugadores/jorge-barreiro-sanchez.webp",
+    "Mario Ríos Carnota": "img/jugadores/mario-rios-carnota.webp",
+    "Pablo Méndez Amor": "img/jugadores/pablo-mendez-amor.webp",
+    "Diego Sánchez Boquete": "img/jugadores/diego-sanchez-boquete.webp",
+    "Carlos Ferreiro Corujo": "img/jugadores/carlos-ferreiro-corujo.webp",
+    "Hugo Varela Vidal": "img/jugadores/hugo-varela-vidal.webp",
+    "Pablo Veira Canzobre": "img/jugadores/pablo-veira-canzobre.webp",
+    "Pablo Gestal Santiso": "img/jugadores/pablo-gestal-santiso.webp",
+    "José L Salcedo Soto": "img/jugadores/jose-l-salcedo-soto.webp",
+    "Nomar L Mota Martínez": "img/jugadores/nomar-l-mota-martinez.webp",
+    },
+    videos: [],
+    jugadores: {},
+  },
 };
 
 // Historia: de momento solo lo comprobado (año de fundación, lapreferente.com y páxinas galegas).

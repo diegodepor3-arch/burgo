@@ -559,7 +559,7 @@ const cartaGiro = (delante, detras, etiqueta) => `<div class="flip-card" aria-la
 // Primer equipo: jugadores y cuerpo técnico en cartas. Sin foto en data.js, la camiseta con el dorsal (o las iniciales).
 function plantillaCartas(e) {
   const fotos = (EXTRA[e.id] || {}).fotos || {};
-  const cara = (n, relleno, rol) => `${fotos[n] ? `<img class="cg-foto" src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false">` : `<div class="cg-sin">${relleno}</div>`}
+  const cara = (n, relleno, rol) => `${fotos[n] ? `<span class="cg-con-foto"></span><img class="cg-foto" src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false">` : `<div class="cg-sin">${relleno}</div>`}
     <div class="cg-nombre"><small>${esc(rol)}</small><b>${esc(n)}</b></div>`;
   const jugador = (n) => {
     const num = dorsal(e, n), est = estadisticas(e, n), datos = perfil(e, n), portero = esPortero(e, n);
