@@ -1,5 +1,5 @@
 // Protección de menores: solo estas categorías muestran foto, diga lo que diga data.js.
-const CATEGORIAS_CON_FOTO = new Set(["juvenil"]);
+const CATEGORIAS_CON_FOTO = new Set(["juvenil", "senior"]);
 
 const app = document.getElementById("app");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
@@ -548,8 +548,45 @@ function actasSinGoleadores(e) {
   return faltan.length ? `En ${faltan.length} de ${plural(jugados.length, "acta")} la federación no recoge a todos los goleadores: los goles de cada jugador pueden ser más.` : "";
 }
 
+// Carta que se da la vuelta (flipcard.js): delante la foto, detrás los datos
+const cartaGiro = (delante, detras, etiqueta) => `<div class="flip-card" aria-label="${esc(etiqueta)}">
+  <span class="flip-card__shadow" aria-hidden="true"></span>
+  <div class="flip-card__rotor">
+    <div class="flip-card__face flip-card__face--front">${delante}<span class="flip-card__glare" aria-hidden="true"></span></div>
+    <div class="flip-card__face flip-card__face--back">${detras}<span class="flip-card__glare" aria-hidden="true"></span></div>
+  </div></div>`;
+
+// Primer equipo: jugadores y cuerpo técnico en cartas. Sin foto en data.js, la camiseta con el dorsal (o las iniciales).
+function plantillaCartas(e) {
+  const fotos = (EXTRA[e.id] || {}).fotos || {};
+  const cara = (n, relleno, rol) => `${fotos[n] ? `<img class="cg-foto" src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false">` : `<div class="cg-sin">${relleno}</div>`}
+    <div class="cg-nombre"><small>${esc(rol)}</small><b>${esc(n)}</b></div>`;
+  const jugador = (n) => {
+    const num = dorsal(e, n), est = estadisticas(e, n), datos = perfil(e, n), portero = esPortero(e, n);
+    const rol = datos.posicion || (portero ? "Portero" : "Jugador");
+    const cifra = (v, t) => `<div><dd>${v ?? "–"}</dd><dt>${t}</dt></div>`;
+    return `<li>${cartaGiro(cara(n, camiseta(num ?? iniciales(n), portero), `${num != null ? `${num} · ` : ""}${rol}`),
+      `<div class="cg-dorso"><span class="cg-num">${num ?? ""}</span><b>${esc(n)}</b><small>${esc(rol)}${datos.edad ? ` · ${datos.edad} años` : ""}</small>
+        <dl class="cg-cifras">${cifra(est.jugados, "Partidos")}${cifra(est.titular, "Titular")}${cifra(est.goles, "Goles")}${cifra(est.minutos, "Minutos")}${cifra(est.amarillas, "Amarillas")}${cifra(est.rojas, "Rojas")}</dl>
+        <a class="boton" href="${rutaFicha(e, n)}">Ver ficha</a></div>`, `${n}${num != null ? `, dorsal ${num}` : ""}. Pulsa para ver sus datos`)}</li>`;
+  };
+  const tecnico = (n, rol) => `<li>${cartaGiro(cara(n, `<span class="cg-iniciales">${esc(iniciales(n))}</span><img src="img/escudo.png" alt="" class="cg-marca">`, rol),
+    `<div class="cg-dorso"><img src="img/escudo.png" alt="" class="cg-escudo"><b>${esc(n)}</b><small>${esc(rol)} · ${esc(nombreEquipo(e))}</small><small>Temporada 2026-27</small></div>`, `${n}, ${rol}`)}</li>`;
+  return `
+    <section class="seccion" id="plantilla" aria-labelledby="plantilla-titulo">
+      <h2 class="titulo" id="plantilla-titulo">Temporada 2026-27</h2>
+      <p class="lead">Pulsa o arrastra una carta para darle la vuelta.</p>
+      ${actasSinGoleadores(e) ? `<p class="aviso">${actasSinGoleadores(e)}</p>` : ""}
+      <ul class="cartas-giro">${ordenJugadores(e).map(jugador).join("")}</ul>
+      ${e.entrenadores.length || e.delegados.length ? `<h3 class="subtitulo">Cuerpo técnico</h3>
+        <ul class="cartas-giro">${e.entrenadores.map((n) => tecnico(n, "Entrenador")).join("")}${e.delegados.map((n) => tecnico(n, "Delegado")).join("")}</ul>` : ""}
+      <a class="enlace" href="${esc(e.urlFederacion)}" target="_blank" rel="noopener">Ficha del equipo en la RFGF ${icono("i-diagonal")}</a>
+    </section>`;
+}
+
 function plantilla(e) {
   if (!e.plantilla.length && !e.entrenadores.length) return `<section class="seccion">${vacio("Plantilla pendiente de la federación.")}</section>`;
+  if (e.id === PRINCIPAL) return plantillaCartas(e);
   const conFoto = CATEGORIAS_CON_FOTO.has(e.categoria), fotos = (EXTRA[e.id] || {}).fotos || {};
   const jugadores = ordenJugadores(e), inicial = Math.max(0, jugadores.findIndex((n) => slug(n) === ultimaFicha[e.id]));
   return `
@@ -797,6 +834,7 @@ function render() {
     noEncontrado();
   document.body.classList.toggle("es-portada", !ruta);
   app.querySelectorAll(".carrusel").forEach(colocarCarrusel);
+  app.querySelectorAll(".flip-card").forEach((c) => window.FlipCard?.(c, { tiltMax: 12, glareOpacity: 0.22, hoverScale: 1.03, perspective: 1100, stiffness: 170, damping: 20, shadowOpacity: 0.45 }));
   tic();
   contadores();
   if (!ruta && typeof alPintarPortada === "function") alPintarPortada();

@@ -36,6 +36,8 @@ const CATEGORIAS = [
 //   { "Nombre Como Sale En La Plantilla": { posicion: "Delantero", nacimiento: "2008-05-14", mvp: 2 } }
 // Partidos, titularidades, goles, tarjetas y dorsal salen solos de las actas de la federación.
 const EXTRA = {
+  // Primer equipo: las fotos salen en las cartas de la plantilla (jugadores y cuerpo técnico), con el nombre tal cual lo da la federación.
+  // Ejemplo: "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles.jpg"
   "senior-a": { fotos: {}, videos: [], jugadores: {} },
 };
 

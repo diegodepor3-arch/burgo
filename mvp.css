@@ -95,3 +95,36 @@ h1, h2, h3, .titulo, .cab-titulo { font-stretch: 112%; }
 /* banda del próximo partido: los rivales de futgal tienen nombres largos */
 @media (min-width: 901px) { .banda-dentro { grid-template-columns: minmax(180px, auto) minmax(0, 1fr) auto; } }
 .banda-cruce strong { font-size: clamp(1.25rem, 0.9rem + 1.2vw, 2rem); }
+
+/* Cartas que giran (flipcard.js): plantilla del primer equipo */
+.cartas-giro { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 1fr)); gap: 28px 20px; margin: 8px 0 36px; }
+.flip-card { position: relative; width: 100%; aspect-ratio: 3 / 4; cursor: pointer; user-select: none; -webkit-user-select: none; touch-action: pan-y; outline-offset: 6px; }
+.flip-card[data-axis="x"] { touch-action: pan-x; }
+.flip-card[data-draggable] { cursor: grab; } .flip-card[data-dragging] { cursor: grabbing; }
+.flip-card__rotor { position: absolute; inset: 0; transform-style: preserve-3d; will-change: transform; }
+.flip-card__face { position: absolute; inset: 0; overflow: hidden; border-radius: 22px; background: var(--marino); color: #f5f5f5; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-card[data-axis="y"] .flip-card__face--back { transform: rotateY(180deg); }
+.flip-card[data-axis="x"] .flip-card__face--back { transform: rotateX(180deg); }
+.flip-card[data-fade] .flip-card__face { transition: opacity 0.2s; }
+.flip-card[data-fade="front"] .flip-card__face--back, .flip-card[data-fade="back"] .flip-card__face--front { opacity: 0; }
+.flip-card[data-fade] .flip-card__face--back { transform: none; }
+.flip-card__glare { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle at var(--fc-gx, 50%) var(--fc-gy, 50%), #fff, transparent 60%); opacity: calc(var(--fc-sheen, 0) * var(--fc-glare, 0.22)); mix-blend-mode: soft-light; }
+.flip-card__shadow { position: absolute; left: 8%; right: 8%; bottom: -16px; height: 28px; border-radius: 50%; background: #0e2a47; filter: blur(14px); opacity: 0.45; pointer-events: none; }
+.cg-foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.cg-sin { position: absolute; inset: 0; display: grid; place-items: center; padding: 14% 16% 34%; background: radial-gradient(circle at 50% 30%, #bfe6f7, var(--celeste) 45%, #3f97c7); overflow: hidden; }
+.cg-sin::before { content: ""; position: absolute; left: -20%; right: -20%; top: 52%; height: 18%; background: #ffffff59; transform: rotate(-24deg); }
+.cg-sin .camiseta { position: relative; width: 100%; }
+.cg-iniciales { position: relative; font: 850 clamp(3rem, 8vw, 4.5rem)/1 var(--titulo); font-stretch: 112%; color: var(--marino); }
+.cg-marca { position: absolute; right: 10px; top: 10px; width: 34px; opacity: 0.9; }
+.cg-nombre { position: absolute; left: 0; right: 0; bottom: 0; display: grid; gap: 2px; padding: 40px 16px 14px; background: linear-gradient(0deg, #0e2a47f2 40%, transparent); }
+.cg-nombre small { color: var(--celeste); font-weight: 700; font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.cg-nombre b { font: 850 1.125rem/1.1 var(--titulo); font-stretch: 112%; }
+.cg-dorso { position: absolute; inset: 0; display: flex; flex-direction: column; gap: 4px; padding: 20px 18px; background: linear-gradient(160deg, var(--marino), #16406a); }
+.cg-dorso b { font: 850 1.25rem/1.1 var(--titulo); font-stretch: 112%; }
+.cg-dorso small { color: #b9d3e6; }
+.cg-num { font: 850 3rem/0.9 var(--titulo); font-stretch: 112%; color: var(--celeste); }
+.cg-escudo { width: 64px; margin-bottom: 10px; }
+.cg-cifras { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px 6px; margin: auto 0 12px; }
+.cg-cifras dd { margin: 0; font: 850 1.375rem/1 var(--titulo); }
+.cg-cifras dt { font-size: 0.6875rem; color: #b9d3e6; text-transform: uppercase; letter-spacing: 0.04em; }
+.cg-dorso .boton { min-height: 40px; padding: 8px 16px; background: var(--celeste); color: var(--marino); }
