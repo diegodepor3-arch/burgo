@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T08:59";
+const ACTUALIZADO = "2026-11-08T12:42";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -62,6 +62,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "SUEVOS C.F.",
+    "pts": 18,
+    "pj": 10,
+    "g": 6,
+    "e": 0,
+    "p": 4,
+    "gf": 22,
+    "gc": 13,
+    "propio": false
+   },
+   {
     "equipo": "C.D. CIUDAD JARDIN",
     "pts": 17,
     "pj": 9,
@@ -84,25 +95,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SUEVOS C.F.",
-    "pts": 15,
-    "pj": 9,
-    "g": 5,
-    "e": 0,
-    "p": 4,
-    "gf": 20,
-    "gc": 13,
-    "propio": false
-   },
-   {
     "equipo": "C.C.D. CURTIS",
     "pts": 14,
-    "pj": 9,
+    "pj": 10,
     "g": 3,
     "e": 5,
-    "p": 1,
+    "p": 2,
     "gf": 16,
-    "gc": 12,
+    "gc": 14,
     "propio": false
    },
    {
@@ -117,6 +117,17 @@ const EQUIPOS = [
     "propio": true
    },
    {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 13,
+    "pj": 10,
+    "g": 3,
+    "e": 4,
+    "p": 3,
+    "gf": 16,
+    "gc": 15,
+    "propio": false
+   },
+   {
     "equipo": "OLIMPICO C.F. \"B\"",
     "pts": 13,
     "pj": 9,
@@ -128,14 +139,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 12,
-    "pj": 9,
+    "equipo": "S.D. BREXO LEMA",
+    "pts": 13,
+    "pj": 10,
     "g": 3,
-    "e": 3,
+    "e": 4,
     "p": 3,
-    "gf": 16,
-    "gc": 15,
+    "gf": 10,
+    "gc": 12,
     "propio": false
    },
    {
@@ -174,23 +185,12 @@ const EQUIPOS = [
    {
     "equipo": "PORTAZGO S.D.",
     "pts": 10,
-    "pj": 9,
+    "pj": 10,
     "g": 2,
     "e": 4,
-    "p": 3,
+    "p": 4,
     "gf": 22,
-    "gc": 24,
-    "propio": false
-   },
-   {
-    "equipo": "S.D. BREXO LEMA",
-    "pts": 10,
-    "pj": 9,
-    "g": 2,
-    "e": 4,
-    "p": 3,
-    "gf": 9,
-    "gc": 12,
+    "gc": 25,
     "propio": false
    },
    {
@@ -228,10 +228,10 @@ const EQUIPOS = [
    },
    {
     "equipo": "C.F. OZACESURAS",
-    "pts": 5,
-    "pj": 9,
+    "pts": 6,
+    "pj": 10,
     "g": 1,
-    "e": 2,
+    "e": 3,
     "p": 6,
     "gf": 10,
     "gc": 18,
@@ -953,32 +953,333 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1442743"
+   },
+   "1": {
+    "t": [
+     "Rubén Costoya Mosquera",
+     "Nomar L Mota Martínez",
+     "Mario Barral García",
+     "Diego Castro García",
+     "José S Cainzos Caballero",
+     "Martín López Lodeiro",
+     "Jorge Barreiro Sánchez",
+     "Marcos Arguelles Rodríguez",
+     "Javier Liñares Rodríguez",
+     "Diego Sánchez Boquete",
+     "Yago Salvado Pardo"
+    ],
+    "s": [
+     "Saúl Raposo Raposo",
+     "Pablo Veira Canzobre",
+     "José L Salcedo Soto",
+     "Hugo Gómez Soto",
+     "Pablo Gestal Santiso"
+    ],
+    "e": [
+     "Pablo Gestal Santiso",
+     "José L Salcedo Soto",
+     "Pablo Veira Canzobre",
+     "Hugo Gómez Soto"
+    ],
+    "g": {
+     "Javier Liñares Rodríguez": 3
+    },
+    "a": [
+     "Jorge Barreiro Sánchez",
+     "Mario Barral García"
+    ],
+    "r": [],
+    "d": {
+     "Rubén Costoya Mosquera": 1,
+     "Nomar L Mota Martínez": 2,
+     "Mario Barral García": 3,
+     "Diego Castro García": 4,
+     "José S Cainzos Caballero": 5,
+     "Martín López Lodeiro": 6,
+     "Jorge Barreiro Sánchez": 7,
+     "Marcos Arguelles Rodríguez": 8,
+     "Javier Liñares Rodríguez": 9,
+     "Diego Sánchez Boquete": 10,
+     "Yago Salvado Pardo": 11,
+     "Saúl Raposo Raposo": 13,
+     "Pablo Veira Canzobre": 12,
+     "José L Salcedo Soto": 14,
+     "Hugo Gómez Soto": 15,
+     "Pablo Gestal Santiso": 16
+    },
+    "c": [
+     [
+      "Pablo Gestal Santiso",
+      "Jorge Barreiro Sánchez",
+      63
+     ],
+     [
+      "José L Salcedo Soto",
+      "Yago Salvado Pardo",
+      70
+     ],
+     [
+      "Pablo Veira Canzobre",
+      "Martín López Lodeiro",
+      85
+     ],
+     [
+      "Hugo Gómez Soto",
+      "Marcos Arguelles Rodríguez",
+      85
+     ]
+    ],
+    "rm": {},
+    "id": "1442667"
+   },
+   "2": {
+    "t": [
+     "Rubén Costoya Mosquera",
+     "Nomar L Mota Martínez",
+     "Mario Barral García",
+     "José L Salcedo Soto",
+     "José S Cainzos Caballero",
+     "Martín López Lodeiro",
+     "Marcos Arguelles Rodríguez",
+     "Mario Ríos Carnota",
+     "Javier Liñares Rodríguez",
+     "Pablo Gestal Santiso",
+     "Óscar García Gende"
+    ],
+    "s": [
+     "Saúl Raposo Raposo",
+     "Yago Salvado Pardo",
+     "Carlos Ferreiro Corujo",
+     "Hugo Gómez Soto",
+     "Jorge Barreiro Sánchez"
+    ],
+    "e": [
+     "Jorge Barreiro Sánchez",
+     "Hugo Gómez Soto",
+     "Carlos Ferreiro Corujo",
+     "Yago Salvado Pardo"
+    ],
+    "g": {
+     "Javier Liñares Rodríguez": 1
+    },
+    "a": [
+     "Mario Barral García"
+    ],
+    "r": [],
+    "d": {
+     "Rubén Costoya Mosquera": 1,
+     "Nomar L Mota Martínez": 2,
+     "Mario Barral García": 3,
+     "José L Salcedo Soto": 4,
+     "José S Cainzos Caballero": 5,
+     "Martín López Lodeiro": 6,
+     "Marcos Arguelles Rodríguez": 7,
+     "Mario Ríos Carnota": 8,
+     "Javier Liñares Rodríguez": 9,
+     "Pablo Gestal Santiso": 10,
+     "Óscar García Gende": 11,
+     "Saúl Raposo Raposo": 13,
+     "Yago Salvado Pardo": 12,
+     "Carlos Ferreiro Corujo": 14,
+     "Hugo Gómez Soto": 15,
+     "Jorge Barreiro Sánchez": 16
+    },
+    "c": [
+     [
+      "Jorge Barreiro Sánchez",
+      "Mario Barral García",
+      56
+     ],
+     [
+      "Hugo Gómez Soto",
+      "Pablo Gestal Santiso",
+      56
+     ],
+     [
+      "Carlos Ferreiro Corujo",
+      "Marcos Arguelles Rodríguez",
+      76
+     ],
+     [
+      "Yago Salvado Pardo",
+      "Óscar García Gende",
+      76
+     ]
+    ],
+    "rm": {},
+    "id": "1442677"
+   },
+   "3": {
+    "t": [
+     "Rubén Costoya Mosquera",
+     "Nomar L Mota Martínez",
+     "Mario Barral García",
+     "José L Salcedo Soto",
+     "José S Cainzos Caballero",
+     "Martín López Lodeiro",
+     "Marcos Arguelles Rodríguez",
+     "Mario Ríos Carnota",
+     "Javier Liñares Rodríguez",
+     "Diego Sánchez Boquete",
+     "Óscar García Gende"
+    ],
+    "s": [
+     "Saúl Raposo Raposo",
+     "Yago Salvado Pardo",
+     "Pablo Veira Canzobre",
+     "Hugo Gómez Soto",
+     "Pablo Gestal Santiso"
+    ],
+    "e": [
+     "Pablo Gestal Santiso",
+     "Hugo Gómez Soto",
+     "Pablo Veira Canzobre"
+    ],
+    "g": {
+     "José S Cainzos Caballero": 1
+    },
+    "a": [
+     "Rubén Costoya Mosquera",
+     "Nomar L Mota Martínez",
+     "Diego Sánchez Boquete",
+     "Pablo Veira Canzobre"
+    ],
+    "r": [],
+    "d": {
+     "Rubén Costoya Mosquera": 1,
+     "Nomar L Mota Martínez": 2,
+     "Mario Barral García": 3,
+     "José L Salcedo Soto": 4,
+     "José S Cainzos Caballero": 5,
+     "Martín López Lodeiro": 6,
+     "Marcos Arguelles Rodríguez": 7,
+     "Mario Ríos Carnota": 8,
+     "Javier Liñares Rodríguez": 9,
+     "Diego Sánchez Boquete": 10,
+     "Óscar García Gende": 11,
+     "Saúl Raposo Raposo": 13,
+     "Yago Salvado Pardo": 12,
+     "Pablo Veira Canzobre": 14,
+     "Hugo Gómez Soto": 15,
+     "Pablo Gestal Santiso": 16
+    },
+    "c": [
+     [
+      "Pablo Gestal Santiso",
+      "Marcos Arguelles Rodríguez",
+      67
+     ],
+     [
+      "Hugo Gómez Soto",
+      "José L Salcedo Soto",
+      70
+     ],
+     [
+      "Pablo Veira Canzobre",
+      "Mario Ríos Carnota",
+      78
+     ]
+    ],
+    "rm": {},
+    "id": "1442686"
+   },
+   "4": {
+    "t": [
+     "Rubén Costoya Mosquera",
+     "Nomar L Mota Martínez",
+     "Mario Barral García",
+     "José L Salcedo Soto",
+     "José S Cainzos Caballero",
+     "Pablo Gestal Santiso",
+     "Marcos Arguelles Rodríguez",
+     "Mario Ríos Carnota",
+     "Javier Liñares Rodríguez",
+     "Diego Sánchez Boquete",
+     "Óscar García Gende"
+    ],
+    "s": [
+     "Saúl Raposo Raposo",
+     "Yago Salvado Pardo",
+     "Jorge Barreiro Sánchez",
+     "Hugo Gómez Soto",
+     "Diego Castro García"
+    ],
+    "e": [
+     "Jorge Barreiro Sánchez",
+     "Hugo Gómez Soto",
+     "Yago Salvado Pardo"
+    ],
+    "g": {
+     "Óscar García Gende": 1
+    },
+    "a": [
+     "Diego Sánchez Boquete",
+     "Rubén Costoya Mosquera"
+    ],
+    "r": [],
+    "d": {
+     "Rubén Costoya Mosquera": 13,
+     "Nomar L Mota Martínez": 2,
+     "Mario Barral García": 3,
+     "José L Salcedo Soto": 4,
+     "José S Cainzos Caballero": 5,
+     "Pablo Gestal Santiso": 6,
+     "Marcos Arguelles Rodríguez": 7,
+     "Mario Ríos Carnota": 8,
+     "Javier Liñares Rodríguez": 9,
+     "Diego Sánchez Boquete": 10,
+     "Óscar García Gende": 11,
+     "Saúl Raposo Raposo": 1,
+     "Yago Salvado Pardo": 12,
+     "Jorge Barreiro Sánchez": 14,
+     "Hugo Gómez Soto": 15,
+     "Diego Castro García": 16
+    },
+    "c": [
+     [
+      "Jorge Barreiro Sánchez",
+      "Marcos Arguelles Rodríguez",
+      61
+     ],
+     [
+      "Hugo Gómez Soto",
+      "Pablo Gestal Santiso",
+      61
+     ],
+     [
+      "Yago Salvado Pardo",
+      "Mario Ríos Carnota",
+      71
+     ]
+    ],
+    "rm": {},
+    "id": "1442696"
    }
   },
   "dorsales": {
-   "José L Salcedo Soto": 4,
    "José S Cainzos Caballero": 5,
-   "Martín López Lodeiro": 6,
-   "Óscar García Gende": 7,
-   "Mario Ríos Carnota": 8,
    "Javier Liñares Rodríguez": 9,
-   "Diego Sánchez Boquete": 10,
-   "Hugo Gómez Soto": 11,
-   "Hugo Varela Vidal": 15,
    "Mario Barral García": 3,
-   "Pablo Gestal Santiso": 14,
+   "José L Salcedo Soto": 4,
+   "Martín López Lodeiro": 6,
+   "Mario Ríos Carnota": 8,
+   "Diego Sánchez Boquete": 10,
    "Rubén Costoya Mosquera": 1,
+   "Nomar L Mota Martínez": 2,
    "Yago Salvado Pardo": 12,
    "Saúl Raposo Raposo": 13,
-   "Nomar L Mota Martínez": 2,
+   "Óscar García Gende": 7,
+   "Hugo Gómez Soto": 11,
+   "Hugo Varela Vidal": 15,
+   "Pablo Gestal Santiso": 14,
    "Diego Castro García": 16,
    "Marcos Arguelles Rodríguez": 17,
    "Jorge Barreiro Sánchez": 18,
    "Carlos Ferreiro Corujo": 19,
-   "Álvaro Soto Ferreiro": 20,
-   "Pablo Veira Canzobre": 21
+   "Pablo Veira Canzobre": 20,
+   "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-07T00:32"
+  "descargado": "2026-11-08T12:41"
  },
  {
   "id": "senior-b",
@@ -1022,6 +1323,17 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
+    "equipo": "VIZOÑO S.D. \"B\"",
+    "pts": 22,
+    "pj": 9,
+    "g": 7,
+    "e": 1,
+    "p": 1,
+    "gf": 28,
+    "gc": 8,
+    "propio": false
+   },
+   {
     "equipo": "C.D. X. ARANGA",
     "pts": 19,
     "pj": 8,
@@ -1030,17 +1342,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 33,
     "gc": 13,
-    "propio": false
-   },
-   {
-    "equipo": "VIZOÑO S.D. \"B\"",
-    "pts": 19,
-    "pj": 8,
-    "g": 6,
-    "e": 1,
-    "p": 1,
-    "gf": 25,
-    "gc": 8,
     "propio": false
    },
    {
@@ -1090,12 +1391,12 @@ const EQUIPOS = [
    {
     "equipo": "S.D SAN MARTIÑO",
     "pts": 10,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 4,
-    "p": 1,
+    "p": 2,
     "gf": 13,
-    "gc": 7,
+    "gc": 10,
     "propio": false
    },
    {
@@ -1854,34 +2155,273 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1446470"
+   },
+   "1": {
+    "t": [
+     "Álvaro Soto Ferreiro",
+     "Alejandro Orizales Sierra",
+     "Daniel González Rodrigues",
+     "Javier Alejandro Palacios Figueroa",
+     "Yago Esporas Tudoli",
+     "Nicolás Gestal Mazorra",
+     "Pablo Estraviz Freire",
+     "Gabriel Pardo García",
+     "Iker Rama Crespo",
+     "Marcos Lema Tajes",
+     "David Díaz Pena"
+    ],
+    "s": [
+     "Óscar Carbajales Mosquera",
+     "Mairon Alberto Useche Zabaleta",
+     "Antón Fachal Alonso",
+     "Daniel Blanco González",
+     "Alexis Rodríguez Tembras"
+    ],
+    "e": [
+     "Alexis Rodríguez Tembras",
+     "Mairon Alberto Useche Zabaleta",
+     "Antón Fachal Alonso"
+    ],
+    "g": {
+     "Gabriel Pardo García": 1,
+     "Marcos Lema Tajes": 1
+    },
+    "a": [
+     "Alejandro Orizales Sierra",
+     "Antón Fachal Alonso"
+    ],
+    "r": [],
+    "d": {
+     "Álvaro Soto Ferreiro": 1,
+     "Alejandro Orizales Sierra": 2,
+     "Daniel González Rodrigues": 3,
+     "Javier Alejandro Palacios Figueroa": 4,
+     "Yago Esporas Tudoli": 5,
+     "Nicolás Gestal Mazorra": 6,
+     "Pablo Estraviz Freire": 7,
+     "Gabriel Pardo García": 8,
+     "Iker Rama Crespo": 9,
+     "Marcos Lema Tajes": 10,
+     "David Díaz Pena": 11,
+     "Óscar Carbajales Mosquera": 13,
+     "Mairon Alberto Useche Zabaleta": 12,
+     "Antón Fachal Alonso": 14,
+     "Daniel Blanco González": 15,
+     "Alexis Rodríguez Tembras": 16
+    },
+    "c": [
+     [
+      "Alexis Rodríguez Tembras",
+      "Nicolás Gestal Mazorra",
+      59
+     ],
+     [
+      "Mairon Alberto Useche Zabaleta",
+      "Pablo Estraviz Freire",
+      59
+     ],
+     [
+      "Antón Fachal Alonso",
+      "Iker Rama Crespo",
+      73
+     ]
+    ],
+    "rm": {},
+    "id": "1446410"
+   },
+   "2": {
+    "t": [
+     "Óscar Carbajales Mosquera",
+     "Alejandro Orizales Sierra",
+     "Daniel González Rodrigues",
+     "Javier Alejandro Palacios Figueroa",
+     "Daniel García Bello",
+     "Nicolás Gestal Mazorra",
+     "Mairon Alberto Useche Zabaleta",
+     "Antón Fachal Alonso",
+     "Iker Rama Crespo",
+     "Marcos Lema Tajes",
+     "David Díaz Pena"
+    ],
+    "s": [
+     "Diego Silva Tain",
+     "Juan José Tropiano Lameiro",
+     "Ronal Alexis Gómez Vergara",
+     "Cesar David Cabeza Fajardo",
+     "Álvaro Soto Ferreiro"
+    ],
+    "e": [
+     "Diego Silva Tain",
+     "Ronal Alexis Gómez Vergara",
+     "Juan José Tropiano Lameiro",
+     "Álvaro Soto Ferreiro",
+     "Cesar David Cabeza Fajardo"
+    ],
+    "g": {
+     "David Díaz Pena": 1
+    },
+    "a": [
+     "Daniel González Rodrigues",
+     "Javier Alejandro Palacios Figueroa",
+     "Alejandro Orizales Sierra",
+     "Javier Alejandro Palacios Figueroa",
+     "David Díaz Pena"
+    ],
+    "r": [],
+    "d": {
+     "Óscar Carbajales Mosquera": 1,
+     "Alejandro Orizales Sierra": 2,
+     "Daniel González Rodrigues": 3,
+     "Javier Alejandro Palacios Figueroa": 4,
+     "Daniel García Bello": 5,
+     "Nicolás Gestal Mazorra": 6,
+     "Mairon Alberto Useche Zabaleta": 7,
+     "Antón Fachal Alonso": 8,
+     "Iker Rama Crespo": 9,
+     "Marcos Lema Tajes": 10,
+     "David Díaz Pena": 11,
+     "Diego Silva Tain": 12,
+     "Juan José Tropiano Lameiro": 14,
+     "Ronal Alexis Gómez Vergara": 15,
+     "Cesar David Cabeza Fajardo": 16,
+     "Álvaro Soto Ferreiro": 17
+    },
+    "c": [
+     [
+      "Diego Silva Tain",
+      "Daniel González Rodrigues",
+      57
+     ],
+     [
+      "Ronal Alexis Gómez Vergara",
+      "Antón Fachal Alonso",
+      57
+     ],
+     [
+      "Juan José Tropiano Lameiro",
+      "Nicolás Gestal Mazorra",
+      60
+     ],
+     [
+      "Álvaro Soto Ferreiro",
+      "Alejandro Orizales Sierra",
+      70
+     ],
+     [
+      "Cesar David Cabeza Fajardo",
+      "Iker Rama Crespo",
+      70
+     ]
+    ],
+    "rm": {},
+    "id": "1446419"
+   },
+   "3": {
+    "t": [
+     "Álvaro Soto Ferreiro",
+     "Alejandro Orizales Sierra",
+     "Gabriel Pardo García",
+     "Ronal Alexis Gómez Vergara",
+     "Daniel García Bello",
+     "Diego Silva Tain",
+     "Mairon Alberto Useche Zabaleta",
+     "Antón Fachal Alonso",
+     "Iker Rama Crespo",
+     "Marcos Lema Tajes",
+     "David Díaz Pena"
+    ],
+    "s": [
+     "Óscar Carbajales Mosquera",
+     "Juan José Tropiano Lameiro",
+     "Unai Costa Muñiz",
+     "Pablo Estraviz Freire",
+     "Nicolás Gestal Mazorra"
+    ],
+    "e": [
+     "Pablo Estraviz Freire",
+     "Juan José Tropiano Lameiro",
+     "Nicolás Gestal Mazorra",
+     "Unai Costa Muñiz"
+    ],
+    "g": {
+     "David Díaz Pena": 1
+    },
+    "a": [
+     "Alejandro Orizales Sierra",
+     "Iker Rama Crespo",
+     "Iker Rama Crespo"
+    ],
+    "r": [],
+    "d": {
+     "Álvaro Soto Ferreiro": 1,
+     "Alejandro Orizales Sierra": 2,
+     "Gabriel Pardo García": 3,
+     "Ronal Alexis Gómez Vergara": 4,
+     "Daniel García Bello": 5,
+     "Diego Silva Tain": 6,
+     "Mairon Alberto Useche Zabaleta": 7,
+     "Antón Fachal Alonso": 8,
+     "Iker Rama Crespo": 9,
+     "Marcos Lema Tajes": 10,
+     "David Díaz Pena": 11,
+     "Óscar Carbajales Mosquera": 13,
+     "Juan José Tropiano Lameiro": 12,
+     "Unai Costa Muñiz": 14,
+     "Pablo Estraviz Freire": 15,
+     "Nicolás Gestal Mazorra": 16
+    },
+    "c": [
+     [
+      "Pablo Estraviz Freire",
+      "Antón Fachal Alonso",
+      60
+     ],
+     [
+      "Juan José Tropiano Lameiro",
+      "Ronal Alexis Gómez Vergara",
+      60
+     ],
+     [
+      "Nicolás Gestal Mazorra",
+      "Alejandro Orizales Sierra",
+      80
+     ],
+     [
+      "Unai Costa Muñiz",
+      "Marcos Lema Tajes",
+      88
+     ]
+    ],
+    "rm": {},
+    "id": "1446427"
    }
   },
   "dorsales": {
-   "Yago Esporas Tudoli": 7,
-   "Daniel González Rodrigues": 11,
    "Óscar Carbajales Mosquera": 1,
+   "Yago Esporas Tudoli": 7,
+   "Marcos Lema Tajes": 10,
+   "Daniel González Rodrigues": 11,
+   "Antón Fachal Alonso": 8,
+   "Iker Rama Crespo": 9,
+   "Daniel García Bello": 5,
+   "Juan José Tropiano Lameiro": 14,
    "David Díaz Pena": 2,
-   "Marcos Lema Tajes": 9,
-   "Antón Fachal Alonso": 10,
    "Javier Alejandro Palacios Figueroa": 3,
    "Mairon Alberto Useche Zabaleta": 4,
    "Gabriel Pardo García": 12,
-   "Juan José Tropiano Lameiro": 14,
    "Ronal Alexis Gómez Vergara": 16,
    "Cesar David Cabeza Fajardo": 15,
-   "Daniel García Bello": 5,
+   "Nicolás Gestal Mazorra": 6,
    "Unai Costa Muñiz": 17,
-   "Iker Rama Crespo": 6,
-   "Daniel Blanco González": 8,
-   "Nicolás Gestal Mazorra": 13,
-   "Alexis Rodríguez Tembras": 18,
-   "Pablo Estraviz Freire": 19,
-   "Álvaro Soto Ferreiro": 20,
-   "Alejandro Orizales Sierra": 21,
+   "Álvaro Soto Ferreiro": 13,
+   "Alejandro Orizales Sierra": 18,
+   "Alexis Rodríguez Tembras": 19,
+   "Daniel Blanco González": 20,
+   "Pablo Estraviz Freire": 21,
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-07T00:33"
+  "descargado": "2026-11-08T12:42"
  },
  {
   "id": "senior-a-fem",
@@ -3807,36 +4347,36 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "ATLETICO PERILLO",
+    "pts": 15,
+    "pj": 6,
+    "g": 5,
+    "e": 0,
+    "p": 1,
+    "gf": 25,
+    "gc": 8,
+    "propio": false
+   },
+   {
     "equipo": "A.D. CULLEREDO \"B\"",
-    "pts": 13,
-    "pj": 5,
+    "pts": 14,
+    "pj": 6,
     "g": 4,
-    "e": 1,
+    "e": 2,
     "p": 0,
-    "gf": 22,
-    "gc": 13,
+    "gf": 23,
+    "gc": 14,
     "propio": false
    },
    {
     "equipo": "C.D. CIUDAD \"B\"",
     "pts": 12,
-    "pj": 5,
+    "pj": 6,
     "g": 4,
     "e": 0,
-    "p": 1,
-    "gf": 26,
-    "gc": 11,
-    "propio": false
-   },
-   {
-    "equipo": "ATLETICO PERILLO",
-    "pts": 12,
-    "pj": 5,
-    "g": 4,
-    "e": 0,
-    "p": 1,
-    "gf": 17,
-    "gc": 6,
+    "p": 2,
+    "gf": 28,
+    "gc": 19,
     "propio": false
    },
    {
@@ -3851,14 +4391,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "S.C.D. PASTORIZA",
+    "pts": 8,
+    "pj": 6,
+    "g": 2,
+    "e": 2,
+    "p": 2,
+    "gf": 11,
+    "gc": 10,
+    "propio": false
+   },
+   {
     "equipo": "SPORTING BURGO \"B\"",
     "pts": 7,
-    "pj": 5,
+    "pj": 6,
     "g": 2,
     "e": 1,
-    "p": 2,
-    "gf": 13,
-    "gc": 13,
+    "p": 3,
+    "gf": 14,
+    "gc": 15,
     "propio": true
    },
    {
@@ -3873,69 +4424,58 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "S.C.D. PASTORIZA",
-    "pts": 5,
-    "pj": 5,
+    "equipo": "U.D. JUVENIL DE ALMEIRAS \"B\"",
+    "pts": 4,
+    "pj": 6,
     "g": 1,
-    "e": 2,
-    "p": 2,
-    "gf": 9,
-    "gc": 9,
+    "e": 1,
+    "p": 4,
+    "gf": 23,
+    "gc": 25,
     "propio": false
    },
    {
     "equipo": "UNION CAMPESTRE \"B\"",
-    "pts": 3,
-    "pj": 5,
+    "pts": 4,
+    "pj": 6,
     "g": 1,
-    "e": 0,
+    "e": 1,
     "p": 4,
-    "gf": 9,
-    "gc": 18,
+    "gf": 10,
+    "gc": 19,
     "propio": false
    },
    {
     "equipo": "MARINO C.F. \"B\"",
     "pts": 3,
-    "pj": 5,
+    "pj": 6,
     "g": 1,
     "e": 0,
-    "p": 4,
+    "p": 5,
     "gf": 10,
-    "gc": 24,
+    "gc": 27,
     "propio": false
    },
    {
-    "equipo": "U.D. JUVENIL DE ALMEIRAS \"B\"",
-    "pts": 1,
-    "pj": 5,
-    "g": 0,
-    "e": 1,
-    "p": 4,
-    "gf": 11,
-    "gc": 23,
+    "equipo": "CORUÑA ARBOCO C.F.",
+    "pts": 3,
+    "pj": 6,
+    "g": 1,
+    "e": 0,
+    "p": 5,
+    "gf": 13,
+    "gc": 35,
     "propio": false
    },
    {
     "equipo": "CLUB ROSALÍA MERA \"B\"",
     "pts": 1,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 1,
-    "p": 4,
-    "gf": 7,
-    "gc": 41,
-    "propio": false
-   },
-   {
-    "equipo": "CORUÑA ARBOCO C.F.",
-    "pts": 0,
-    "pj": 5,
-    "g": 0,
-    "e": 0,
     "p": 5,
-    "gf": 10,
-    "gc": 35,
+    "gf": 9,
+    "gc": 53,
     "propio": false
    }
   ],
@@ -3991,8 +4531,8 @@ const EQUIPOS = [
     "hora": "16:00",
     "local": true,
     "rival": "S.C.D. PASTORIZA",
-    "resultado": "",
-    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+    "resultado": "1-2",
+    "campo": ""
    },
    {
     "jornada": 7,
@@ -4001,7 +4541,7 @@ const EQUIPOS = [
     "local": false,
     "rival": "UNION CAMPESTRE \"B\"",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol O Redondo (Montrove)"
    },
    {
     "jornada": 8,
@@ -4178,20 +4718,20 @@ const EQUIPOS = [
   "competicion": "Juvenil - 3ª Futgal · A Coruña | G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28950545&codcompeticion=26991108",
   "escudos": {
+   "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
+   "RELÁMPAGO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "CLUB DE FÚTBOL BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "ATLETICO PERILLO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000034822_ESCUDO_PERILLO.jpg",
+   "C.D. CIUDAD \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "A.D. LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
+   "A.D. CULLEREDO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "UNION CAMPESTRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
    "SPORTING BURGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "MARINO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
-   "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
    "U.D. JUVENIL DE ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
-   "ATLETICO PERILLO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000034822_ESCUDO_PERILLO.jpg",
-   "C.D. CIUDAD \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
-   "A.D. CULLEREDO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
-   "UNION CAMPESTRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
-   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
-   "A.D. LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
-   "RELÁMPAGO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "CLUB DE FÚTBOL BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg"
+   "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg"
   },
   "actas": {
    "1": {
@@ -4585,34 +5125,118 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1502426"
+   },
+   "6": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Sergio Albores Herrero",
+     "Malick Diop",
+     "Antonio Gabarri Suárez",
+     "Luca Sebastián Seoane Torres",
+     "Manuel Álvarez Cabrillana",
+     "David Ferreiro Pérez",
+     "Iago Riveiro Peon",
+     "Raul Leites Amor",
+     "Franklin José Nava Parra",
+     "Gabriel López Fernández"
+    ],
+    "s": [
+     "Dhiaa Eddine Bachir",
+     "Mohamed Rayane Lakhlifi",
+     "Rodrigo Cacheiro Permuy",
+     "Yohan Luis Caceres Bastardo",
+     "José Luis Pereira Pérez"
+    ],
+    "e": [
+     "Rodrigo Cacheiro Permuy",
+     "Dhiaa Eddine Bachir",
+     "Mohamed Rayane Lakhlifi",
+     "José Luis Pereira Pérez",
+     "Yohan Luis Caceres Bastardo"
+    ],
+    "g": {
+     "David Ferreiro Pérez": 1
+    },
+    "a": [
+     "Antonio Gabarri Suárez",
+     "David Ferreiro Pérez"
+    ],
+    "r": [],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Sergio Albores Herrero": 2,
+     "Malick Diop": 3,
+     "Antonio Gabarri Suárez": 4,
+     "Luca Sebastián Seoane Torres": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "David Ferreiro Pérez": 7,
+     "Iago Riveiro Peon": 8,
+     "Raul Leites Amor": 9,
+     "Franklin José Nava Parra": 10,
+     "Gabriel López Fernández": 11,
+     "Dhiaa Eddine Bachir": 12,
+     "Mohamed Rayane Lakhlifi": 14,
+     "Rodrigo Cacheiro Permuy": 15,
+     "Yohan Luis Caceres Bastardo": 16,
+     "José Luis Pereira Pérez": 17
+    },
+    "c": [
+     [
+      "Rodrigo Cacheiro Permuy",
+      "Gabriel López Fernández",
+      56
+     ],
+     [
+      "Dhiaa Eddine Bachir",
+      "Franklin José Nava Parra",
+      56
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "David Ferreiro Pérez",
+      64
+     ],
+     [
+      "José Luis Pereira Pérez",
+      "Raul Leites Amor",
+      75
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Iago Riveiro Peon",
+      75
+     ]
+    ],
+    "rm": {},
+    "id": "1502433"
    }
   },
   "dorsales": {
    "Raul Leites Amor": 9,
-   "Diego Vecino Vilar": 10,
-   "Antonio Gabarri Suárez": 4,
-   "Malick Diop": 5,
-   "Manuel Álvarez Cabrillana": 6,
-   "Yohan Luis Caceres Bastardo": 12,
    "Adrián Varela Herranz": 1,
+   "Antonio Gabarri Suárez": 4,
+   "Manuel Álvarez Cabrillana": 6,
+   "Diego Vecino Vilar": 10,
    "Iago Riveiro Peon": 8,
-   "Sergio Albores Herrero": 3,
+   "Malick Diop": 5,
+   "Yohan Luis Caceres Bastardo": 12,
+   "Sergio Albores Herrero": 2,
+   "David Ferreiro Pérez": 7,
+   "Gabriel López Fernández": 11,
+   "Mohamed Rayane Lakhlifi": 14,
+   "Rodrigo Cacheiro Permuy": 3,
    "Isaias Facundo Martínez Barreto": 16,
-   "Gabriel López Fernández": 7,
-   "Mohamed Rayane Lakhlifi": 15,
-   "Franklin José Nava Parra": 17,
-   "José Luis Pereira Pérez": 11,
-   "Luca Sebastián Seoane Torres": 2,
-   "Dhiaa Eddine Bachir": 14,
-   "David Ferreiro Pérez": 13,
-   "Rodrigo Cacheiro Permuy": 18,
+   "José Luis Pereira Pérez": 17,
+   "Dhiaa Eddine Bachir": 15,
+   "Luca Sebastián Seoane Torres": 13,
+   "Franklin José Nava Parra": 18,
    "Javier Pena López": 19,
    "Marcos Sánchez Miguez": 20,
    "Pablo Bouza Pedre": 21,
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-07T05:57"
+  "descargado": "2026-11-08T12:42"
  },
  {
   "id": "cadete-a-fem",
