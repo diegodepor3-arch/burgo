@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T13:36";
+const ACTUALIZADO = "2026-11-08T13:46";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -4325,6 +4325,17 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
+    "equipo": "A.D. CULLEREDO \"B\"",
+    "pts": 16,
+    "pj": 6,
+    "g": 5,
+    "e": 1,
+    "p": 0,
+    "gf": 25,
+    "gc": 15,
+    "propio": false
+   },
+   {
     "equipo": "A.D. CRISTO REY",
     "pts": 15,
     "pj": 5,
@@ -4355,17 +4366,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 25,
     "gc": 8,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CULLEREDO \"B\"",
-    "pts": 14,
-    "pj": 6,
-    "g": 4,
-    "e": 2,
-    "p": 0,
-    "gf": 23,
-    "gc": 14,
     "propio": false
    },
    {
@@ -4436,13 +4436,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "UNION CAMPESTRE \"B\"",
-    "pts": 4,
+    "pts": 3,
     "pj": 6,
     "g": 1,
-    "e": 1,
-    "p": 4,
-    "gf": 10,
-    "gc": 19,
+    "e": 0,
+    "p": 5,
+    "gf": 11,
+    "gc": 21,
     "propio": false
    },
    {
@@ -5236,7 +5236,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-08T12:42"
+  "descargado": "2026-11-08T13:44"
  },
  {
   "id": "cadete-a-fem",
@@ -5774,7 +5774,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-08T12:44"
+  "descargado": "2026-11-08T13:44"
  },
  {
   "id": "cadete-a",
@@ -6891,7 +6891,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "José Manuel Pisos Guimarey": 25
   },
-  "descargado": "2026-11-08T12:45"
+  "descargado": "2026-11-08T13:45"
  },
  {
   "id": "infantil-a",
@@ -6932,6 +6932,17 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
+    "equipo": "C.D. CALASANZ \"C\"",
+    "pts": 19,
+    "pj": 7,
+    "g": 6,
+    "e": 1,
+    "p": 0,
+    "gf": 38,
+    "gc": 11,
+    "propio": false
+   },
+   {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F. \"C\"",
     "pts": 18,
     "pj": 7,
@@ -6945,23 +6956,12 @@ const EQUIPOS = [
    {
     "equipo": "SILVA S.D. \"B\"",
     "pts": 18,
-    "pj": 6,
+    "pj": 7,
     "g": 6,
     "e": 0,
-    "p": 0,
+    "p": 1,
     "gf": 42,
-    "gc": 12,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CALASANZ \"C\"",
-    "pts": 16,
-    "pj": 6,
-    "g": 5,
-    "e": 1,
-    "p": 0,
-    "gf": 30,
-    "gc": 11,
+    "gc": 20,
     "propio": false
    },
    {
@@ -7762,7 +7762,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-08T12:45"
+  "descargado": "2026-11-08T13:45"
  },
  {
   "id": "alevin-a",
@@ -8172,7 +8172,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-08T12:46"
+  "descargado": "2026-11-08T13:45"
  },
  {
   "id": "benjamin-a",
@@ -8643,7 +8643,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-08T13:29"
+  "descargado": "2026-11-08T13:46"
  },
  {
   "id": "prebenjamin-a",
