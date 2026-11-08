@@ -37,7 +37,7 @@ function cabeceraComun() {
 // Bajo el paraguas: la ría de fondo, la franja gallega cruzando y el puente cerrando la portada.
 function alArrancar() {
   cabeceraComun();
-  window.GlassSurface?.(document.querySelector(".menu"), { borderRadius: 38, distortionScale: -180, displace: 0.5, backgroundOpacity: 0.1,
+  window.GlassSurface?.(document.querySelector(".menu"), { borderRadius: 38, distortionScale: -180, displace: 0.5, backgroundOpacity: 0,
     borderWidth: 0.07, brightness: 50, opacity: 0.93, blur: 11, saturation: 1, redOffset: 0, greenOffset: 10, blueOffset: 20 });
 }
 function inicio() {

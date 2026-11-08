@@ -154,3 +154,11 @@ body.es-portada { background: #fff; }
 @media (max-width: 900px) { .menu { height: 64px; width: calc(100% - 20px); } }
 /* legible pase lo que pase por detrás del cristal */
 .menu-marca span, .menu-enlaces a:not(.menu-socio), .menu-buscar { text-shadow: 0 0 2px #fff, 0 0 8px #fff, 0 0 14px #ffffffcc; }
+/* Menú sin escudo, fondo transparente y letras en el azul de las letras del escudo */
+.menu { --azul-escudo: #1090b0; color: var(--azul-escudo); }
+.menu.glass-surface--svg { box-shadow: 0 0 2px 1px #ffffff40 inset, 0 0 10px 4px #ffffff20 inset; }
+.menu.glass-surface--fallback { background: hsl(0 0% 100% / 0.12); box-shadow: none; }
+.menu-marca span { font-size: 1.375rem; color: var(--azul-escudo); }
+.menu-enlaces a:not(.menu-socio), .menu-buscar { color: var(--azul-escudo); }
+.menu-enlaces a:not(.menu-socio):hover, .menu-enlaces a[aria-current]:not(.menu-socio) { background: #1090b01f; color: var(--azul-escudo); }
+.menu-enlaces .menu-socio { background: var(--azul-escudo); color: #fff; }
