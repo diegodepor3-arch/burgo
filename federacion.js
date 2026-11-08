@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T13:49";
+const ACTUALIZADO = "2026-11-08T15:59";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2421,7 +2421,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-08T13:36"
+  "descargado": "2026-11-08T15:58"
  },
  {
   "id": "senior-a-fem",
@@ -4283,7 +4283,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-08T13:35"
+  "descargado": "2026-11-08T15:58"
  },
  {
   "id": "juvenil-b",
@@ -4325,6 +4325,17 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
+    "equipo": "A.D. CRISTO REY",
+    "pts": 18,
+    "pj": 6,
+    "g": 6,
+    "e": 0,
+    "p": 0,
+    "gf": 37,
+    "gc": 6,
+    "propio": false
+   },
+   {
     "equipo": "A.D. CULLEREDO \"B\"",
     "pts": 16,
     "pj": 6,
@@ -4336,25 +4347,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "A.D. CRISTO REY",
-    "pts": 15,
-    "pj": 5,
-    "g": 5,
-    "e": 0,
-    "p": 0,
-    "gf": 34,
-    "gc": 4,
-    "propio": false
-   },
-   {
     "equipo": "A.D. LICEO",
     "pts": 15,
-    "pj": 5,
+    "pj": 6,
     "g": 5,
     "e": 0,
-    "p": 0,
-    "gf": 27,
-    "gc": 6,
+    "p": 1,
+    "gf": 29,
+    "gc": 9,
     "propio": false
    },
    {
@@ -5236,7 +5236,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-08T13:44"
+  "descargado": "2026-11-08T15:58"
  },
  {
   "id": "cadete-a-fem",
@@ -5774,7 +5774,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-08T13:44"
+  "descargado": "2026-11-08T15:59"
  },
  {
   "id": "cadete-a",
@@ -6891,7 +6891,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "José Manuel Pisos Guimarey": 25
   },
-  "descargado": "2026-11-08T13:45"
+  "descargado": "2026-11-08T15:59"
  },
  {
   "id": "infantil-a",
@@ -6954,6 +6954,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "RELÁMPAGO S. D.",
+    "pts": 18,
+    "pj": 7,
+    "g": 6,
+    "e": 0,
+    "p": 1,
+    "gf": 47,
+    "gc": 10,
+    "propio": false
+   },
+   {
     "equipo": "SILVA S.D. \"B\"",
     "pts": 18,
     "pj": 7,
@@ -6962,17 +6973,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 42,
     "gc": 20,
-    "propio": false
-   },
-   {
-    "equipo": "RELÁMPAGO S. D.",
-    "pts": 15,
-    "pj": 6,
-    "g": 5,
-    "e": 0,
-    "p": 1,
-    "gf": 44,
-    "gc": 9,
     "propio": false
    },
    {
@@ -6989,12 +6989,12 @@ const EQUIPOS = [
    {
     "equipo": "C.F. BATALLADOR S.D.",
     "pts": 13,
-    "pj": 6,
+    "pj": 7,
     "g": 4,
     "e": 1,
-    "p": 1,
-    "gf": 36,
-    "gc": 8,
+    "p": 2,
+    "gf": 37,
+    "gc": 11,
     "propio": false
    },
    {
@@ -7009,6 +7009,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "OZA JUVENIL S.D. \"B\"",
+    "pts": 12,
+    "pj": 7,
+    "g": 4,
+    "e": 0,
+    "p": 3,
+    "gf": 21,
+    "gc": 17,
+    "propio": false
+   },
+   {
     "equipo": "ORILLAMAR S.D. \"B\"",
     "pts": 10,
     "pj": 7,
@@ -7017,17 +7028,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 18,
     "gc": 20,
-    "propio": false
-   },
-   {
-    "equipo": "OZA JUVENIL S.D. \"B\"",
-    "pts": 9,
-    "pj": 6,
-    "g": 3,
-    "e": 0,
-    "p": 3,
-    "gf": 17,
-    "gc": 17,
     "propio": false
    },
    {
@@ -7099,12 +7099,12 @@ const EQUIPOS = [
    {
     "equipo": "IMPERATOR O.A.R. \"B\"",
     "pts": 0,
-    "pj": 6,
+    "pj": 7,
     "g": 0,
     "e": 0,
-    "p": 6,
+    "p": 7,
     "gf": 5,
-    "gc": 43,
+    "gc": 47,
     "propio": false
    }
   ],
@@ -7762,7 +7762,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-08T13:45"
+  "descargado": "2026-11-08T15:59"
  },
  {
   "id": "alevin-a",
