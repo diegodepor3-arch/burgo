@@ -13,7 +13,15 @@ const miFranja = () => {
   const p = proximo(e);
   return `<a class="mi-franja" href="${rutaEquipo(e)}"><span>Tu equipo</span><b>${esc(nombreEquipo(e))}</b><span>${p ? `${esc(mayus(fechaCorta(p.fecha)))}${p.hora ? ` · ${esc(p.hora)}` : ""} · ${esc(cruce(p))}` : "Sin partidos pendientes"}</span></a>`;
 };
-function alPintarPortada() {}
+// Título de la portada inflado (ElasticMesh). Sin WebGL2 se queda el h1 normal.
+let malla = null;
+function alPintarPortada() {
+  malla?.destroy();
+  const caja = document.getElementById("malla");
+  malla = caja && window.ElasticMesh?.(caja, { text: "Sporting\nBurgo", fontFamily: '"Archivo", sans-serif', fontWeight: 900,
+    color: "#4fb0e0", material: "balloon", inflate: 1, stiffness: 0.5, wobble: 0.6, shadow: 0.5, theme: "light" });
+  document.querySelector(".burgo")?.classList.toggle("con-malla", !!malla);
+}
 // Cabecera: la franja anuncia el próximo partido y Equipos despliega todos los equipos
 function cabeceraComun() {
   const j = equipo(PRINCIPAL), p = j && proximo(j);
@@ -35,13 +43,15 @@ function inicio() {
   const podio = [top[1], top[0], top[2]];
   return `
     <section class="burgo" aria-labelledby="h">
-      ${foto(FOTO.portadego, "burgo-foto", false)}
       <div class="burgo-dentro">
-        <img class="burgo-escudo" src="img/escudo.png" alt="Escudo del Sporting Burgo" width="145" height="200">
-        <div>
-          <h1 id="h">Sporting <span>Burgo</span></h1>
-          <p class="burgo-lema"><b data-cuenta="${anios}">${anios}</b> años de fútbol en O Burgo, llueva o no</p>
-          <p class="burgo-acc"><a class="boton" href="#/partidos">Partidos de esta semana</a><a class="boton boton--claro" href="#/mi-equipo">Mi equipo</a></p>
+        <h1 id="h">Sporting <span>Burgo</span></h1>
+        <div class="burgo-malla" id="malla" aria-hidden="true"></div>
+        <div class="burgo-pie">
+          <img class="burgo-escudo" src="img/escudo.png" alt="Escudo del Sporting Burgo" width="145" height="200">
+          <div>
+            <p class="burgo-lema"><b data-cuenta="${anios}">${anios}</b> años de fútbol en O Burgo, llueva o no</p>
+            <p class="burgo-acc"><a class="boton" href="#/partidos">Partidos de esta semana</a><a class="boton boton--claro" href="#/mi-equipo">Mi equipo</a></p>
+          </div>
         </div>
       </div>
     </section>
