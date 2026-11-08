@@ -834,6 +834,9 @@ function render() {
     noEncontrado();
   document.body.classList.toggle("es-portada", !ruta);
   app.querySelectorAll(".carrusel").forEach(colocarCarrusel);
+  // Títulos de sección con brillo que los cruza (shiny.js): marino con el celeste del escudo
+  app.querySelectorAll(".titulo, .cab-titulo, .fija-titulo, .subtitulo").forEach((t) => window.ShinyText?.(t, { color: "#0e2a47", shineColor: "#8fd0ec",
+    speed: 2, shineWidth: 40, softness: 0.8, trigger: "loop", delay: 0, angle: 120, bands: 1, direction: "left", easing: "smooth", yoyo: false }));
   app.querySelectorAll(".flip-card").forEach((c) => window.FlipCard?.(c, { tiltMax: 12, glareOpacity: 0.22, hoverScale: 1.03, perspective: 1100, stiffness: 170, damping: 20, shadowOpacity: 0.45 }));
   tic();
   contadores();

@@ -200,3 +200,6 @@ html:has(body.es-portada) { background: #fff; }
 /* Dock centrado: crece igual a los dos lados y el icono señalado no se escapa del ratón */
 .menu .menu-enlaces.dock { position: absolute; left: 50%; top: 0; transform: translateX(-50%); margin: 15px 0 0; }
 .menu:has(.mega:not([hidden])) .dock-label { opacity: 0; }
+
+/* Títulos con brillo (shiny.js): el degradado se recorta al texto y ocupa solo lo que ocupa el texto */
+.shiny-text { width: fit-content; max-width: 100%; color: transparent; -webkit-background-clip: text; background-clip: text; background-repeat: no-repeat; }
