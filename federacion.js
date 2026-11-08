@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-07T21:50";
+const ACTUALIZADO = "2026-11-08T01:28";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -8416,8 +8416,702 @@ const EQUIPOS = [
    "Gerardo Antonio Pintos García"
   ],
   "delegados": [],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "CLUB XUVENTUDE DORNEDA",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 26,
+    "gc": 3,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. AS PONTES",
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
+    "e": 0,
+    "p": 0,
+    "gf": 19,
+    "gc": 4,
+    "propio": false
+   },
+   {
+    "equipo": "C. D. OBRERO \"B\"",
+    "pts": 13,
+    "pj": 5,
+    "g": 4,
+    "e": 1,
+    "p": 0,
+    "gf": 19,
+    "gc": 5,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO \"C\"",
+    "pts": 10,
+    "pj": 5,
+    "g": 3,
+    "e": 1,
+    "p": 1,
+    "gf": 13,
+    "gc": 13,
+    "propio": true
+   },
+   {
+    "equipo": "TRAZO C.F.",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 12,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "ATLETICO SAN PEDRO \"C\"",
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
+    "e": 0,
+    "p": 2,
+    "gf": 11,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "MESOIRO F.C.",
+    "pts": 7,
+    "pj": 5,
+    "g": 2,
+    "e": 1,
+    "p": 2,
+    "gf": 10,
+    "gc": 8,
+    "propio": false
+   },
+   {
+    "equipo": "OLIMPICO C.F.",
+    "pts": 7,
+    "pj": 5,
+    "g": 2,
+    "e": 1,
+    "p": 2,
+    "gf": 11,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "CLUB FUTBOL FEMENINO CELAS",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 17,
+    "gc": 9,
+    "propio": false
+   },
+   {
+    "equipo": "VIOÑO C.F.",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 15,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "RELÁMPAGO S. D.",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 11,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "DEPORTIVO ORZÁN",
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
+    "e": 0,
+    "p": 3,
+    "gf": 10,
+    "gc": 16,
+    "propio": false
+   },
+   {
+    "equipo": "EIRÍS S.D. \"B\"",
+    "pts": 4,
+    "pj": 5,
+    "g": 1,
+    "e": 1,
+    "p": 3,
+    "gf": 5,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "LICEO DE MONELOS S.D.",
+    "pts": 3,
+    "pj": 5,
+    "g": 1,
+    "e": 0,
+    "p": 4,
+    "gf": 4,
+    "gc": 25,
+    "propio": false
+   },
+   {
+    "equipo": "CARNOEDO C.F.",
+    "pts": 1,
+    "pj": 5,
+    "g": 0,
+    "e": 1,
+    "p": 4,
+    "gf": 3,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "S.D. TORDOIA \"B\"",
+    "pts": 0,
+    "pj": 5,
+    "g": 0,
+    "e": 0,
+    "p": 5,
+    "gf": 2,
+    "gc": 21,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-10-04",
+    "hora": "19:20",
+    "local": false,
+    "rival": "VIOÑO C.F.",
+    "resultado": "2-4",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-10-11",
+    "hora": "12:00",
+    "local": true,
+    "rival": "C. D. OBRERO \"B\"",
+    "resultado": "3-3",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-10-18",
+    "hora": "10:00",
+    "local": false,
+    "rival": "CARNOEDO C.F.",
+    "resultado": "1-4",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-10-25",
+    "hora": "19:15",
+    "local": true,
+    "rival": "CLUB XUVENTUDE DORNEDA",
+    "resultado": "0-6",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-11-01",
+    "hora": "19:00",
+    "local": false,
+    "rival": "MESOIRO F.C.",
+    "resultado": "1-2",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-11-08",
+    "hora": "12:00",
+    "local": true,
+    "rival": "S.D. TORDOIA \"B\"",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-11-15",
+    "hora": "",
+    "local": false,
+    "rival": "DEPORTIVO ORZÁN",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-22",
+    "hora": "",
+    "local": true,
+    "rival": "RELÁMPAGO S. D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2026-11-29",
+    "hora": "10:00",
+    "local": false,
+    "rival": "ATLETICO SAN PEDRO \"C\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-12-13",
+    "hora": "",
+    "local": true,
+    "rival": "C.D. AS PONTES",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2026-12-20",
+    "hora": "",
+    "local": false,
+    "rival": "CLUB FUTBOL FEMENINO CELAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2027-01-10",
+    "hora": "",
+    "local": true,
+    "rival": "EIRÍS S.D. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2027-01-17",
+    "hora": "",
+    "local": false,
+    "rival": "OLIMPICO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 14,
+    "fecha": "2027-01-24",
+    "hora": "",
+    "local": false,
+    "rival": "TRAZO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 15,
+    "fecha": "2027-01-31",
+    "hora": "",
+    "local": true,
+    "rival": "LICEO DE MONELOS S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 16,
+    "fecha": "2027-02-07",
+    "hora": "",
+    "local": true,
+    "rival": "VIOÑO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 17,
+    "fecha": "2027-02-14",
+    "hora": "",
+    "local": false,
+    "rival": "C. D. OBRERO \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 18,
+    "fecha": "2027-02-21",
+    "hora": "",
+    "local": true,
+    "rival": "CARNOEDO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 19,
+    "fecha": "2027-02-28",
+    "hora": "",
+    "local": false,
+    "rival": "CLUB XUVENTUDE DORNEDA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 20,
+    "fecha": "2027-03-07",
+    "hora": "",
+    "local": true,
+    "rival": "MESOIRO F.C.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 21,
+    "fecha": "2027-03-14",
+    "hora": "",
+    "local": false,
+    "rival": "S.D. TORDOIA \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 22,
+    "fecha": "2027-03-21",
+    "hora": "",
+    "local": true,
+    "rival": "DEPORTIVO ORZÁN",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 23,
+    "fecha": "2027-04-04",
+    "hora": "",
+    "local": false,
+    "rival": "RELÁMPAGO S. D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 24,
+    "fecha": "2027-04-11",
+    "hora": "",
+    "local": true,
+    "rival": "ATLETICO SAN PEDRO \"C\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 25,
+    "fecha": "2027-04-18",
+    "hora": "",
+    "local": false,
+    "rival": "C.D. AS PONTES",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 26,
+    "fecha": "2027-04-25",
+    "hora": "",
+    "local": true,
+    "rival": "CLUB FUTBOL FEMENINO CELAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 27,
+    "fecha": "2027-05-02",
+    "hora": "",
+    "local": false,
+    "rival": "EIRÍS S.D. \"B\"",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 28,
+    "fecha": "2027-05-09",
+    "hora": "",
+    "local": true,
+    "rival": "OLIMPICO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 29,
+    "fecha": "2027-05-16",
+    "hora": "",
+    "local": true,
+    "rival": "TRAZO C.F.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 30,
+    "fecha": "2027-05-23",
+    "hora": "",
+    "local": false,
+    "rival": "LICEO DE MONELOS S.D.",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Femenina | Liga F-7 · A Coruña | Grupo 1",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28903299&codcompeticion=26991142",
+  "escudos": {
+   "C. D. OBRERO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000600215_LOGO_OBRERO.jpg",
+   "CARNOEDO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000958843_ProfilePhoto.jpgCARNOEDO.jpg",
+   "CLUB FUTBOL FEMENINO CELAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001826152_IMG_20260715_145754.jpg",
+   "ATLETICO SAN PEDRO \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "SPORTING BURGO \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "S.D. TORDOIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803585_Escudo_Dolmen.JPG",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
+   "VIOÑO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001406822_Screenshot_2024_09_30_23_24_06_656_com.android.chrome_edit.jpg",
+   "CLUB XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
+   "C.D. AS PONTES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003337_ESCUDO_CD_AS_PONTES.jpg",
+   "TRAZO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000007466_trazo.jpg",
+   "EIRÍS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
+   "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
+   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
+   "MESOIRO F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001114304_escudo.jpg"
+  },
+  "actas": {
+   "1": {
+    "t": [
+     "Ana Casteleiro Vales",
+     "Xeila Santomil Meitin",
+     "Ainhoa Blanco González",
+     "Yessica Martínez Castro",
+     "Uxia Bouzada Castiñeira",
+     "Andrea Arias Santibañez",
+     "Sara Romero Castro"
+    ],
+    "s": [
+     "Lia Vázquez Seoane",
+     "Zaira Vázquez Seoane",
+     "Carlota Ruzo Pan",
+     "Inés Vilariño Peña",
+     "Yara Díaz Alvariño"
+    ],
+    "e": [],
+    "g": {
+     "Ainhoa Blanco González": 1,
+     "Xeila Santomil Meitin": 1,
+     "Sara Romero Castro": 1,
+     "Lia Vázquez Seoane": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Ana Casteleiro Vales": 1,
+     "Xeila Santomil Meitin": 2,
+     "Ainhoa Blanco González": 3,
+     "Yessica Martínez Castro": 4,
+     "Uxia Bouzada Castiñeira": 5,
+     "Andrea Arias Santibañez": 6,
+     "Sara Romero Castro": 7,
+     "Lia Vázquez Seoane": 8,
+     "Zaira Vázquez Seoane": 9,
+     "Carlota Ruzo Pan": 10,
+     "Inés Vilariño Peña": 11,
+     "Yara Díaz Alvariño": 12
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497801"
+   },
+   "2": {
+    "t": [
+     "Ana Casteleiro Vales",
+     "Xeila Santomil Meitin",
+     "Adriana Castro García",
+     "Yessica Martínez Castro",
+     "Ainhoa Blanco González",
+     "Sara Romero Castro",
+     "Manuela Blanco Casas"
+    ],
+    "s": [
+     "Lara Rodríguez Santos",
+     "Lia Vázquez Seoane",
+     "Zaira Vázquez Seoane",
+     "Yara Díaz Alvariño",
+     "Inés Vilariño Peña"
+    ],
+    "e": [],
+    "g": {
+     "Adriana Castro García": 1,
+     "Zaira Vázquez Seoane": 1,
+     "Manuela Blanco Casas": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Ana Casteleiro Vales": 1,
+     "Xeila Santomil Meitin": 2,
+     "Adriana Castro García": 3,
+     "Yessica Martínez Castro": 5,
+     "Ainhoa Blanco González": 6,
+     "Sara Romero Castro": 7,
+     "Manuela Blanco Casas": 8,
+     "Lara Rodríguez Santos": 4,
+     "Lia Vázquez Seoane": 9,
+     "Zaira Vázquez Seoane": 10,
+     "Yara Díaz Alvariño": 11,
+     "Inés Vilariño Peña": 12
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497809"
+   },
+   "3": {
+    "t": [
+     "Ana Casteleiro Vales",
+     "Xeila Santomil Meitin",
+     "Ainhoa Blanco González",
+     "Yessica Martínez Castro",
+     "Andrea Arias Santibañez",
+     "Manuela Blanco Casas",
+     "Sara Romero Castro"
+    ],
+    "s": [
+     "Lia Vázquez Seoane",
+     "Zaira Vázquez Seoane",
+     "Carlota Ruzo Pan",
+     "Yara Díaz Alvariño"
+    ],
+    "e": [],
+    "g": {
+     "Sara Romero Castro": 3,
+     "Manuela Blanco Casas": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Ana Casteleiro Vales": 1,
+     "Xeila Santomil Meitin": 2,
+     "Ainhoa Blanco González": 3,
+     "Yessica Martínez Castro": 4,
+     "Andrea Arias Santibañez": 5,
+     "Manuela Blanco Casas": 6,
+     "Sara Romero Castro": 7,
+     "Lia Vázquez Seoane": 8,
+     "Zaira Vázquez Seoane": 9,
+     "Carlota Ruzo Pan": 10,
+     "Yara Díaz Alvariño": 11
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497816"
+   },
+   "4": {
+    "t": [
+     "Ana Casteleiro Vales",
+     "Xeila Santomil Meitin",
+     "Uxia Bouzada Castiñeira",
+     "Ainhoa Blanco González",
+     "Manuela Blanco Casas",
+     "Sara Romero Castro",
+     "Yessica Martínez Castro"
+    ],
+    "s": [
+     "Zaira Vázquez Seoane",
+     "Lia Vázquez Seoane",
+     "Carlota Ruzo Pan",
+     "Yara Díaz Alvariño",
+     "Inés Vilariño Peña",
+     "Andrea Arias Santibañez"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Ana Casteleiro Vales": 1,
+     "Xeila Santomil Meitin": 2,
+     "Uxia Bouzada Castiñeira": 5,
+     "Ainhoa Blanco González": 6,
+     "Manuela Blanco Casas": 8,
+     "Sara Romero Castro": 9,
+     "Yessica Martínez Castro": 10,
+     "Zaira Vázquez Seoane": 3,
+     "Lia Vázquez Seoane": 4,
+     "Carlota Ruzo Pan": 7,
+     "Yara Díaz Alvariño": 11,
+     "Inés Vilariño Peña": 14,
+     "Andrea Arias Santibañez": 15
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497824"
+   },
+   "5": {
+    "t": [
+     "Ana Casteleiro Vales",
+     "Yessica Martínez Castro",
+     "Inés Vilariño Peña",
+     "Ainhoa Blanco González",
+     "Uxia Bouzada Castiñeira",
+     "Sara Romero Castro",
+     "Manuela Blanco Casas"
+    ],
+    "s": [
+     "Lia Vázquez Seoane",
+     "Zaira Vázquez Seoane",
+     "Andrea Arias Santibañez"
+    ],
+    "e": [],
+    "g": {
+     "Sara Romero Castro": 1,
+     "Manuela Blanco Casas": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Ana Casteleiro Vales": 1,
+     "Yessica Martínez Castro": 2,
+     "Inés Vilariño Peña": 3,
+     "Ainhoa Blanco González": 4,
+     "Uxia Bouzada Castiñeira": 5,
+     "Sara Romero Castro": 6,
+     "Manuela Blanco Casas": 7,
+     "Lia Vázquez Seoane": 8,
+     "Zaira Vázquez Seoane": 9,
+     "Andrea Arias Santibañez": 11
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497831"
+   }
+  },
+  "dorsales": {
+   "Ana Casteleiro Vales": 1,
+   "Xeila Santomil Meitin": 2,
+   "Uxia Bouzada Castiñeira": 5,
+   "Lia Vázquez Seoane": 8,
+   "Zaira Vázquez Seoane": 9,
+   "Yara Díaz Alvariño": 11,
+   "Sara Romero Castro": 7,
+   "Ainhoa Blanco González": 6,
+   "Yessica Martínez Castro": 4,
+   "Carlota Ruzo Pan": 10,
+   "Inés Vilariño Peña": 3,
+   "Andrea Arias Santibañez": 15,
+   "Manuela Blanco Casas": 12,
+   "Adriana Castro García": 13,
+   "Lara Rodríguez Santos": 14
+  },
+  "descargado": "2026-11-08T01:27"
  },
  {
   "id": "veteranos-a",
@@ -8457,7 +9151,761 @@ const EQUIPOS = [
   "delegados": [
    "Arturo Otero López"
   ],
-  "clasificacion": [],
-  "partidos": []
+  "clasificacion": [
+   {
+    "equipo": "SADA F.C. A NOSA VIÑA",
+    "pts": 19,
+    "pj": 8,
+    "g": 6,
+    "e": 1,
+    "p": 1,
+    "gf": 28,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. PAIOSACO H.AÑON",
+    "pts": 15,
+    "pj": 8,
+    "g": 4,
+    "e": 3,
+    "p": 1,
+    "gf": 27,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "BETANZOS NORTE",
+    "pts": 15,
+    "pj": 8,
+    "g": 5,
+    "e": 0,
+    "p": 3,
+    "gf": 21,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "CLUB DEPORTIVO NARON SILVER CATERING",
+    "pts": 14,
+    "pj": 7,
+    "g": 4,
+    "e": 2,
+    "p": 1,
+    "gf": 26,
+    "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. NARAHIO",
+    "pts": 14,
+    "pj": 8,
+    "g": 4,
+    "e": 2,
+    "p": 2,
+    "gf": 18,
+    "gc": 10,
+    "propio": false
+   },
+   {
+    "equipo": "CEDEIRA S.D.",
+    "pts": 13,
+    "pj": 7,
+    "g": 4,
+    "e": 1,
+    "p": 2,
+    "gf": 18,
+    "gc": 16,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING BURGO",
+    "pts": 13,
+    "pj": 8,
+    "g": 4,
+    "e": 1,
+    "p": 3,
+    "gf": 20,
+    "gc": 19,
+    "propio": true
+   },
+   {
+    "equipo": "LICEO DE MONELOS S.D.",
+    "pts": 12,
+    "pj": 8,
+    "g": 4,
+    "e": 0,
+    "p": 4,
+    "gf": 27,
+    "gc": 22,
+    "propio": false
+   },
+   {
+    "equipo": "C.C.D. CURTIS",
+    "pts": 12,
+    "pj": 8,
+    "g": 3,
+    "e": 3,
+    "p": 2,
+    "gf": 14,
+    "gc": 11,
+    "propio": false
+   },
+   {
+    "equipo": "XUVENTUDE DORNEDA",
+    "pts": 12,
+    "pj": 8,
+    "g": 4,
+    "e": 0,
+    "p": 4,
+    "gf": 14,
+    "gc": 22,
+    "propio": false
+   },
+   {
+    "equipo": "SAN MARTIÑO S.D.",
+    "pts": 10,
+    "pj": 8,
+    "g": 3,
+    "e": 1,
+    "p": 4,
+    "gf": 12,
+    "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "CAMPANAL DE LOUREDA F. C.",
+    "pts": 8,
+    "pj": 7,
+    "g": 2,
+    "e": 2,
+    "p": 3,
+    "gf": 18,
+    "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "PORTAZGO S.D.",
+    "pts": 7,
+    "pj": 8,
+    "g": 2,
+    "e": 1,
+    "p": 5,
+    "gf": 13,
+    "gc": 20,
+    "propio": false
+   },
+   {
+    "equipo": "OZA DE LOS RÍOS",
+    "pts": 6,
+    "pj": 7,
+    "g": 2,
+    "e": 0,
+    "p": 5,
+    "gf": 9,
+    "gc": 19,
+    "propio": false
+   },
+   {
+    "equipo": "SPORTING CAMBRE AS TRAVESAS",
+    "pts": 4,
+    "pj": 8,
+    "g": 1,
+    "e": 1,
+    "p": 6,
+    "gf": 6,
+    "gc": 22,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. SIGRAS",
+    "pts": 3,
+    "pj": 8,
+    "g": 1,
+    "e": 0,
+    "p": 7,
+    "gf": 7,
+    "gc": 29,
+    "propio": false
+   }
+  ],
+  "partidos": [
+   {
+    "jornada": 1,
+    "fecha": "2026-09-13",
+    "hora": "12:00",
+    "local": false,
+    "rival": "LICEO DE MONELOS S.D.",
+    "resultado": "1-4",
+    "campo": ""
+   },
+   {
+    "jornada": 2,
+    "fecha": "2026-09-19",
+    "hora": "18:00",
+    "local": true,
+    "rival": "XUVENTUDE DORNEDA",
+    "resultado": "3-0",
+    "campo": ""
+   },
+   {
+    "jornada": 3,
+    "fecha": "2026-09-26",
+    "hora": "18:45",
+    "local": false,
+    "rival": "CEDEIRA S.D.",
+    "resultado": "4-1",
+    "campo": ""
+   },
+   {
+    "jornada": 4,
+    "fecha": "2026-10-03",
+    "hora": "18:00",
+    "local": true,
+    "rival": "BETANZOS NORTE",
+    "resultado": "1-4",
+    "campo": ""
+   },
+   {
+    "jornada": 5,
+    "fecha": "2026-10-10",
+    "hora": "18:00",
+    "local": false,
+    "rival": "C.D. SIGRAS",
+    "resultado": "1-3",
+    "campo": ""
+   },
+   {
+    "jornada": 6,
+    "fecha": "2026-10-17",
+    "hora": "18:00",
+    "local": true,
+    "rival": "CAMPANAL DE LOUREDA F. C.",
+    "resultado": "3-3",
+    "campo": ""
+   },
+   {
+    "jornada": 7,
+    "fecha": "2026-10-25",
+    "hora": "11:00",
+    "local": false,
+    "rival": "U.D. NARAHIO",
+    "resultado": "5-2",
+    "campo": ""
+   },
+   {
+    "jornada": 8,
+    "fecha": "2026-11-07",
+    "hora": "18:00",
+    "local": true,
+    "rival": "SAN MARTIÑO S.D.",
+    "resultado": "3-1",
+    "campo": ""
+   },
+   {
+    "jornada": 9,
+    "fecha": "2026-11-14",
+    "hora": "",
+    "local": true,
+    "rival": "U.D. PAIOSACO H.AÑON",
+    "resultado": "",
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+   },
+   {
+    "jornada": 10,
+    "fecha": "2026-11-21",
+    "hora": "",
+    "local": false,
+    "rival": "OZA DE LOS RÍOS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 11,
+    "fecha": "2026-11-28",
+    "hora": "",
+    "local": true,
+    "rival": "SADA F.C. A NOSA VIÑA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 12,
+    "fecha": "2026-12-05",
+    "hora": "",
+    "local": false,
+    "rival": "C.C.D. CURTIS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 13,
+    "fecha": "2026-12-12",
+    "hora": "",
+    "local": true,
+    "rival": "CLUB DEPORTIVO NARON SILVER CATERING",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 14,
+    "fecha": "2026-12-19",
+    "hora": "",
+    "local": false,
+    "rival": "SPORTING CAMBRE AS TRAVESAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 15,
+    "fecha": "2027-01-09",
+    "hora": "",
+    "local": true,
+    "rival": "PORTAZGO S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 16,
+    "fecha": "2027-01-16",
+    "hora": "",
+    "local": true,
+    "rival": "LICEO DE MONELOS S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 17,
+    "fecha": "2027-01-23",
+    "hora": "",
+    "local": false,
+    "rival": "XUVENTUDE DORNEDA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 18,
+    "fecha": "2027-01-30",
+    "hora": "",
+    "local": true,
+    "rival": "CEDEIRA S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 19,
+    "fecha": "2027-02-06",
+    "hora": "",
+    "local": false,
+    "rival": "BETANZOS NORTE",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 20,
+    "fecha": "2027-02-20",
+    "hora": "",
+    "local": true,
+    "rival": "C.D. SIGRAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 21,
+    "fecha": "2027-02-28",
+    "hora": "11:00",
+    "local": false,
+    "rival": "CAMPANAL DE LOUREDA F. C.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 22,
+    "fecha": "2027-03-06",
+    "hora": "",
+    "local": true,
+    "rival": "U.D. NARAHIO",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 23,
+    "fecha": "2027-03-13",
+    "hora": "",
+    "local": false,
+    "rival": "SAN MARTIÑO S.D.",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 24,
+    "fecha": "2027-03-20",
+    "hora": "",
+    "local": false,
+    "rival": "U.D. PAIOSACO H.AÑON",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 25,
+    "fecha": "2027-04-03",
+    "hora": "",
+    "local": true,
+    "rival": "OZA DE LOS RÍOS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 26,
+    "fecha": "2027-04-10",
+    "hora": "",
+    "local": false,
+    "rival": "SADA F.C. A NOSA VIÑA",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 27,
+    "fecha": "2027-04-17",
+    "hora": "",
+    "local": true,
+    "rival": "C.C.D. CURTIS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 28,
+    "fecha": "2027-04-24",
+    "hora": "",
+    "local": false,
+    "rival": "CLUB DEPORTIVO NARON SILVER CATERING",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 29,
+    "fecha": "2027-05-01",
+    "hora": "",
+    "local": true,
+    "rival": "SPORTING CAMBRE AS TRAVESAS",
+    "resultado": "",
+    "campo": ""
+   },
+   {
+    "jornada": 30,
+    "fecha": "2027-05-08",
+    "hora": "",
+    "local": false,
+    "rival": "PORTAZGO S.D.",
+    "resultado": "",
+    "campo": ""
+   }
+  ],
+  "competicion": "Veteranos - Primera Galicia · A Coruña | 1ª División Veteranos",
+  "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28251751&codcompeticion=26991153",
+  "escudos": {
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "U.D. PAIOSACO H.AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
+   "BETANZOS NORTE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000644575_Sin_titulo-1.jpg",
+   "CLUB DEPORTIVO NARON SILVER CATERING": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
+   "CEDEIRA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918775_Escudo_Cedeira1.jpg",
+   "SPORTING CAMBRE AS TRAVESAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
+   "SAN MARTIÑO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806697_Escudo_Sanma.jpg",
+   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
+   "C.D. SIGRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806749_Veteranos_del_sigras__20190918_001525.jpg",
+   "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg",
+   "U.D. NARAHIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818218_ESCUDO.png",
+   "OZA DE LOS RÍOS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001608780_000_Escudo.jpg",
+   "CAMPANAL DE LOUREDA F. C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001112484_IMG_20211103_WA0001.jpg",
+   "SADA F.C. A NOSA VIÑA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001112484_IMG_20211103_WA0001.jpg"
+  },
+  "actas": {
+   "4": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Sergio Barbeito Rodríguez",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Carlos E Liñares Gestal",
+     "José L García Méndez",
+     "Óscar García Torreiro",
+     "Miguel José Veas Pérez De Tudela Rodríguez",
+     "José Antonio Louro Gómez",
+     "Ramiro García Ramos",
+     "Miguel Magan Labora"
+    ],
+    "s": [
+     "Diego Pita Patiño",
+     "Carlos Fariña Canito",
+     "Pablo González Baña",
+     "Bruno López Sanda",
+     "German Abuin Rodríguez"
+    ],
+    "e": [],
+    "g": {
+     "German Abuin Rodríguez": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Sergio Barbeito Rodríguez": 5,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Carlos E Liñares Gestal": 11,
+     "José L García Méndez": 12,
+     "Óscar García Torreiro": 13,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "José Antonio Louro Gómez": 15,
+     "Ramiro García Ramos": 17,
+     "Miguel Magan Labora": 18,
+     "Diego Pita Patiño": 19,
+     "Carlos Fariña Canito": 21,
+     "Pablo González Baña": 22,
+     "Bruno López Sanda": 23,
+     "German Abuin Rodríguez": 24
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478234"
+   },
+   "5": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Rubén Sabio Sánchez",
+     "José L García Méndez",
+     "Óscar García Torreiro",
+     "José Antonio Louro Gómez",
+     "Martín Sánchez López",
+     "Ramiro García Ramos"
+    ],
+    "s": [
+     "Miguel Magan Labora",
+     "Carlos Fariña Canito",
+     "Pablo González Baña",
+     "Bruno López Sanda",
+     "Juan M Uzal Golpe"
+    ],
+    "e": [],
+    "g": {
+     "Rubén Sabio Sánchez": 1,
+     "Senar A Fernández García": 1,
+     "Juan M Uzal Golpe": 1
+    },
+    "a": [
+     "José Antonio Louro Gómez",
+     "Martín Sánchez López",
+     "Senar A Fernández García"
+    ],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Rubén Sabio Sánchez": 10,
+     "José L García Méndez": 12,
+     "Óscar García Torreiro": 13,
+     "José Antonio Louro Gómez": 15,
+     "Martín Sánchez López": 16,
+     "Ramiro García Ramos": 17,
+     "Miguel Magan Labora": 18,
+     "Carlos Fariña Canito": 21,
+     "Pablo González Baña": 22,
+     "Bruno López Sanda": 23,
+     "Juan M Uzal Golpe": 26
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478241"
+   },
+   "6": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Marcos Barral Taboas",
+     "Rubén Sabio Sánchez",
+     "Carlos E Liñares Gestal",
+     "José L García Méndez",
+     "Óscar García Torreiro",
+     "Miguel José Veas Pérez De Tudela Rodríguez"
+    ],
+    "s": [
+     "José Antonio Louro Gómez",
+     "Ramiro García Ramos",
+     "Miguel Magan Labora",
+     "Carlos Fariña Canito",
+     "Bruno López Sanda",
+     "Juan M Uzal Golpe"
+    ],
+    "e": [],
+    "g": {
+     "Senar A Fernández García": 1,
+     "Bruno López Sanda": 1
+    },
+    "a": [
+     "José Antonio Louro Gómez",
+     "Fernando Montans Fresco"
+    ],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Marcos Barral Taboas": 9,
+     "Rubén Sabio Sánchez": 10,
+     "Carlos E Liñares Gestal": 11,
+     "José L García Méndez": 12,
+     "Óscar García Torreiro": 13,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "José Antonio Louro Gómez": 15,
+     "Ramiro García Ramos": 17,
+     "Miguel Magan Labora": 18,
+     "Carlos Fariña Canito": 21,
+     "Bruno López Sanda": 23,
+     "Juan M Uzal Golpe": 26
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478249"
+   },
+   "7": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Carlos E Liñares Gestal",
+     "Óscar García Torreiro",
+     "Miguel José Veas Pérez De Tudela Rodríguez",
+     "José Antonio Louro Gómez",
+     "Ramiro García Ramos",
+     "Miguel Magan Labora"
+    ],
+    "s": [
+     "Carlos Fariña Canito",
+     "Bruno López Sanda",
+     "Juan M Uzal Golpe"
+    ],
+    "e": [],
+    "g": {
+     "Bruno López Sanda": 2
+    },
+    "a": [
+     "David Nuñez Prieto",
+     "Ramiro García Ramos",
+     "Alejandro Rodríguez Parada"
+    ],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Carlos E Liñares Gestal": 11,
+     "Óscar García Torreiro": 13,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "José Antonio Louro Gómez": 15,
+     "Ramiro García Ramos": 17,
+     "Miguel Magan Labora": 18,
+     "Carlos Fariña Canito": 21,
+     "Bruno López Sanda": 23,
+     "Juan M Uzal Golpe": 26
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478256"
+   },
+   "8": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Sergio Barbeito Rodríguez",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Marcos Barral Taboas",
+     "Rubén Sabio Sánchez",
+     "José L García Méndez",
+     "Óscar García Torreiro",
+     "Miguel José Veas Pérez De Tudela Rodríguez"
+    ],
+    "s": [
+     "Ramiro García Ramos",
+     "Pablo González Baña",
+     "Bruno López Sanda",
+     "Diego Pita Patiño"
+    ],
+    "e": [],
+    "g": {
+     "Senar A Fernández García": 2,
+     "Marcos Barral Taboas": 1
+    },
+    "a": [
+     "David Nuñez Prieto",
+     "Ramiro García Ramos"
+    ],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Sergio Barbeito Rodríguez": 5,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Marcos Barral Taboas": 9,
+     "Rubén Sabio Sánchez": 10,
+     "José L García Méndez": 12,
+     "Óscar García Torreiro": 13,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "Ramiro García Ramos": 17,
+     "Pablo González Baña": 22,
+     "Bruno López Sanda": 25,
+     "Diego Pita Patiño": 28
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478264"
+   }
+  },
+  "dorsales": {
+   "Alejandro Rodríguez Parada": 1,
+   "Senar A Fernández García": 6,
+   "Javier Rodríguez Giao": 7,
+   "Óscar García Torreiro": 13,
+   "Ramiro García Ramos": 17,
+   "Fernando Montans Fresco": 3,
+   "David Nuñez Prieto": 4,
+   "José L García Méndez": 12,
+   "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+   "José Antonio Louro Gómez": 15,
+   "Miguel Magan Labora": 18,
+   "Carlos Fariña Canito": 21,
+   "Bruno López Sanda": 23,
+   "Rubén Sabio Sánchez": 10,
+   "Pablo González Baña": 22,
+   "Carlos E Liñares Gestal": 11,
+   "Juan M Uzal Golpe": 26,
+   "Sergio Barbeito Rodríguez": 5,
+   "Marcos Barral Taboas": 9,
+   "Diego Pita Patiño": 28,
+   "Martín Sánchez López": 16,
+   "German Abuin Rodríguez": 24
+  },
+  "descargado": "2026-11-08T01:28"
  }
 ];
