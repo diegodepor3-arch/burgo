@@ -35,7 +35,11 @@ function cabeceraComun() {
   addEventListener("keydown", (ev) => { if (ev.key === "Escape") ver(false); });
 }
 // Bajo el paraguas: la ría de fondo, la franja gallega cruzando y el puente cerrando la portada.
-function alArrancar() { cabeceraComun(); }
+function alArrancar() {
+  cabeceraComun();
+  window.GlassSurface?.(document.querySelector(".menu"), { borderRadius: 38, distortionScale: -180, displace: 0.5, backgroundOpacity: 0.1,
+    borderWidth: 0.07, brightness: 50, opacity: 0.93, blur: 11, saturation: 1, redOffset: 0, greenOffset: 10, blueOffset: 20 });
+}
 function inicio() {
   const d = datosPortada(), j = d.principal, top = goleadoresClub(3);
   const anios = hoy().getFullYear() - CLUB.fundado;
