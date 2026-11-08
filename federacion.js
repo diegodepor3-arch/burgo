@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T18:06";
+const ACTUALIZADO = "2026-11-08T18:15";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -5849,7 +5849,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-08T15:59"
+  "descargado": "2026-11-08T18:13"
  },
  {
   "id": "cadete-a",
@@ -6966,7 +6966,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "José Manuel Pisos Guimarey": 25
   },
-  "descargado": "2026-11-08T15:59"
+  "descargado": "2026-11-08T18:14"
  },
  {
   "id": "infantil-a",
@@ -7035,7 +7035,7 @@ const EQUIPOS = [
     "g": 6,
     "e": 0,
     "p": 1,
-    "gf": 47,
+    "gf": 50,
     "gc": 10,
     "propio": false
    },
@@ -7069,7 +7069,7 @@ const EQUIPOS = [
     "e": 1,
     "p": 2,
     "gf": 37,
-    "gc": 11,
+    "gc": 14,
     "propio": false
    },
    {
@@ -7090,7 +7090,7 @@ const EQUIPOS = [
     "g": 4,
     "e": 0,
     "p": 3,
-    "gf": 21,
+    "gf": 26,
     "gc": 17,
     "propio": false
    },
@@ -7179,7 +7179,7 @@ const EQUIPOS = [
     "e": 0,
     "p": 7,
     "gf": 5,
-    "gc": 47,
+    "gc": 52,
     "propio": false
    }
   ],
@@ -7837,7 +7837,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-08T15:59"
+  "descargado": "2026-11-08T18:14"
  },
  {
   "id": "alevin-a",
@@ -8247,7 +8247,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-08T17:55"
+  "descargado": "2026-11-08T18:14"
  },
  {
   "id": "benjamin-a",
@@ -8718,7 +8718,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-08T17:56"
+  "descargado": "2026-11-08T18:14"
  },
  {
   "id": "prebenjamin-a",
@@ -9284,7 +9284,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-08T17:56"
+  "descargado": "2026-11-08T18:15"
  },
  {
   "id": "infantil-a-fem",
