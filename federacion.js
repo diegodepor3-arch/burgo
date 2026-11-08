@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T13:30";
+const ACTUALIZADO = "2026-11-08T13:36";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -68,7 +68,7 @@ const EQUIPOS = [
     "g": 6,
     "e": 0,
     "p": 4,
-    "gf": 22,
+    "gf": 25,
     "gc": 13,
     "propio": false
    },
@@ -102,7 +102,7 @@ const EQUIPOS = [
     "e": 5,
     "p": 2,
     "gf": 16,
-    "gc": 14,
+    "gc": 17,
     "propio": false
    },
    {
@@ -115,17 +115,6 @@ const EQUIPOS = [
     "gf": 24,
     "gc": 18,
     "propio": true
-   },
-   {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 13,
-    "pj": 10,
-    "g": 3,
-    "e": 4,
-    "p": 3,
-    "gf": 16,
-    "gc": 15,
-    "propio": false
    },
    {
     "equipo": "OLIMPICO C.F. \"B\"",
@@ -172,6 +161,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 12,
+    "pj": 10,
+    "g": 3,
+    "e": 3,
+    "p": 4,
+    "gf": 16,
+    "gc": 17,
+    "propio": false
+   },
+   {
     "equipo": "ONCE CABALLEROS C.F.",
     "pts": 11,
     "pj": 9,
@@ -205,6 +205,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "C.F. OZACESURAS",
+    "pts": 8,
+    "pj": 10,
+    "g": 2,
+    "e": 2,
+    "p": 6,
+    "gf": 12,
+    "gc": 18,
+    "propio": false
+   },
+   {
     "equipo": "OZA JUVENIL S.D.",
     "pts": 7,
     "pj": 9,
@@ -224,17 +235,6 @@ const EQUIPOS = [
     "p": 6,
     "gf": 11,
     "gc": 26,
-    "propio": false
-   },
-   {
-    "equipo": "C.F. OZACESURAS",
-    "pts": 6,
-    "pj": 10,
-    "g": 1,
-    "e": 3,
-    "p": 6,
-    "gf": 10,
-    "gc": 18,
     "propio": false
    }
   ],
@@ -1279,7 +1279,7 @@ const EQUIPOS = [
    "Pablo Veira Canzobre": 20,
    "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-08T12:41"
+  "descargado": "2026-11-08T13:35"
  },
  {
   "id": "senior-b",
@@ -2421,7 +2421,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-08T12:42"
+  "descargado": "2026-11-08T13:36"
  },
  {
   "id": "senior-a-fem",
@@ -2458,13 +2458,13 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "CLUB DEPORTIVO NARON",
-    "pts": 19,
-    "pj": 7,
-    "g": 6,
+    "pts": 22,
+    "pj": 8,
+    "g": 7,
     "e": 1,
     "p": 0,
-    "gf": 28,
-    "gc": 6,
+    "gf": 33,
+    "gc": 7,
     "propio": false
    },
    {
@@ -2523,36 +2523,36 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "UNION CAMPESTRE",
+    "pts": 8,
+    "pj": 8,
+    "g": 2,
+    "e": 2,
+    "p": 4,
+    "gf": 21,
+    "gc": 18,
+    "propio": false
+   },
+   {
     "equipo": "ORILLAMAR S.D.",
     "pts": 7,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 1,
-    "p": 4,
-    "gf": 5,
-    "gc": 10,
+    "p": 5,
+    "gf": 6,
+    "gc": 12,
     "propio": false
    },
    {
     "equipo": "EIRÍS S.D.",
     "pts": 6,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 0,
-    "p": 5,
-    "gf": 8,
-    "gc": 22,
-    "propio": false
-   },
-   {
-    "equipo": "UNION CAMPESTRE",
-    "pts": 5,
-    "pj": 7,
-    "g": 1,
-    "e": 2,
-    "p": 4,
-    "gf": 19,
-    "gc": 17,
+    "p": 6,
+    "gf": 9,
+    "gc": 27,
     "propio": false
    },
    {
@@ -3176,7 +3176,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 28,
    "Yeireny Camila Santana Asencio": 29
   },
-  "descargado": "2026-11-08T08:59"
+  "descargado": "2026-11-08T13:35"
  },
  {
   "id": "juvenil-a",
@@ -4283,7 +4283,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-08T08:59"
+  "descargado": "2026-11-08T13:35"
  },
  {
   "id": "juvenil-b",
@@ -10478,6 +10478,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "CEDEIRA S.D.",
+    "pts": 16,
+    "pj": 8,
+    "g": 5,
+    "e": 1,
+    "p": 2,
+    "gf": 20,
+    "gc": 17,
+    "propio": false
+   },
+   {
     "equipo": "U.D. PAIOSACO H.AÑON",
     "pts": 15,
     "pj": 8,
@@ -10502,12 +10513,12 @@ const EQUIPOS = [
    {
     "equipo": "CLUB DEPORTIVO NARON SILVER CATERING",
     "pts": 14,
-    "pj": 7,
+    "pj": 8,
     "g": 4,
     "e": 2,
-    "p": 1,
-    "gf": 26,
-    "gc": 12,
+    "p": 2,
+    "gf": 27,
+    "gc": 14,
     "propio": false
    },
    {
@@ -10519,17 +10530,6 @@ const EQUIPOS = [
     "p": 2,
     "gf": 18,
     "gc": 10,
-    "propio": false
-   },
-   {
-    "equipo": "CEDEIRA S.D.",
-    "pts": 13,
-    "pj": 7,
-    "g": 4,
-    "e": 1,
-    "p": 2,
-    "gf": 18,
-    "gc": 16,
     "propio": false
    },
    {
@@ -10588,14 +10588,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "OZA DE LOS RÍOS",
+    "pts": 9,
+    "pj": 8,
+    "g": 3,
+    "e": 0,
+    "p": 5,
+    "gf": 13,
+    "gc": 20,
+    "propio": false
+   },
+   {
     "equipo": "CAMPANAL DE LOUREDA F. C.",
     "pts": 8,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 2,
-    "p": 3,
-    "gf": 18,
-    "gc": 17,
+    "p": 4,
+    "gf": 19,
+    "gc": 21,
     "propio": false
    },
    {
@@ -10607,17 +10618,6 @@ const EQUIPOS = [
     "p": 5,
     "gf": 13,
     "gc": 20,
-    "propio": false
-   },
-   {
-    "equipo": "OZA DE LOS RÍOS",
-    "pts": 6,
-    "pj": 7,
-    "g": 2,
-    "e": 0,
-    "p": 5,
-    "gf": 9,
-    "gc": 19,
     "propio": false
    },
    {
@@ -11194,32 +11194,182 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1478264"
+   },
+   "1": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Sergio Barbeito Rodríguez",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Marcos Barral Taboas",
+     "Rubén Sabio Sánchez",
+     "Carlos E Liñares Gestal",
+     "Óscar García Torreiro",
+     "Miguel Magan Labora"
+    ],
+    "s": [
+     "Diego Pita Patiño",
+     "Carlos Fariña Canito",
+     "Pablo González Baña",
+     "Bruno López Sanda",
+     "German Abuin Rodríguez",
+     "Juan M Uzal Golpe"
+    ],
+    "e": [],
+    "g": {
+     "Miguel Magan Labora": 1,
+     "Senar A Fernández García": 3
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Sergio Barbeito Rodríguez": 5,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Marcos Barral Taboas": 9,
+     "Rubén Sabio Sánchez": 10,
+     "Carlos E Liñares Gestal": 11,
+     "Óscar García Torreiro": 13,
+     "Miguel Magan Labora": 18,
+     "Diego Pita Patiño": 19,
+     "Carlos Fariña Canito": 21,
+     "Pablo González Baña": 22,
+     "Bruno López Sanda": 23,
+     "German Abuin Rodríguez": 24,
+     "Juan M Uzal Golpe": 26
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478211"
+   },
+   "2": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "David Nuñez Prieto",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Marcos Barral Taboas",
+     "Carlos E Liñares Gestal",
+     "José L García Méndez",
+     "Miguel José Veas Pérez De Tudela Rodríguez",
+     "Ramiro García Ramos",
+     "Pablo González Baña",
+     "Juan M Uzal Golpe"
+    ],
+    "s": [
+     "Sergio Barbeito Rodríguez",
+     "Miguel Magan Labora",
+     "Carlos Fariña Canito",
+     "Bruno López Sanda"
+    ],
+    "e": [],
+    "g": {
+     "Senar A Fernández García": 1,
+     "Carlos Fariña Canito": 1,
+     "Bruno López Sanda": 1
+    },
+    "a": [],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "David Nuñez Prieto": 4,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Marcos Barral Taboas": 9,
+     "Carlos E Liñares Gestal": 11,
+     "José L García Méndez": 12,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "Ramiro García Ramos": 17,
+     "Pablo González Baña": 22,
+     "Juan M Uzal Golpe": 26,
+     "Sergio Barbeito Rodríguez": 5,
+     "Miguel Magan Labora": 18,
+     "Carlos Fariña Canito": 21,
+     "Bruno López Sanda": 23
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478219"
+   },
+   "3": {
+    "t": [
+     "Alejandro Rodríguez Parada",
+     "Fernando Montans Fresco",
+     "David Nuñez Prieto",
+     "Senar A Fernández García",
+     "Javier Rodríguez Giao",
+     "Carlos E Liñares Gestal",
+     "José L García Méndez",
+     "Óscar García Torreiro",
+     "Miguel José Veas Pérez De Tudela Rodríguez",
+     "Ramiro García Ramos",
+     "Pablo González Baña"
+    ],
+    "s": [
+     "Diego Pita Patiño",
+     "Carlos Martínez Simo",
+     "Juan M Uzal Golpe"
+    ],
+    "e": [],
+    "g": {
+     "Senar A Fernández García": 1
+    },
+    "a": [
+     "David Nuñez Prieto",
+     "Juan M Uzal Golpe"
+    ],
+    "r": [],
+    "d": {
+     "Alejandro Rodríguez Parada": 1,
+     "Fernando Montans Fresco": 3,
+     "David Nuñez Prieto": 4,
+     "Senar A Fernández García": 6,
+     "Javier Rodríguez Giao": 7,
+     "Carlos E Liñares Gestal": 11,
+     "José L García Méndez": 12,
+     "Óscar García Torreiro": 13,
+     "Miguel José Veas Pérez De Tudela Rodríguez": 14,
+     "Ramiro García Ramos": 17,
+     "Pablo González Baña": 22,
+     "Diego Pita Patiño": 19,
+     "Carlos Martínez Simo": 20,
+     "Juan M Uzal Golpe": 26
+    },
+    "c": [],
+    "rm": {},
+    "id": "1478226"
    }
   },
   "dorsales": {
    "Alejandro Rodríguez Parada": 1,
    "Senar A Fernández García": 6,
    "Javier Rodríguez Giao": 7,
+   "David Nuñez Prieto": 4,
    "Óscar García Torreiro": 13,
    "Ramiro García Ramos": 17,
    "Fernando Montans Fresco": 3,
-   "David Nuñez Prieto": 4,
    "José L García Méndez": 12,
    "Miguel José Veas Pérez De Tudela Rodríguez": 14,
-   "José Antonio Louro Gómez": 15,
+   "Pablo González Baña": 22,
+   "Carlos E Liñares Gestal": 11,
    "Miguel Magan Labora": 18,
    "Carlos Fariña Canito": 21,
    "Bruno López Sanda": 23,
-   "Rubén Sabio Sánchez": 10,
-   "Pablo González Baña": 22,
-   "Carlos E Liñares Gestal": 11,
    "Juan M Uzal Golpe": 26,
    "Sergio Barbeito Rodríguez": 5,
    "Marcos Barral Taboas": 9,
-   "Diego Pita Patiño": 28,
+   "Rubén Sabio Sánchez": 10,
+   "José Antonio Louro Gómez": 15,
+   "Diego Pita Patiño": 19,
+   "German Abuin Rodríguez": 24,
    "Martín Sánchez López": 16,
-   "German Abuin Rodríguez": 24
+   "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-08T01:28"
+  "descargado": "2026-11-08T13:34"
  }
 ];
