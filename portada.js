@@ -37,6 +37,11 @@ function alArrancar() {
   cabeceraComun();
   window.GlassSurface?.(document.querySelector(".menu"), { borderRadius: 38, distortionScale: -180, displace: 0.5, backgroundOpacity: 0,
     borderWidth: 0.07, brightness: 50, opacity: 0.93, blur: 11, saturation: 1, redOffset: 0, greenOffset: 10, blueOffset: 20 });
+  // En cuanto hay contenido por detrás, fondo blanco sólido: nada se transparenta ni se deforma bajo los enlaces
+  const menu = document.querySelector(".menu"), fondo = () => menu.classList.toggle("menu--fondo", scrollY > 4);
+  addEventListener("scroll", fondo, { passive: true });
+  addEventListener("hashchange", () => requestAnimationFrame(fondo));
+  fondo();
 }
 function inicio() {
   const d = datosPortada(), j = d.principal, top = goleadoresClub(3);
