@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T15:59";
+const ACTUALIZADO = "2026-11-08T17:57";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -8172,7 +8172,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-08T13:45"
+  "descargado": "2026-11-08T17:55"
  },
  {
   "id": "benjamin-a",
@@ -8643,7 +8643,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-08T13:46"
+  "descargado": "2026-11-08T17:56"
  },
  {
   "id": "prebenjamin-a",
@@ -9209,7 +9209,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-08T13:47"
+  "descargado": "2026-11-08T17:56"
  },
  {
   "id": "infantil-a-fem",
@@ -9661,7 +9661,7 @@ const EQUIPOS = [
    "Daniela Domínguez Corral": 20,
    "Sara Martins Alves": 21
   },
-  "descargado": "2026-11-08T13:48"
+  "descargado": "2026-11-08T17:56"
  },
  {
   "id": "senior-c-fem",
@@ -9697,6 +9697,17 @@ const EQUIPOS = [
   "delegados": [],
   "clasificacion": [
    {
+    "equipo": "C.D. AS PONTES",
+    "pts": 18,
+    "pj": 6,
+    "g": 6,
+    "e": 0,
+    "p": 0,
+    "gf": 22,
+    "gc": 4,
+    "propio": false
+   },
+   {
     "equipo": "C. D. OBRERO \"B\"",
     "pts": 16,
     "pj": 6,
@@ -9716,17 +9727,6 @@ const EQUIPOS = [
     "p": 0,
     "gf": 26,
     "gc": 3,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. AS PONTES",
-    "pts": 15,
-    "pj": 5,
-    "g": 5,
-    "e": 0,
-    "p": 0,
-    "gf": 19,
-    "gc": 4,
     "propio": false
    },
    {
@@ -9763,17 +9763,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "TRAZO C.F.",
-    "pts": 9,
-    "pj": 5,
-    "g": 3,
-    "e": 0,
-    "p": 2,
-    "gf": 12,
-    "gc": 9,
-    "propio": false
-   },
-   {
     "equipo": "ATLETICO SAN PEDRO \"C\"",
     "pts": 9,
     "pj": 6,
@@ -9782,6 +9771,17 @@ const EQUIPOS = [
     "p": 3,
     "gf": 12,
     "gc": 11,
+    "propio": false
+   },
+   {
+    "equipo": "TRAZO C.F.",
+    "pts": 9,
+    "pj": 6,
+    "g": 3,
+    "e": 0,
+    "p": 3,
+    "gf": 12,
+    "gc": 12,
     "propio": false
    },
    {
@@ -10425,7 +10425,7 @@ const EQUIPOS = [
    "Manuela Blanco Casas": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-08T13:48"
+  "descargado": "2026-11-08T17:57"
  },
  {
   "id": "veteranos-a",
@@ -11370,6 +11370,6 @@ const EQUIPOS = [
    "Martín Sánchez López": 16,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-08T13:48"
+  "descargado": "2026-11-08T17:57"
  }
 ];
