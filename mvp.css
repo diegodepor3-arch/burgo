@@ -203,3 +203,27 @@ html:has(body.es-portada) { background: #fff; }
 
 /* Títulos con brillo (shiny.js): el degradado se recorta al texto y ocupa solo lo que ocupa el texto */
 .shiny-text { width: fit-content; max-width: 100%; color: transparent; -webkit-background-clip: text; background-clip: text; background-repeat: no-repeat; }
+
+/* Tarjetas metálicas del cuerpo técnico (reflective.js) */
+.cartas-metal { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 28px 24px; margin: 8px 0 36px; }
+.reflective-card { --rc-ink: #f4f4f5; --rc-muted: #f4f4f599; --rc-base: #1d1c22; perspective: 900px; opacity: var(--rc-presence, 1); transform: translateY(var(--rc-lift, 0)); }
+.reflective-card__body { position: relative; aspect-ratio: 32 / 50; max-width: 320px; margin: 0 auto; border-radius: var(--rc-radius, 24px); background: var(--rc-base); color: var(--rc-ink);
+  box-shadow: 0 22px 44px -20px #000c, 0 6px 16px -8px #0008; transform: rotateX(var(--rc-rotate-x, 0deg)) rotateY(var(--rc-rotate-y, 0deg)); transform-style: preserve-3d; will-change: transform; }
+.reflective-card--sin-webgl .reflective-card__body { background: linear-gradient(160deg, #3a3a42, #121217); }
+.reflective-card__canvas { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: inherit; }
+.reflective-card__content { position: relative; height: 100%; display: flex; flex-direction: column; gap: 14px; padding: 20px; }
+.reflective-card__header { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.reflective-card__badge { display: inline-flex; align-items: center; gap: 6px; } .reflective-card__badge img { width: 16px; }
+.reflective-card__status { display: inline-flex; align-items: center; gap: 6px; color: var(--rc-muted); }
+.reflective-card__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--celeste); box-shadow: 0 0 8px var(--celeste); }
+.reflective-card__foto { flex: 1; min-height: 0; display: grid; place-items: center; overflow: hidden; border-radius: 14px; background: #ffffff10; box-shadow: inset 0 0 0 1px #ffffff1f; }
+.reflective-card__foto img { width: 100%; height: 100%; object-fit: cover; }
+.reflective-card__foto span { font: 850 4rem/1 var(--titulo); font-stretch: 112%; color: #ffffffd9; }
+.reflective-card__name { margin: 0; font: 850 1.375rem/1.1 var(--titulo); font-stretch: 112%; }
+.reflective-card__role { margin-top: 4px; color: var(--celeste); font-weight: 700; }
+.reflective-card__footer { display: flex; justify-content: space-between; align-items: end; gap: 12px; }
+.reflective-card__label { display: block; font-size: 0.6875rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--rc-muted); }
+.reflective-card__value { font-size: 0.875rem; font-weight: 600; }
+.reflective-card__tile { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(180deg, #3a3644, #27242f); box-shadow: inset 0 0 0 1px #ffffff12, 0 4px 10px -4px #000b; }
+.reflective-card__tile img { width: 26px; }
+.reflective-card__rim { position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px #ffffff12, inset 0 1px 0 #ffffff1a; pointer-events: none; }

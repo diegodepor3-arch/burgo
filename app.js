@@ -570,8 +570,17 @@ function plantillaCartas(e) {
         <dl class="cg-cifras">${cifra(est.jugados, "Partidos")}${cifra(est.titular, "Titular")}${cifra(est.goles, "Goles")}${cifra(est.minutos, "Minutos")}${cifra(est.amarillas, "Amarillas")}${cifra(est.rojas, "Rojas")}</dl>
         <a class="boton" href="${rutaFicha(e, n)}">Ver ficha</a></div>`, `${n}${num != null ? `, dorsal ${num}` : ""}. Pulsa para ver sus datos`)}</li>`;
   };
-  const tecnico = (n, rol) => `<li>${cartaGiro(cara(n, `<span class="cg-iniciales">${esc(iniciales(n))}</span><img src="img/escudo.png" alt="" class="cg-marca">`, rol),
-    `<div class="cg-dorso"><img src="img/escudo.png" alt="" class="cg-escudo"><b>${esc(n)}</b><small>${esc(rol)} · ${esc(nombreEquipo(e))}</small><small>Temporada 2026-27</small></div>`, `${n}, ${rol}`)}</li>`;
+  // Cuerpo técnico: tarjeta metálica (reflective.js) con la foto dentro
+  const tecnico = (n, rol) => `<li><div class="reflective-card">
+    <div class="reflective-card__body">
+      <div class="reflective-card__content">
+        <div class="reflective-card__header"><span class="reflective-card__badge"><img src="img/escudo.png" alt="">Cuerpo técnico</span><span class="reflective-card__status"><span class="reflective-card__dot"></span>2026-27</span></div>
+        <div class="reflective-card__foto">${fotos[n] ? `<img src="${esc(fotos[n])}" alt="${esc(n)}" loading="lazy" draggable="false">` : `<span>${esc(iniciales(n))}</span>`}</div>
+        <div class="reflective-card__identity"><h4 class="reflective-card__name">${esc(n)}</h4><p class="reflective-card__role">${esc(rol)}</p></div>
+        <div class="reflective-card__footer"><div><span class="reflective-card__label">Equipo</span><span class="reflective-card__value">${esc(nombreEquipo(e))} · ${esc(e.liga)}</span></div><span class="reflective-card__tile"><img src="img/escudo.png" alt=""></span></div>
+      </div>
+      <span class="reflective-card__rim"></span>
+    </div></div></li>`;
   return `
     <section class="seccion" id="plantilla" aria-labelledby="plantilla-titulo">
       <h2 class="titulo" id="plantilla-titulo">Temporada 2026-27</h2>
@@ -579,7 +588,7 @@ function plantillaCartas(e) {
       ${actasSinGoleadores(e) ? `<p class="aviso">${actasSinGoleadores(e)}</p>` : ""}
       <ul class="cartas-giro">${ordenJugadores(e).map(jugador).join("")}</ul>
       ${e.entrenadores.length || e.delegados.length ? `<h3 class="subtitulo">Cuerpo técnico</h3>
-        <ul class="cartas-giro">${e.entrenadores.map((n) => tecnico(n, "Entrenador")).join("")}${e.delegados.map((n) => tecnico(n, "Delegado")).join("")}</ul>` : ""}
+        <ul class="cartas-metal">${e.entrenadores.map((n) => tecnico(n, "Entrenador")).join("")}${e.delegados.map((n) => tecnico(n, "Delegado")).join("")}</ul>` : ""}
       <a class="enlace" href="${esc(e.urlFederacion)}" target="_blank" rel="noopener">Ficha del equipo en la RFGF ${icono("i-diagonal")}</a>
     </section>`;
 }
@@ -837,6 +846,8 @@ function render() {
   // Títulos de sección con brillo que los cruza (shiny.js): marino con el celeste del escudo
   app.querySelectorAll(".titulo, .cab-titulo, .fija-titulo, .subtitulo").forEach((t) => window.ShinyText?.(t, { color: "#0e2a47", shineColor: "#8fd0ec",
     speed: 2, shineWidth: 40, softness: 0.8, trigger: "loop", delay: 0, angle: 120, bands: 1, direction: "left", easing: "smooth", yoyo: false }));
+  app.querySelectorAll(".reflective-card").forEach((c) => window.ReflectiveCard?.(c, { tint: "#ffffff", metalness: 1, roughness: 0.3, blurStrength: 6,
+    shine: 1, glare: 0.5, grayscale: 1, warp: 0.6, warpScale: 1, bevel: 3, tiltStrength: 12, radius: 24, enableTilt: true, intro: true }));
   app.querySelectorAll(".flip-card").forEach((c) => window.FlipCard?.(c, { tiltMax: 12, glareOpacity: 0.22, hoverScale: 1.03, perspective: 1100, stiffness: 170, damping: 20, shadowOpacity: 0.45 }));
   tic();
   contadores();
