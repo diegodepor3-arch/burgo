@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T01:28";
+const ACTUALIZADO = "2026-11-08T08:59";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2472,35 +2472,171 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1485570"
+   },
+   "1": {
+    "t": [
+     "Lara Rodríguez Santos",
+     "Xeila Santomil Meitin",
+     "Diana Matos Rodríguez",
+     "Tamara Fuentes Rabuñal",
+     "Aldara Sánchez Toba",
+     "Manuelita Olinda Tacure Godos",
+     "Marta Varela Catoira",
+     "Chenoa González Loureiro",
+     "Manuela Blanco Casas",
+     "Mariana Florez Cuero",
+     "Nicole Castelo El Amrani"
+    ],
+    "s": [
+     "Ainhoa Blanco González",
+     "Adriana Castro García",
+     "Nuria Lema Tajes"
+    ],
+    "e": [
+     "Ainhoa Blanco González",
+     "Nuria Lema Tajes",
+     "Adriana Castro García"
+    ],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Lara Rodríguez Santos": 13,
+     "Xeila Santomil Meitin": 2,
+     "Diana Matos Rodríguez": 3,
+     "Tamara Fuentes Rabuñal": 4,
+     "Aldara Sánchez Toba": 5,
+     "Manuelita Olinda Tacure Godos": 6,
+     "Marta Varela Catoira": 7,
+     "Chenoa González Loureiro": 8,
+     "Manuela Blanco Casas": 9,
+     "Mariana Florez Cuero": 10,
+     "Nicole Castelo El Amrani": 11,
+     "Ainhoa Blanco González": 12,
+     "Adriana Castro García": 14,
+     "Nuria Lema Tajes": 15
+    },
+    "c": [
+     [
+      "Ainhoa Blanco González",
+      "Tamara Fuentes Rabuñal",
+      27
+     ],
+     [
+      "Nuria Lema Tajes",
+      "Marta Varela Catoira",
+      40
+     ],
+     [
+      "Adriana Castro García",
+      "Xeila Santomil Meitin",
+      45
+     ]
+    ],
+    "rm": {},
+    "id": "1485537"
+   },
+   "2": {
+    "t": [
+     "Lara Rodríguez Santos",
+     "Xeila Santomil Meitin",
+     "Uxia Bouzada Castiñeira",
+     "Ainhoa Blanco González",
+     "Ainhoa Calvo Tubío",
+     "Bianca Ventureira Loschiavo",
+     "Nicole Castelo El Amrani",
+     "Manuela Blanco Casas",
+     "Mariana Florez Cuero",
+     "Manuelita Olinda Tacure Godos",
+     "Adriana Castro García"
+    ],
+    "s": [
+     "Candela Sinde Vieites",
+     "Nuria Lema Tajes",
+     "Diana Matos Rodríguez"
+    ],
+    "e": [
+     "Candela Sinde Vieites",
+     "Nuria Lema Tajes",
+     "Diana Matos Rodríguez"
+    ],
+    "g": {
+     "Nicole Castelo El Amrani": 1,
+     "Adriana Castro García": 1
+    },
+    "a": [
+     "Ainhoa Calvo Tubío"
+    ],
+    "r": [],
+    "d": {
+     "Lara Rodríguez Santos": 1,
+     "Xeila Santomil Meitin": 2,
+     "Uxia Bouzada Castiñeira": 3,
+     "Ainhoa Blanco González": 4,
+     "Ainhoa Calvo Tubío": 6,
+     "Bianca Ventureira Loschiavo": 7,
+     "Nicole Castelo El Amrani": 8,
+     "Manuela Blanco Casas": 9,
+     "Mariana Florez Cuero": 10,
+     "Manuelita Olinda Tacure Godos": 11,
+     "Adriana Castro García": 12,
+     "Candela Sinde Vieites": 5,
+     "Nuria Lema Tajes": 14,
+     "Diana Matos Rodríguez": 15
+    },
+    "c": [
+     [
+      "Candela Sinde Vieites",
+      "Bianca Ventureira Loschiavo",
+      45
+     ],
+     [
+      "Nuria Lema Tajes",
+      "Ainhoa Blanco González",
+      65
+     ],
+     [
+      "Diana Matos Rodríguez",
+      "Manuelita Olinda Tacure Godos",
+      65
+     ]
+    ],
+    "rm": {},
+    "id": "1485543"
    }
   },
   "dorsales": {
    "Ainhoa Calvo Tubío": 6,
-   "Laura Boedo Lago": 10,
    "Aldara Sánchez Toba": 5,
    "Manuelita Olinda Tacure Godos": 11,
    "Lara Rodríguez Santos": 1,
+   "Manuela Blanco Casas": 9,
+   "Laura Boedo Lago": 10,
+   "Diana Matos Rodríguez": 3,
    "Chenoa González Loureiro": 4,
    "Alejandra Paz Sánchez": 7,
    "Celia García Boquete": 2,
-   "Diana Matos Rodríguez": 3,
-   "Manuela Blanco Casas": 9,
-   "Adriana Castro García": 8,
+   "Nicole Castelo El Amrani": 8,
+   "Adriana Castro García": 14,
    "Noa Vieites Cancelo": 12,
-   "Yeireny Camila Santana Asencio": 14,
    "Uxia Veiga Brandariz": 15,
-   "Nicole Castelo El Amrani": 13,
-   "Sheila Del Carmen Romero Gutiérrez": 16,
+   "Sheila Del Carmen Romero Gutiérrez": 13,
+   "Mariana Florez Cuero": 16,
    "Uxia Bouzada Castiñeira": 17,
-   "Candela Sinde Vieites": 18,
-   "Hadriana Rojo Tedin": 19,
-   "Ines Riveiro Mariño": 20,
-   "Lucero Aymar De Las Mercedes Martínez Puyen": 21,
-   "Maite Santiago Cendal": 22,
-   "Mariana Florez Cuero": 23,
-   "Xeila Santomil Meitin": 24
+   "Xeila Santomil Meitin": 18,
+   "Ainhoa Blanco González": 19,
+   "Candela Sinde Vieites": 20,
+   "Nuria Lema Tajes": 21,
+   "Bianca Ventureira Loschiavo": 22,
+   "Hadriana Rojo Tedin": 23,
+   "Ines Riveiro Mariño": 24,
+   "Lucero Aymar De Las Mercedes Martínez Puyen": 25,
+   "Maite Santiago Cendal": 26,
+   "Marta Varela Catoira": 27,
+   "Tamara Fuentes Rabuñal": 28,
+   "Yeireny Camila Santana Asencio": 29
   },
-  "descargado": "2026-11-06T23:42"
+  "descargado": "2026-11-08T08:59"
  },
  {
   "id": "juvenil-a",
@@ -2538,178 +2674,178 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "SADA C.F.",
-    "pts": 21,
-    "pj": 7,
-    "g": 7,
+    "pts": 24,
+    "pj": 8,
+    "g": 8,
     "e": 0,
     "p": 0,
-    "gf": 36,
-    "gc": 3,
+    "gf": 41,
+    "gc": 5,
     "propio": false
    },
    {
     "equipo": "SPORTING CAMBRE",
-    "pts": 16,
-    "pj": 7,
-    "g": 5,
+    "pts": 19,
+    "pj": 8,
+    "g": 6,
     "e": 1,
     "p": 1,
-    "gf": 28,
-    "gc": 5,
+    "gf": 34,
+    "gc": 7,
     "propio": false
    },
    {
     "equipo": "IMPERATOR O.A.R.",
     "pts": 16,
-    "pj": 7,
+    "pj": 8,
     "g": 5,
     "e": 1,
-    "p": 1,
-    "gf": 21,
-    "gc": 14,
+    "p": 2,
+    "gf": 23,
+    "gc": 20,
     "propio": false
    },
    {
     "equipo": "BETANZOS C.F.",
-    "pts": 14,
-    "pj": 7,
+    "pts": 15,
+    "pj": 8,
     "g": 4,
-    "e": 2,
+    "e": 3,
     "p": 1,
-    "gf": 24,
-    "gc": 10,
+    "gf": 28,
+    "gc": 14,
     "propio": false
    },
    {
     "equipo": "OLIMPICO C.F.",
-    "pts": 13,
-    "pj": 7,
+    "pts": 14,
+    "pj": 8,
     "g": 4,
-    "e": 1,
+    "e": 2,
     "p": 2,
-    "gf": 17,
-    "gc": 9,
+    "gf": 20,
+    "gc": 12,
     "propio": false
    },
    {
     "equipo": "SANTA CRUZ C.F.",
-    "pts": 13,
-    "pj": 7,
+    "pts": 14,
+    "pj": 8,
     "g": 4,
-    "e": 1,
+    "e": 2,
     "p": 2,
-    "gf": 19,
-    "gc": 13,
+    "gf": 23,
+    "gc": 17,
     "propio": false
    },
    {
     "equipo": "U.D. CARRAL",
-    "pts": 10,
-    "pj": 7,
-    "g": 3,
+    "pts": 13,
+    "pj": 8,
+    "g": 4,
     "e": 1,
     "p": 3,
-    "gf": 17,
+    "gf": 22,
+    "gc": 17,
+    "propio": false
+   },
+   {
+    "equipo": "ONCE CABALLEROS C.F.",
+    "pts": 13,
+    "pj": 8,
+    "g": 4,
+    "e": 1,
+    "p": 3,
+    "gf": 14,
+    "gc": 13,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. CALASANZ \"B\"",
+    "pts": 12,
+    "pj": 8,
+    "g": 4,
+    "e": 0,
+    "p": 4,
+    "gf": 18,
     "gc": 14,
     "propio": false
    },
    {
     "equipo": "U.D. PAIOSACO- H. AÑON",
-    "pts": 10,
-    "pj": 7,
+    "pts": 11,
+    "pj": 8,
     "g": 3,
-    "e": 1,
+    "e": 2,
     "p": 3,
-    "gf": 11,
-    "gc": 11,
-    "propio": false
-   },
-   {
-    "equipo": "ONCE CABALLEROS C.F.",
-    "pts": 10,
-    "pj": 7,
-    "g": 3,
-    "e": 1,
-    "p": 3,
-    "gf": 9,
-    "gc": 12,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CALASANZ \"B\"",
-    "pts": 9,
-    "pj": 7,
-    "g": 3,
-    "e": 0,
-    "p": 4,
-    "gf": 13,
-    "gc": 13,
+    "gf": 14,
+    "gc": 14,
     "propio": false
    },
    {
     "equipo": "A.D. CULLEREDO",
     "pts": 9,
-    "pj": 7,
+    "pj": 8,
     "g": 3,
     "e": 0,
-    "p": 4,
-    "gf": 17,
-    "gc": 25,
+    "p": 5,
+    "gf": 19,
+    "gc": 30,
     "propio": false
    },
    {
     "equipo": "ATLETICO ARTEIXO \"B\"",
     "pts": 8,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 2,
-    "p": 3,
+    "p": 4,
     "gf": 10,
-    "gc": 15,
+    "gc": 18,
     "propio": false
    },
    {
     "equipo": "SDC ORDENES",
     "pts": 6,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 0,
-    "p": 5,
-    "gf": 5,
-    "gc": 23,
+    "p": 6,
+    "gf": 6,
+    "gc": 28,
     "propio": false
    },
    {
     "equipo": "ATLETICO SAN PEDRO",
     "pts": 5,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 2,
-    "p": 4,
-    "gf": 8,
-    "gc": 13,
+    "p": 5,
+    "gf": 11,
+    "gc": 18,
     "propio": false
    },
    {
     "equipo": "SPORTING MEICENDE",
-    "pts": 1,
-    "pj": 7,
-    "g": 0,
+    "pts": 4,
+    "pj": 8,
+    "g": 1,
     "e": 1,
     "p": 6,
-    "gf": 8,
+    "gf": 11,
     "gc": 28,
     "propio": false
    },
    {
     "equipo": "SPORTING BURGO",
     "pts": 0,
-    "pj": 7,
+    "pj": 8,
     "g": 0,
     "e": 0,
-    "p": 7,
-    "gf": 8,
-    "gc": 43,
+    "p": 8,
+    "gf": 9,
+    "gc": 48,
     "propio": true
    }
   ],
@@ -2783,8 +2919,8 @@ const EQUIPOS = [
     "hora": "20:00",
     "local": false,
     "rival": "C.D. CALASANZ \"B\"",
-    "resultado": "",
-    "campo": "Grela 1"
+    "resultado": "5-1",
+    "campo": ""
    },
    {
     "jornada": 9,
@@ -2793,7 +2929,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "SDC ORDENES",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
    },
    {
     "jornada": 10,
@@ -2989,21 +3125,21 @@ const EQUIPOS = [
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26992198&codcompeticion=26992193",
   "escudos": {
    "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
    "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
-   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
-   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
+   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
    "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg"
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg"
   },
   "actas": {
    "3": {
@@ -3366,32 +3502,248 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1457894"
+   },
+   "1": {
+    "t": [
+     "Lucas Ferreira Mougan",
+     "Limamou Laye Var",
+     "Pablo López López",
+     "Carlos García Areosa",
+     "Daniel Cupeiro Sánchez",
+     "Daniel Blanco González",
+     "Fabiano Gerard Urbano Salazar",
+     "Roque Fernández Barreiro",
+     "Alonso Siller Alcivia",
+     "Pablo Bouza Pedre",
+     "Brais Fariña Fernández"
+    ],
+    "s": [
+     "Marcos Sánchez Miguez",
+     "Javier Pena López",
+     "Iker Urresti González",
+     "Hugo Rojo Rial"
+    ],
+    "e": [
+     "Javier Pena López",
+     "Iker Urresti González",
+     "Hugo Rojo Rial"
+    ],
+    "g": {},
+    "a": [
+     "Daniel Cupeiro Sánchez",
+     "Javier Pena López"
+    ],
+    "r": [],
+    "d": {
+     "Lucas Ferreira Mougan": 1,
+     "Limamou Laye Var": 2,
+     "Pablo López López": 3,
+     "Carlos García Areosa": 4,
+     "Daniel Cupeiro Sánchez": 5,
+     "Daniel Blanco González": 6,
+     "Fabiano Gerard Urbano Salazar": 7,
+     "Roque Fernández Barreiro": 8,
+     "Alonso Siller Alcivia": 9,
+     "Pablo Bouza Pedre": 10,
+     "Brais Fariña Fernández": 11,
+     "Marcos Sánchez Miguez": 13,
+     "Javier Pena López": 12,
+     "Iker Urresti González": 14,
+     "Hugo Rojo Rial": 15
+    },
+    "c": [
+     [
+      "Javier Pena López",
+      "Daniel Cupeiro Sánchez",
+      45
+     ],
+     [
+      "Iker Urresti González",
+      "Daniel Blanco González",
+      61
+     ],
+     [
+      "Hugo Rojo Rial",
+      "Alonso Siller Alcivia",
+      61
+     ]
+    ],
+    "rm": {},
+    "id": "1457843"
+   },
+   "2": {
+    "t": [
+     "Lucas Ferreira Mougan",
+     "Limamou Laye Var",
+     "Pablo López López",
+     "Carlos García Areosa",
+     "Javier Pena López",
+     "Jaime Ramos Rojo",
+     "Iker Hernández Matos",
+     "Roque Fernández Barreiro",
+     "Adrián Ovejero Fernández",
+     "Pablo Bouza Pedre",
+     "Mateo Canedo Paz"
+    ],
+    "s": [
+     "Daniel Cupeiro Sánchez",
+     "Fabiano Gerard Urbano Salazar",
+     "Alejandro Barbosa Rodrigues",
+     "Iker Urresti González",
+     "Alonso Siller Alcivia"
+    ],
+    "e": [
+     "Alonso Siller Alcivia",
+     "Daniel Cupeiro Sánchez",
+     "Alejandro Barbosa Rodrigues",
+     "Iker Urresti González"
+    ],
+    "g": {
+     "Pablo Bouza Pedre": 1
+    },
+    "a": [
+     "Limamou Laye Var",
+     "Javier Pena López",
+     "Iker Urresti González"
+    ],
+    "r": [],
+    "d": {
+     "Lucas Ferreira Mougan": 1,
+     "Limamou Laye Var": 2,
+     "Pablo López López": 3,
+     "Carlos García Areosa": 4,
+     "Javier Pena López": 5,
+     "Jaime Ramos Rojo": 6,
+     "Iker Hernández Matos": 7,
+     "Roque Fernández Barreiro": 8,
+     "Adrián Ovejero Fernández": 9,
+     "Pablo Bouza Pedre": 10,
+     "Mateo Canedo Paz": 11,
+     "Daniel Cupeiro Sánchez": 12,
+     "Fabiano Gerard Urbano Salazar": 14,
+     "Alejandro Barbosa Rodrigues": 15,
+     "Iker Urresti González": 16,
+     "Alonso Siller Alcivia": 17
+    },
+    "c": [
+     [
+      "Alonso Siller Alcivia",
+      "Adrián Ovejero Fernández",
+      46
+     ],
+     [
+      "Daniel Cupeiro Sánchez",
+      "Javier Pena López",
+      53
+     ],
+     [
+      "Alejandro Barbosa Rodrigues",
+      "Mateo Canedo Paz",
+      62
+     ],
+     [
+      "Iker Urresti González",
+      "Iker Hernández Matos",
+      75
+     ]
+    ],
+    "rm": {},
+    "id": "1457852"
+   },
+   "8": {
+    "t": [
+     "Marcos Sánchez Miguez",
+     "Limamou Laye Var",
+     "Javier Pena López",
+     "Carlos García Areosa",
+     "Pablo López López",
+     "Adrián Ovejero Fernández",
+     "Roque Fernández Barreiro",
+     "Alonso Siller Alcivia",
+     "Jaime Ramos Rojo",
+     "Pablo Bouza Pedre",
+     "Youssouf Khalil Boutaba"
+    ],
+    "s": [
+     "Lucas Ferreira Mougan",
+     "Daniel Blanco González",
+     "Iker Urresti González",
+     "Iker Hernández Matos"
+    ],
+    "e": [
+     "Iker Hernández Matos",
+     "Iker Urresti González"
+    ],
+    "g": {
+     "Pablo Bouza Pedre": 1
+    },
+    "a": [
+     "Iker Hernández Matos",
+     "Javier Pena López",
+     "Jaime Ramos Rojo",
+     "Alonso Siller Alcivia"
+    ],
+    "r": [],
+    "d": {
+     "Marcos Sánchez Miguez": 1,
+     "Limamou Laye Var": 2,
+     "Javier Pena López": 4,
+     "Carlos García Areosa": 5,
+     "Pablo López López": 6,
+     "Adrián Ovejero Fernández": 7,
+     "Roque Fernández Barreiro": 8,
+     "Alonso Siller Alcivia": 9,
+     "Jaime Ramos Rojo": 10,
+     "Pablo Bouza Pedre": 11,
+     "Youssouf Khalil Boutaba": 15,
+     "Lucas Ferreira Mougan": 13,
+     "Daniel Blanco González": 3,
+     "Iker Urresti González": 12,
+     "Iker Hernández Matos": 14
+    },
+    "c": [
+     [
+      "Iker Hernández Matos",
+      "Carlos García Areosa",
+      46
+     ],
+     [
+      "Iker Urresti González",
+      "Youssouf Khalil Boutaba",
+      65
+     ]
+    ],
+    "rm": {},
+    "id": "1457903"
    }
   },
   "dorsales": {
+   "Roque Fernández Barreiro": 8,
    "Pablo López López": 3,
    "Jaime Ramos Rojo": 6,
-   "Roque Fernández Barreiro": 8,
-   "Javier Pena López": 2,
    "Pablo Bouza Pedre": 10,
    "Marcos Sánchez Miguez": 1,
    "Alonso Siller Alcivia": 9,
-   "Fabiano Gerard Urbano Salazar": 15,
    "Carlos García Areosa": 4,
+   "Limamou Laye Var": 2,
    "Iker Hernández Matos": 7,
    "Iker Urresti González": 14,
-   "Limamou Laye Var": 5,
-   "Hugo Rojo Rial": 11,
+   "Fabiano Gerard Urbano Salazar": 15,
    "Lucas Ferreira Mougan": 13,
-   "Pablo Casais Domínguez": 12,
+   "Hugo Rojo Rial": 11,
+   "Daniel Blanco González": 5,
+   "Javier Pena López": 12,
    "Adrián Ovejero Fernández": 16,
-   "Daniel Blanco González": 17,
-   "Daniel Cupeiro Sánchez": 18,
+   "Daniel Cupeiro Sánchez": 17,
+   "Mateo Canedo Paz": 18,
    "Adrián Varela Herranz": 19,
-   "David Ferreiro Pérez": 20,
-   "Mateo Canedo Paz": 21
+   "Alejandro Barbosa Rodrigues": 20,
+   "Brais Fariña Fernández": 21,
+   "David Ferreiro Pérez": 22,
+   "Pablo Casais Domínguez": 23,
+   "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-06T23:43"
+  "descargado": "2026-11-08T08:59"
  },
  {
   "id": "juvenil-b",
