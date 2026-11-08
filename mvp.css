@@ -162,3 +162,4 @@ body.es-portada { background: #fff; }
 .menu-enlaces a:not(.menu-socio), .menu-buscar { color: var(--azul-escudo); }
 .menu-enlaces a:not(.menu-socio):hover, .menu-enlaces a[aria-current]:not(.menu-socio) { background: #1090b01f; color: var(--azul-escudo); }
 .menu-enlaces .menu-socio { background: var(--azul-escudo); color: #fff; }
+html:has(body.es-portada) { background: #fff; }

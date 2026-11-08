@@ -995,7 +995,6 @@ document.getElementById("pie-contacto").innerHTML = [CLUB.direccion && ` ${esc(C
   CLUB.email && ` <a href="mailto:${esc(CLUB.email)}">${esc(CLUB.email)}</a>`].filter(Boolean).join("");
 if (CLUB.x) document.getElementById("pie-x").href = CLUB.x; else document.getElementById("pie-x").remove();
 document.getElementById("pie-fed").href = CLUB.federacion;
-document.getElementById("franja-fed").href = CLUB.federacion;
 document.getElementById("pie-fuente").textContent =
   `Partidos, plantillas y clasificaciones: Real Federación Galega de Fútbol (futgal.es)${typeof ACTUALIZADO === "string" && ACTUALIZADO ? `, actualizado ${new Date(ACTUALIZADO).toLocaleString("es-ES", { dateStyle: "medium", timeStyle: "short" })}` : ""}.`;
 

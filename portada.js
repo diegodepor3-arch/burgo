@@ -22,10 +22,8 @@ function alPintarPortada() {
     color: "#4fb0e0", material: "balloon", inflate: 1, stiffness: 0.5, wobble: 0.6, shadow: 0.5, theme: "light" });
   document.querySelector(".burgo")?.classList.toggle("con-malla", !!malla);
 }
-// Cabecera: la franja anuncia el próximo partido y Equipos despliega todos los equipos
+// Cabecera: Equipos despliega todos los equipos
 function cabeceraComun() {
-  const j = equipo(PRINCIPAL), p = j && proximo(j);
-  if (p) document.querySelector(".franja span").innerHTML = `<a href="${rutaEquipo(j)}">Próximo · ${esc(nombreEquipo(j))}: ${esc(cruce(p))} · ${esc(mayus(fechaCorta(p.fecha)))}${p.hora ? `, ${esc(p.hora)}` : ""}</a>`;
   const menu = document.querySelector(".menu"), equipos = menu.querySelector('[data-seccion="cantera"]');
   menu.insertAdjacentHTML("beforeend", `<div class="mega" hidden>${CATEGORIAS.filter((c) => EQUIPOS.some((e) => e.categoria === c.id)).map((c) => `<div><h3><a href="#/cantera/${c.id}">${esc(c.nombre)}</a></h3><ul>${EQUIPOS.filter((e) => e.categoria === c.id).map((e) => `<li><a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a></li>`).join("")}</ul></div>`).join("")}</div>`);
   const mega = menu.querySelector(".mega"), ver = (si) => { mega.hidden = !si; };
