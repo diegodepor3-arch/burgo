@@ -35,8 +35,12 @@ function cabeceraComun() {
 // Bajo el paraguas: la ría de fondo, la franja gallega cruzando y el puente cerrando la portada.
 function alArrancar() {
   cabeceraComun();
-  window.GlassSurface?.(document.querySelector(".menu"), { borderRadius: 38, distortionScale: -180, displace: 0.5, backgroundOpacity: 0,
-    borderWidth: 0.07, brightness: 50, opacity: 0.93, blur: 11, saturation: 1, redOffset: 0, greenOffset: 10, blueOffset: 20 });
+  // Docks: arriba en escritorio (crece hacia abajo), abajo en el móvil. El globo de Partidos: los que faltan esta semana.
+  const quedan = semanas().esta.filter((p) => !p.resultado).length;
+  document.querySelectorAll('[data-icono="i-cal"]').forEach((a) => { if (quedan) a.dataset.badge = quedan; });
+  const DOCK = { baseItemSize: 50, magnification: 70, distance: 200, gap: 10, roundness: 0.5, bounce: true };
+  window.Dock?.(document.querySelector(".menu-enlaces"), { ...DOCK, position: "top", baseItemSize: 46, magnification: 66 });
+  window.Dock?.(document.querySelector(".barra-movil"), { ...DOCK, position: "bottom", baseItemSize: 46, magnification: 62, distance: 120, gap: 8 });
   // En cuanto hay contenido por detrás, fondo blanco sólido: nada se transparenta ni se deforma bajo los enlaces
   const menu = document.querySelector(".menu"), fondo = () => menu.classList.toggle("menu--fondo", scrollY > 4);
   addEventListener("scroll", fondo, { passive: true });

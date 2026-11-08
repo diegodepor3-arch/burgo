@@ -23,6 +23,9 @@
     <symbol id="i-inicio" viewBox="0 0 24 24"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-estrella" viewBox="0 0 24 24"><path d="m12 3 2.7 5.9 6.3.7-4.7 4.3 1.3 6.3L12 17.1l-5.6 3.1 1.3-6.3L3 9.6l6.3-.7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-equipos" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.500-1 8-4 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-camiseta" viewBox="0 0 24 24"><path d="M8 3 3 6l2 4 2-1v12h10V9l2 1 2-4-5-3c-.5 1.5-2 2.5-4 2.5S8.5 4.5 8 3z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/></symbol>
+    <symbol id="i-historia" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-socio" viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 10h18M7 15h4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/></symbol>
     <defs>
       <linearGradient id="tela-jugador" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--cam-a)"/><stop offset="1" style="stop-color:var(--cam-b)"/></linearGradient>
       <linearGradient id="tela-portero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--por-a)"/><stop offset="1" style="stop-color:var(--por-b)"/></linearGradient>
@@ -37,23 +40,25 @@
       <span translate="no">Sporting Burgo</span>
     </a>
     <nav class="menu-enlaces" id="menu-enlaces" aria-label="Principal">
-      <a href="#/partidos" data-seccion="partidos">Partidos</a>
-      <a href="#/cantera" data-seccion="cantera">Equipos</a>
-      <a href="#/equipo/senior-a" data-seccion="equipo/senior-a">Primer equipo</a>
-      <a href="#/historia" data-seccion="historia">Historia</a>
-      <a href="#/socios" data-seccion="socios" class="menu-socio">Hazte socio</a>
+      <a href="#/partidos" data-seccion="partidos" data-icono="i-cal">Partidos</a>
+      <a href="#/cantera" data-seccion="cantera" data-icono="i-equipos">Equipos</a>
+      <a href="#/equipo/senior-a" data-seccion="equipo/senior-a" data-icono="i-camiseta">Primer equipo</a>
+      <a href="#/historia" data-seccion="historia" data-icono="i-historia">Historia</a>
+      <a href="#/socios" data-seccion="socios" data-icono="i-socio">Hazte socio</a>
+      <span class="dock-separator" aria-hidden="true"></span>
+      <button type="button" data-paleta data-icono="i-buscar">Buscar</button>
     </nav>
-    <button class="menu-buscar" type="button" data-paleta aria-label="Buscar jugador o equipo"><svg class="icono" aria-hidden="true"><use href="#i-buscar"/></svg></button>
   </header>
 
   <main id="app" tabindex="-1"></main>
 
   <nav class="barra-movil" aria-label="Accesos rápidos">
-    <a href="#/" data-seccion=""><svg class="icono" aria-hidden="true"><use href="#i-inicio"/></svg>Inicio</a>
-    <a href="#/partidos" data-seccion="partidos"><svg class="icono" aria-hidden="true"><use href="#i-cal"/></svg>Partidos</a>
-    <a href="#/mi-equipo" data-seccion="mi-equipo"><svg class="icono" aria-hidden="true"><use href="#i-estrella"/></svg>Mi equipo</a>
-    <a href="#/cantera" data-seccion="cantera"><svg class="icono" aria-hidden="true"><use href="#i-equipos"/></svg>Equipos</a>
-    <button type="button" data-paleta><svg class="icono" aria-hidden="true"><use href="#i-buscar"/></svg>Buscar</button>
+    <a href="#/" data-seccion="" data-icono="i-inicio">Inicio</a>
+    <a href="#/partidos" data-seccion="partidos" data-icono="i-cal">Partidos</a>
+    <a href="#/mi-equipo" data-seccion="mi-equipo" data-icono="i-estrella">Mi equipo</a>
+    <a href="#/cantera" data-seccion="cantera" data-icono="i-equipos">Equipos</a>
+    <span class="dock-separator" aria-hidden="true"></span>
+    <button type="button" data-paleta data-icono="i-buscar">Buscar</button>
   </nav>
 
   <dialog class="paleta" id="paleta" aria-label="Buscar">
@@ -76,7 +81,7 @@
   <script src="escudos.js"></script>
   <script src="elasticmesh.js"></script>
   <script src="flipcard.js"></script>
-  <script src="glass.js"></script>
+  <script src="dock.js"></script>
   <script src="portada.js"></script>
   <script src="app.js"></script>
 </body>

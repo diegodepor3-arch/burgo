@@ -164,3 +164,36 @@ body.es-portada { background: #fff; }
 .menu-enlaces .menu-socio { background: var(--azul-escudo); color: #fff; }
 html:has(body.es-portada) { background: #fff; }
 .menu.menu--fondo { background: #fff; -webkit-backdrop-filter: none; backdrop-filter: none; box-shadow: 0 0 0 1px #0e2a4714, 0 10px 30px #0e2a471f; transition: background-color 0.2s, box-shadow 0.2s; }
+
+/* Dock (dock.js): menú de arriba en escritorio y barra de abajo en el móvil */
+.dock { --dock-tile: linear-gradient(180deg, #ffffff 0%, #eef6fa 100%); --dock-tile-edge: #0e2a4714; --dock-ink: var(--azul-escudo, #1090b0);
+  --dock-label: var(--marino); --dock-label-ink: #fff; --dock-badge: #e5484d; --dock-accent: var(--azul-escudo, #1090b0);
+  display: flex; gap: var(--dock-gap); }
+.dock--top { align-items: flex-start; }
+.dock--bottom { align-items: flex-end; }
+.dock .dock-item { position: relative; flex: none; width: var(--dock-base); height: var(--dock-base); padding: 0; border: 0; background: none; color: var(--dock-ink); text-decoration: none; cursor: pointer; text-shadow: none; }
+.menu-enlaces.dock .dock-item, .menu-enlaces.dock .dock-item:hover, .menu-enlaces.dock .dock-item[aria-current] { padding: 0; background: none; border-radius: 0; color: var(--dock-ink); text-shadow: none; }
+.dock-tile { position: absolute; left: 0; width: var(--dock-base); height: var(--dock-base); display: grid; place-items: center; border-radius: calc(var(--dock-base) * var(--dock-round) * 0.5);
+  background: var(--dock-tile); box-shadow: inset 0 0 0 1px var(--dock-tile-edge), inset 0 1px 0 #fff, 0 4px 10px -5px #0e2a4740; will-change: transform; }
+.dock--top .dock-tile { top: 0; transform-origin: 50% 0; }
+.dock--bottom .dock-tile { bottom: 0; transform-origin: 50% 100%; }
+.dock-face svg { width: calc(var(--dock-base) * 0.46); height: calc(var(--dock-base) * 0.46); }
+.dock .dock-item:active .dock-tile { filter: brightness(0.92); }
+.dock .dock-item[aria-current] .dock-tile { background: var(--dock-accent); color: #fff; }
+.dock-badge { position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px; background: var(--dock-badge); color: #fff; font: 700 0.6875rem/18px var(--letra); text-align: center; box-shadow: 0 0 0 2px #fff; }
+.dock-dot { position: absolute; left: 50%; width: 5px; height: 5px; margin-left: -2.5px; border-radius: 50%; background: var(--dock-accent); opacity: 0; }
+.dock--top .dock-dot { top: -8px; } .dock--bottom .dock-dot { bottom: -7px; }
+.dock .dock-item[aria-current] .dock-dot { opacity: 1; }
+.dock-label { position: absolute; left: 50%; z-index: 5; padding: 5px 10px; border-radius: 8px; background: var(--dock-label); color: var(--dock-label-ink); font: 600 0.8125rem var(--letra); white-space: nowrap; pointer-events: none; opacity: 0; transform: translate(-50%, 4px); transition: opacity 0.15s, transform 0.15s; }
+.dock--top .dock-label { top: calc(100% + 30px); }
+.dock--bottom .dock-label { bottom: calc(100% + 26px); transform: translate(-50%, -4px); }
+.dock .dock-item:hover .dock-label, .dock .dock-item:focus-visible .dock-label { opacity: 1; transform: translate(-50%, 0); }
+.dock-separator { flex: none; align-self: center; width: 1px; height: calc(var(--dock-base) * 0.6); background: #0e2a4726; }
+.menu-enlaces.dock { align-self: flex-start; margin-top: 15px; }
+@media (max-width: 900px) {
+  .barra-movil.dock { left: 50%; right: auto; bottom: calc(10px + env(safe-area-inset-bottom)); transform: translateX(-50%); display: flex; padding: 8px 12px; border-radius: 22px; background: #ffffffeb; -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: 0 0 0 1px #0e2a4714, 0 14px 30px -10px #0e2a4766; }
+  .barra-movil.dock .dock-item { display: block; min-height: 0; padding: 0; font: inherit; color: var(--dock-ink); }
+  body { padding-bottom: 90px; }
+}
+@media (prefers-reduced-motion: reduce) { .dock-label { transition: none; } }
+.menu { border-radius: 38px; }
