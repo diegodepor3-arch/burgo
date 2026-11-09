@@ -354,3 +354,9 @@ html:has(body.es-portada) { background: #fff; }
 @media (min-width: 1100px) {
   .paneles { grid-template-columns: minmax(0, 1fr) clamp(40px, 9vw, 180px) var(--col) var(--col); }
 }
+/* Sin hueco: la misma separación entre los tres bloques; el calendario ocupa el resto del ancho */
+@media (min-width: 1100px) {
+  .paneles { grid-template-columns: minmax(0, 1fr) var(--col) var(--col); }
+  .paneles > .panel:nth-child(2) { grid-column: 2; }
+  .paneles > .panel:nth-child(3) { grid-column: 3; }
+}
