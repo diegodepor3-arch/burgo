@@ -359,8 +359,9 @@ function calendarioMes(e) {
 }
 
 // Clasificación corta para la portada
-const tablaMini = (e, n = 6) => {
-  const pos = filaPropia(e), desde = Math.max(0, Math.min(pos - Math.floor(n / 2), e.clasificacion.length - n));
+// arriba = true: desde el primero (toda la tabla); si no, una ventana alrededor del club
+const tablaMini = (e, n = 6, arriba = false) => {
+  const pos = filaPropia(e), desde = arriba ? 0 : Math.max(0, Math.min(pos - Math.floor(n / 2), e.clasificacion.length - n));
   return `<ol class="tabla-mini" start="${desde + 1}">${e.clasificacion.slice(desde, desde + n).map((f, i) =>
     `<li${f.propio ? ' class="propio"' : ""}><span>${desde + i + 1}</span>${f.propio ? nuestro : escudoDe(e, f.equipo)}<span>${esc(f.equipo)}</span><small>${f.pj} PJ</small><b>${f.pts}</b></li>`).join("")}</ol>`;
 };
@@ -459,9 +460,9 @@ function vistaEquipo(id, sub = "", jugador = "") {
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/calendario"><h2>Calendario</h2>${icono("i-flecha")}</a>
         <div class="mes-mini">${calendarioMes(e)}</div></section>
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/clasificacion"><h2>Clasificación</h2>${icono("i-flecha")}</a>
-        ${fila ? tablaMini(e, 5) : vacio("Pendiente de la federación.")}</section>
+        ${fila ? tablaMini(e, e.clasificacion.length, true) : vacio("Pendiente de la federación.")}</section>
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/plantilla"><h2>Plantilla</h2>${icono("i-flecha")}</a>
-        ${e.plantilla.length ? `<ul class="panel-lista panel-lista--jugadores">${e.plantilla.slice(0, 4).map((n) => `<li>${dorsal(e, n) != null ? `<span>${dorsal(e, n)}</span>` : ""}<a href="${rutaFicha(e, n)}">${esc(n)}</a></li>`).join("")}</ul><a class="panel-pie" href="${rutaEquipo(e)}/plantilla">Ver ${plural(e.plantilla.length, "jugador", "jugadores")} y cuerpo técnico</a>` : vacio("Pendiente de la federación.")}</section>
+        ${e.plantilla.length ? `<ul class="panel-lista panel-lista--jugadores">${ordenJugadores(e).map((n) => `<li>${dorsal(e, n) != null ? `<span>${dorsal(e, n)}</span>` : ""}<a href="${rutaFicha(e, n)}">${esc(n)}</a></li>`).join("")}</ul><a class="panel-pie" href="${rutaEquipo(e)}/plantilla">Ver ${plural(e.plantilla.length, "jugador", "jugadores")} y cuerpo técnico</a>` : vacio("Pendiente de la federación.")}</section>
     </div>
     ${p ? caraACara(e, p) : ""}
     <section class="seccion dos" aria-label="La temporada">

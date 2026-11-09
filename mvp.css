@@ -278,3 +278,11 @@ html:has(body.es-portada) { background: #fff; }
 .mes-mini .mes .dia .escudo { width: 20px; height: 20px; margin-top: 8px; }
 .mes-mini .mes .dia b { font-size: 0.625rem; line-height: 1; }
 .mes-mini .mes .dia em { display: none; }
+
+/* Paneles del equipo: calendario más ancho a la izquierda; tabla y plantilla completas */
+@media (min-width: 901px) { .paneles { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr) minmax(0, 1fr); align-items: start; } }
+.mes-mini { flex: 1; display: flex; } .mes-mini .mes { flex: 1; }
+.mes-mini .mes .dia { min-height: 52px; }
+.mes-mini .mes .dia .escudo { width: 24px; height: 24px; }
+.mes-mini .mes .dia b { font-size: 0.6875rem; }
+.paneles .tabla-mini li { padding-block: 6px; }
