@@ -263,3 +263,4 @@ html:has(body.es-portada) { background: #fff; }
 @media (max-width: 600px) { .mes .dia em { display: none; } .mes .dia { padding: 4px; } .mes-dias { gap: 4px; } }
 .mes .dia { min-height: clamp(56px, 6.5vw, 84px); }
 .mes-cab h3 { font-size: clamp(1.375rem, 1rem + 1.4vw, 2rem); }
+.reflective-card__foto img[src*="-recorte"] { object-fit: contain; object-position: 50% 100%; padding-top: 10px; }
