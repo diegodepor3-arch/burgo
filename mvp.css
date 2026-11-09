@@ -323,3 +323,13 @@ html:has(body.es-portada) { background: #fff; }
 .paneles .panel .tabla-mini .propio > span:first-child { color: inherit; }
 .paneles .panel .tabla-mini { justify-content: space-evenly; }
 .paneles .panel .tabla-mini li { flex: none; padding: 9px 10px; }
+/* Opción C: el calendario, del mismo tamaño que los otros, pegado al borde izquierdo; Clasificación y Plantilla en su sitio */
+@media (min-width: 1100px) {
+  .paneles { padding-left: var(--m); grid-template-columns: var(--col) minmax(0, 1fr) var(--col) var(--col); column-gap: 16px; }
+  .paneles > .panel:nth-child(2) { grid-column: 3; }
+  .paneles > .panel:nth-child(3) { grid-column: 4; }
+  .paneles > .panel:nth-child(n+4) { grid-column: 1 / -1; }
+  .mes-mini .mes-dias { grid-auto-rows: 42px; }
+  .mes-mini .mes .dia .escudo { width: 20px; height: 20px; }
+  .mes-mini .mes .dia b { font-size: 0.625rem; }
+}
