@@ -359,9 +359,11 @@ function calendarioMes(e) {
 }
 
 // Clasificación corta para la portada
-// arriba = true: desde el primero (toda la tabla); si no, una ventana alrededor del club
+// arriba = true: los n primeros si el club está entre ellos; si no, una ventana que lo incluye
+// (4 por encima y el resto por debajo: 7.º → del 3.º al 8.º). Si no, una ventana centrada en el club.
 const tablaMini = (e, n = 6, arriba = false) => {
-  const pos = filaPropia(e), desde = arriba ? 0 : Math.max(0, Math.min(pos - Math.floor(n / 2), e.clasificacion.length - n));
+  const pos = filaPropia(e), ultimo = Math.max(0, e.clasificacion.length - n);
+  const desde = arriba ? (pos < n ? 0 : Math.min(pos - 4, ultimo)) : Math.max(0, Math.min(pos - Math.floor(n / 2), ultimo));
   return `<ol class="tabla-mini" start="${desde + 1}">${e.clasificacion.slice(desde, desde + n).map((f, i) =>
     `<li${f.propio ? ' class="propio"' : ""}><span>${desde + i + 1}</span>${f.propio ? nuestro : escudoDe(e, f.equipo)}<span>${esc(f.equipo)}</span><small>${f.pj} PJ</small><b>${f.pts}</b></li>`).join("")}</ol>`;
 };

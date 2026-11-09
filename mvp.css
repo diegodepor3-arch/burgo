@@ -295,3 +295,11 @@ html:has(body.es-portada) { background: #fff; }
   .mes-mini .mes .dia .escudo { width: 26px; height: 26px; }
   .paneles .panel-pie { margin-top: auto; }
 }
+
+/* Bloques más cortos: calendario compacto, todos a la misma altura */
+@media (min-width: 901px) {
+  .mes-mini .mes-dias { flex: 0 0 auto; grid-auto-rows: 42px; }
+  .mes-mini .mes .dia { min-height: 0; }
+  .mes-mini .mes .dia .escudo { width: 20px; height: 20px; margin-top: 8px; }
+  .mes-mini .mes .dia b { font-size: 0.625rem; }
+}
