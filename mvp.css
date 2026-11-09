@@ -303,3 +303,23 @@ html:has(body.es-portada) { background: #fff; }
   .mes-mini .mes .dia .escudo { width: 20px; height: 20px; margin-top: 8px; }
   .mes-mini .mes .dia b { font-size: 0.625rem; }
 }
+
+/* El calendario se alarga hacia la izquierda, por el margen de la página; Clasificación y Plantilla no se mueven */
+@media (min-width: 1100px) {
+  .paneles { --col: calc((min(100vw, var(--ancho)) - 2 * var(--m) - 32px) / 3); max-width: none;
+    padding-left: max(16px, calc((100vw - var(--ancho)) / 4));
+    padding-right: max(var(--m), calc((100vw - var(--ancho)) / 2 + var(--m)));
+    grid-template-columns: minmax(0, 1fr) var(--col) var(--col); }
+  .mes-mini .mes-dias { grid-auto-rows: 50px; }
+  .mes-mini .mes .dia .escudo { width: 24px; height: 24px; }
+  .mes-mini .mes .dia b { font-size: 0.75rem; }
+}
+/* Clasificación: las 6 filas reparten la altura del bloque, con PJ y puntos alineados */
+.paneles .panel .tabla-mini { flex: 1; display: flex; flex-direction: column; justify-content: space-between; margin: 0; padding: 8px; }
+.paneles .panel .tabla-mini li { flex: 1; grid-template-columns: 24px 28px minmax(0, 1fr) 46px 34px; padding: 6px 10px; }
+.paneles .panel .tabla-mini small { display: block; text-align: right; font-size: 0.8125rem; }
+.paneles .panel .tabla-mini b { font-size: 1rem; }
+.paneles .panel .tabla-mini li > span:first-child { color: var(--suave); font-weight: 700; text-align: center; }
+.paneles .panel .tabla-mini .propio > span:first-child { color: inherit; }
+.paneles .panel .tabla-mini { justify-content: space-evenly; }
+.paneles .panel .tabla-mini li { flex: none; padding: 9px 10px; }
