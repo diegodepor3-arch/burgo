@@ -38,18 +38,20 @@ const CATEGORIAS = [
 const EXTRA = {
   // Primer equipo: las fotos salen en las cartas de la plantilla (jugadores y cuerpo técnico), con el nombre tal cual lo da la federación.
   // Ejemplo: "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles.jpg"
-  // Carteles de renovación 2026/27 del Instagram del club (@sportingburgocf)
+  // Fotos: recortes sin fondo que pasó el club (-recorte) y, si no hay, el cartel de renovación 2026/27 de @sportingburgocf
   "senior-a": {
     fotos: {
+    "Yago Salvado Pardo": "img/jugadores/yago-salvado-pardo-recorte.webp",
+    "Javier Liñares Rodríguez": "img/jugadores/javier-linares-rodriguez-recorte.webp",
     "Nicolás Anido Castro": "img/jugadores/nicolas-anido-castro.webp",
-    "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles-rodriguez.webp",
-    "Martín López Lodeiro": "img/jugadores/martin-lopez-lodeiro.webp",
-    "Jorge Barreiro Sánchez": "img/jugadores/jorge-barreiro-sanchez.webp",
+    "Marcos Arguelles Rodríguez": "img/jugadores/marcos-arguelles-rodriguez-recorte.webp",
+    "Martín López Lodeiro": "img/jugadores/martin-lopez-lodeiro-recorte.webp",
+    "Jorge Barreiro Sánchez": "img/jugadores/jorge-barreiro-sanchez-recorte.webp",
     "Mario Ríos Carnota": "img/jugadores/mario-rios-carnota.webp",
-    "Pablo Méndez Amor": "img/jugadores/pablo-mendez-amor.webp",
-    "Diego Sánchez Boquete": "img/jugadores/diego-sanchez-boquete.webp",
+    "Pablo Méndez Amor": "img/jugadores/pablo-mendez-amor-recorte.webp",
+    "Diego Sánchez Boquete": "img/jugadores/diego-sanchez-boquete-recorte.webp",
     "Carlos Ferreiro Corujo": "img/jugadores/carlos-ferreiro-corujo.webp",
-    "Hugo Varela Vidal": "img/jugadores/hugo-varela-vidal.webp",
+    "Hugo Varela Vidal": "img/jugadores/hugo-varela-vidal-recorte.webp",
     "Pablo Veira Canzobre": "img/jugadores/pablo-veira-canzobre.webp",
     "Pablo Gestal Santiso": "img/jugadores/pablo-gestal-santiso.webp",
     "José L Salcedo Soto": "img/jugadores/jose-l-salcedo-soto.webp",

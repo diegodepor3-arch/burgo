@@ -345,7 +345,7 @@ function calendarioMes(e) {
   for (let d = 1; d <= dias; d++) {
     const f = `${ym}-${String(d).padStart(2, "0")}`, p = con.find((x) => x.fecha === f);
     const r = p?.resultado && marcador({ ...p });
-    celdas.push(`<div class="dia${f === hoyIso ? " dia--hoy" : ""}${p ? " dia--partido" : ""}"><small>${d}</small>${p ? `${escudoDe(e, p.rival)}<b class="${r ? `res-txt-${r.res}` : ""}">${r ? `${r.nos}-${r.ellos}` : esc(p.hora || "")}</b><span class="sr">${p.local ? "contra" : "en casa de"} ${esc(p.rival)}</span>` : ""}</div>`);
+    celdas.push(`<div class="dia${f === hoyIso ? " dia--hoy" : ""}${p ? " dia--partido" : ""}"><small>${d}</small>${p ? `${escudoDe(e, p.rival)}<b class="${r ? `res-txt-${r.res}` : ""}">${r ? `${r.nos}-${r.ellos}` : esc(p.hora || "")}</b><em aria-hidden="true">${esc(p.rival.replace(/"/g, ""))}</em><span class="sr">${p.local ? "contra" : "en casa de"} ${esc(p.rival)}</span>` : ""}</div>`);
   }
   return `<div class="mes" data-mes-equipo="${e.id}">
     <div class="mes-cab">
@@ -433,7 +433,6 @@ function vistaEquipo(id, sub = "", jugador = "") {
   const cabecera = `
     <section class="cab cab--equipo">
       <div>
-        <p class="migas"><a href="#/cantera">Equipos</a> / <a href="#/cantera/${e.categoria}">${esc(categoria(e.categoria).nombre)}</a>${sub ? ` / <a href="${rutaEquipo(e)}">${esc(nombreEquipo(e))}</a>` : ""}</p>
         <h1 class="cab-titulo">${esc(SECCION[sub] || nombreEquipo(e))}</h1>
         <p class="cab-sub">${sub ? `${esc(nombreEquipo(e))} · ` : ""}${esc(e.competicion || e.liga)}</p>
         <p class="fuente"><span class="punto"></span>Datos de ${esc(e.fuente || "futgal.es")}${e.descargado ? ` · actualizado ${esc(actualizado(e.descargado))}` : ""}</p>
@@ -456,6 +455,7 @@ function vistaEquipo(id, sub = "", jugador = "") {
   if (sub) return `${cabecera}<section class="seccion">${vacio("Esta sección no existe.")}</section>`;
 
   return `${cabecera}
+    <section class="seccion mini-cal" aria-label="Calendario del mes">${calendarioMes(e)}</section>
     <div class="paneles">
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/calendario"><h2>Calendario</h2>${icono("i-flecha")}</a>
         ${pendientes.length ? `<ul class="panel-lista">${pendientes.slice(0, 5).map((x) => `<li><span>${esc(mayus(fechaCorta(x.fecha)))}</span>${escudoDe(e, x.rival)}<b>${esc(x.rival)}</b><small>${x.local ? "casa" : "fuera"}</small></li>`).join("")}</ul>` : vacio("No hay partidos pendientes.")}</section>
@@ -559,7 +559,7 @@ const cartaGiro = (delante, detras, etiqueta) => `<div class="flip-card" aria-la
 // Primer equipo: jugadores y cuerpo técnico en cartas. Sin foto en data.js, la camiseta con el dorsal (o las iniciales).
 function plantillaCartas(e) {
   const fotos = (EXTRA[e.id] || {}).fotos || {};
-  const cara = (n, relleno, rol) => `${fotos[n] ? `<span class="cg-con-foto"></span><img class="cg-foto" src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false">` : `<div class="cg-sin">${relleno}</div>`}
+  const cara = (n, relleno, rol) => `${fotos[n]?.includes("-recorte") ? `<div class="cg-sin cg-recorte"><img src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false"></div>` : fotos[n] ? `<span class="cg-con-foto"></span><img class="cg-foto" src="${esc(fotos[n])}" alt="" loading="lazy" draggable="false">` : `<div class="cg-sin">${relleno}</div>`}
     <div class="cg-nombre"><small>${esc(rol)}</small><b>${esc(n)}</b></div>`;
   const jugador = (n) => {
     const num = dorsal(e, n), est = estadisticas(e, n), datos = perfil(e, n), portero = esPortero(e, n);

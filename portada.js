@@ -49,7 +49,6 @@ function alArrancar() {
 }
 function inicio() {
   const d = datosPortada(), j = d.principal, top = goleadoresClub(3);
-  const anios = hoy().getFullYear() - CLUB.fundado;
   const cats = CATEGORIAS.filter((c) => EQUIPOS.some((e) => e.categoria === c.id));
   const podio = [top[1], top[0], top[2]];
   return `
@@ -60,7 +59,6 @@ function inicio() {
         <div class="burgo-pie">
           <img class="burgo-escudo" src="img/escudo.png" alt="Escudo del Sporting Burgo" width="145" height="200">
           <div>
-            <p class="burgo-lema"><b data-cuenta="${anios}">${anios}</b> años de fútbol en O Burgo, llueva o no</p>
             <p class="burgo-acc"><a class="boton" href="#/partidos">Partidos de esta semana</a><a class="boton boton--claro" href="#/mi-equipo">Mi equipo</a></p>
           </div>
         </div>

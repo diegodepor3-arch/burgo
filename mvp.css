@@ -227,3 +227,39 @@ html:has(body.es-portada) { background: #fff; }
 .reflective-card__tile { flex: none; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(180deg, #3a3644, #27242f); box-shadow: inset 0 0 0 1px #ffffff12, 0 4px 10px -4px #000b; }
 .reflective-card__tile img { width: 26px; }
 .reflective-card__rim { position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 0 0 1px #ffffff12, inset 0 1px 0 #ffffff1a; pointer-events: none; }
+
+/* El dock del móvil no se ve en escritorio */
+@media (min-width: 901px) { .barra-movil.dock { display: none; } }
+/* Portada: título inflado más contenido */
+.con-malla .burgo-malla { height: clamp(200px, 26vw, 340px); }
+/* Cabecera de equipo más compacta */
+.cab--equipo { padding-top: clamp(16px, 3vw, 32px); }
+.cab--equipo .cab-titulo { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.25rem); }
+.cab--equipo .cab-sub { margin-top: 4px; }
+.cab--equipo .fuente { margin-top: 6px; }
+.cab--equipo .cab-acciones { margin-top: 10px; }
+/* Recorte del jugador de pie sobre el degradado celeste */
+.cg-recorte { padding: 8% 6% 30%; }
+.cg-recorte img { position: relative; width: 100%; height: 100%; object-fit: contain; object-position: 50% 100%; filter: drop-shadow(0 10px 14px #0e2a4766); }
+
+/* Mini calendario del mes (estilo panel oscuro, como el del Rayo) */
+.mini-cal .mes, .mes { padding: clamp(16px, 3vw, 32px); border: 0; border-radius: 28px; background: radial-gradient(120% 90% at 50% 0%, #16406a, var(--marino)); color: #fff; box-shadow: 0 24px 50px -24px #0e2a47aa; }
+.mes-cab { margin-bottom: 18px; }
+.mes-cab h3 { font: 850 clamp(1.5rem, 1rem + 2vw, 2.5rem)/1 var(--titulo); font-stretch: 112%; color: #fff; }
+.mes-cab button { width: 46px; height: 46px; border: 1px solid #ffffff33; background: transparent; color: #fff; transition: background-color 0.15s; }
+.mes-cab button:hover { background: #ffffff1a; }
+.mes-sem { margin-bottom: 8px; }
+.mes-sem span { color: #b9d3e6; letter-spacing: 0.08em; text-transform: uppercase; }
+.mes-dias { gap: 8px; }
+.mes .dia { min-height: clamp(70px, 9vw, 104px); padding: 8px; border-radius: 12px; background: #ffffff0d; box-shadow: inset 0 0 0 1px #ffffff14; justify-items: center; align-content: center; gap: 3px; position: relative; }
+.mes .dia small { position: absolute; top: 7px; left: 9px; color: #ffffffb3; font-weight: 700; }
+.mes .dia--vacio { background: none; box-shadow: none; }
+.mes .dia--partido { background: #ffffff17; }
+.mes .dia--hoy { outline: 2px solid #fff; outline-offset: -2px; }
+.mes .dia .escudo { width: clamp(24px, 3vw, 36px); height: clamp(24px, 3vw, 36px); margin-top: 10px; }
+.mes .dia b { color: #fff; font-size: 0.875rem; }
+.mes .dia b.res-txt-G { color: #6ee7a8; } .mes .dia b.res-txt-P { color: #ff8a8a; } .mes .dia b.res-txt-E { color: #ffd166; }
+.mes .dia em { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 700 0.625rem/1.1 var(--letra); font-style: normal; text-transform: uppercase; color: #ffffffcc; }
+@media (max-width: 600px) { .mes .dia em { display: none; } .mes .dia { padding: 4px; } .mes-dias { gap: 4px; } }
+.mes .dia { min-height: clamp(56px, 6.5vw, 84px); }
+.mes-cab h3 { font-size: clamp(1.375rem, 1rem + 1.4vw, 2rem); }
