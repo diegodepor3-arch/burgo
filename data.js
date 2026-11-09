@@ -41,6 +41,7 @@ const EXTRA = {
   // Fotos: recortes sin fondo que pasó el club (-recorte) y, si no hay, el cartel de renovación 2026/27 de @sportingburgocf
   "senior-a": {
     fotos: {
+    "José S Cainzos Caballero": "img/jugadores/jose-s-cainzos-caballero-recorte.webp",
     "Mario Barral García": "img/jugadores/mario-barral-garcia-recorte.webp",
     "Diego Martínez Castreje": "img/jugadores/diego-martinez-castreje-recorte.webp",
     "Óscar García Gende": "img/jugadores/oscar-garcia-gende-recorte.webp",
