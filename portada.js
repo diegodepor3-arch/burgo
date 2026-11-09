@@ -56,12 +56,6 @@ function inicio() {
       <div class="burgo-dentro">
         <h1 id="h">Sporting <span>Burgo</span></h1>
         <div class="burgo-malla" id="malla" aria-hidden="true"></div>
-        <div class="burgo-pie">
-          <img class="burgo-escudo" src="img/escudo.png" alt="Escudo del Sporting Burgo" width="145" height="200">
-          <div>
-            <p class="burgo-acc"><a class="boton" href="#/partidos">Partidos de esta semana</a><a class="boton boton--claro" href="#/mi-equipo">Mi equipo</a></p>
-          </div>
-        </div>
       </div>
     </section>
     ${d.pp ? bandaPartido(d.pp) : ""}
