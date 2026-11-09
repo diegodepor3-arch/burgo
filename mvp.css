@@ -286,3 +286,12 @@ html:has(body.es-portada) { background: #fff; }
 .mes-mini .mes .dia .escudo { width: 24px; height: 24px; }
 .mes-mini .mes .dia b { font-size: 0.6875rem; }
 .paneles .tabla-mini li { padding-block: 6px; }
+
+/* Paneles iguales de ancho; el calendario se alarga hacia abajo y los demás le siguen la altura */
+@media (min-width: 901px) {
+  .paneles { grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: stretch; }
+  .mes-mini .mes { display: flex; flex-direction: column; }
+  .mes-mini .mes-dias { flex: 1; grid-auto-rows: minmax(64px, 1fr); }
+  .mes-mini .mes .dia .escudo { width: 26px; height: 26px; }
+  .paneles .panel-pie { margin-top: auto; }
+}
