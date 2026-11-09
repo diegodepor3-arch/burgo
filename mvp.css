@@ -265,3 +265,16 @@ html:has(body.es-portada) { background: #fff; }
 .mes-cab h3 { font-size: clamp(1.375rem, 1rem + 1.4vw, 2rem); }
 .reflective-card__foto img[src*="-recorte"] { object-fit: contain; object-position: 50% 100%; padding-top: 10px; }
 .burgo-dentro { padding-bottom: 8px; }
+
+/* Calendario del mes en pequeño, dentro del panel "Calendario" del equipo */
+.mes-mini .mes { padding: 12px; border-radius: 0 0 var(--radio) var(--radio); box-shadow: none; }
+.mes-mini .mes-cab { margin-bottom: 8px; }
+.mes-mini .mes-cab h3 { font-size: 1.125rem; }
+.mes-mini .mes-cab button { width: 32px; height: 32px; }
+.mes-mini .mes-sem { margin-bottom: 4px; } .mes-mini .mes-sem span { padding: 2px; font-size: 0.625rem; }
+.mes-mini .mes-dias { gap: 3px; }
+.mes-mini .mes .dia { min-height: 40px; padding: 2px; border-radius: 7px; }
+.mes-mini .mes .dia small { top: 2px; left: 4px; font-size: 0.5625rem; }
+.mes-mini .mes .dia .escudo { width: 20px; height: 20px; margin-top: 8px; }
+.mes-mini .mes .dia b { font-size: 0.625rem; line-height: 1; }
+.mes-mini .mes .dia em { display: none; }

@@ -455,10 +455,9 @@ function vistaEquipo(id, sub = "", jugador = "") {
   if (sub) return `${cabecera}<section class="seccion">${vacio("Esta sección no existe.")}</section>`;
 
   return `${cabecera}
-    <section class="seccion mini-cal" aria-label="Calendario del mes">${calendarioMes(e)}</section>
     <div class="paneles">
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/calendario"><h2>Calendario</h2>${icono("i-flecha")}</a>
-        ${pendientes.length ? `<ul class="panel-lista">${pendientes.slice(0, 5).map((x) => `<li><span>${esc(mayus(fechaCorta(x.fecha)))}</span>${escudoDe(e, x.rival)}<b>${esc(x.rival)}</b><small>${x.local ? "casa" : "fuera"}</small></li>`).join("")}</ul>` : vacio("No hay partidos pendientes.")}</section>
+        <div class="mes-mini">${calendarioMes(e)}</div></section>
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/clasificacion"><h2>Clasificación</h2>${icono("i-flecha")}</a>
         ${fila ? tablaMini(e, 5) : vacio("Pendiente de la federación.")}</section>
       <section class="panel"><a class="panel-cab" href="${rutaEquipo(e)}/plantilla"><h2>Plantilla</h2>${icono("i-flecha")}</a>
