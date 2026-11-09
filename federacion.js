@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-09T15:28";
+const ACTUALIZADO = "2026-11-09T18:49";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -1354,7 +1354,7 @@ const EQUIPOS = [
    "Pablo Veira Canzobre": 20,
    "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-09T15:12"
+  "descargado": "2026-11-09T18:48"
  },
  {
   "id": "senior-b",
@@ -2589,7 +2589,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-09T15:13"
+  "descargado": "2026-11-09T18:49"
  },
  {
   "id": "senior-a-fem",
@@ -7994,7 +7994,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-09T15:07"
+  "descargado": "2026-11-09T18:47"
  },
  {
   "id": "alevin-a",
@@ -8404,7 +8404,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-09T15:08"
+  "descargado": "2026-11-09T18:48"
  },
  {
   "id": "benjamin-a",
@@ -8570,7 +8570,7 @@ const EQUIPOS = [
    {
     "jornada": 6,
     "fecha": "2026-11-14",
-    "hora": "",
+    "hora": "10:30",
     "local": false,
     "rival": "SPORTING CAMBRE \"B\"",
     "resultado": "",
@@ -8638,9 +8638,9 @@ const EQUIPOS = [
    "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg"
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg"
   },
   "actas": {
    "1": {
@@ -8875,7 +8875,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-09T15:12"
+  "descargado": "2026-11-09T18:48"
  },
  {
   "id": "prebenjamin-a",
@@ -9441,7 +9441,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-09T15:12"
+  "descargado": "2026-11-09T18:48"
  },
  {
   "id": "infantil-a-fem",
