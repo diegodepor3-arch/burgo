@@ -556,6 +556,13 @@ const cartaGiro = (delante, detras, etiqueta) => `<div class="flip-card" aria-la
     <div class="flip-card__face flip-card__face--back">${detras}<span class="flip-card__glare" aria-hidden="true"></span></div>
   </div></div>`;
 
+// Cuerpo técnico de la federación con los cambios que pone el club en data.js (EXTRA[id].cuerpo)
+const cuerpoTecnico = (e) => {
+  const c = (EXTRA[e.id] || {}).cuerpo || {}, fuera = new Set(c.quitar || []);
+  return [...e.entrenadores.map((n) => [n, "Entrenador"]), ...e.delegados.map((n) => [n, "Delegado"]), ...(c.añadir || []).map((x) => [x.nombre, x.rol])]
+    .filter(([n]) => !fuera.has(n));
+};
+
 // Primer equipo: jugadores y cuerpo técnico en cartas. Sin foto en data.js, la camiseta con el dorsal (o las iniciales).
 function plantillaCartas(e) {
   const fotos = (EXTRA[e.id] || {}).fotos || {};
@@ -588,7 +595,7 @@ function plantillaCartas(e) {
       ${actasSinGoleadores(e) ? `<p class="aviso">${actasSinGoleadores(e)}</p>` : ""}
       <ul class="cartas-giro">${ordenJugadores(e).map(jugador).join("")}</ul>
       ${e.entrenadores.length || e.delegados.length ? `<h3 class="subtitulo">Cuerpo técnico</h3>
-        <ul class="cartas-metal">${e.entrenadores.map((n) => tecnico(n, "Entrenador")).join("")}${e.delegados.map((n) => tecnico(n, "Delegado")).join("")}</ul>` : ""}
+        <ul class="cartas-metal">${cuerpoTecnico(e).map(([n, rol]) => tecnico(n, rol)).join("")}</ul>` : ""}
       <a class="enlace" href="${esc(e.urlFederacion)}" target="_blank" rel="noopener">Ficha del equipo en la RFGF ${icono("i-diagonal")}</a>
     </section>`;
 }

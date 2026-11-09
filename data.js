@@ -41,6 +41,7 @@ const EXTRA = {
   // Fotos: recortes sin fondo que pasó el club (-recorte) y, si no hay, el cartel de renovación 2026/27 de @sportingburgocf
   "senior-a": {
     fotos: {
+    "Diego Martínez Castreje": "img/jugadores/diego-martinez-castreje-recorte.webp",
     "Óscar García Gende": "img/jugadores/oscar-garcia-gende-recorte.webp",
     "Juan Carlos Leites Maneiro": "img/jugadores/juan-carlos-leites-maneiro-recorte.webp",
     "Rubén Costoya Mosquera": "img/jugadores/ruben-costoya-mosquera-recorte.webp",
@@ -62,6 +63,11 @@ const EXTRA = {
     },
     videos: [],
     jugadores: {},
+    // Cuerpo técnico: cambios sobre lo que publica la federación
+    cuerpo: {
+      quitar: ["Arturo Otero López"],
+      añadir: [{ nombre: "Diego Martínez Castreje", rol: "Preparador físico" }],
+    },
   },
 };
 
