@@ -360,3 +360,7 @@ html:has(body.es-portada) { background: #fff; }
   .paneles > .panel:nth-child(2) { grid-column: 2; }
   .paneles > .panel:nth-child(3) { grid-column: 3; }
 }
+/* Calendario hasta la línea roja: 1,75 veces el ancho de los otros, pegado a Clasificación */
+@media (min-width: 1100px) {
+  .paneles { grid-template-columns: calc(var(--col) * 1.75) var(--col) var(--col); justify-content: end; }
+}
