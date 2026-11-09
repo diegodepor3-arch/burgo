@@ -41,6 +41,8 @@ const EXTRA = {
   // Fotos: recortes sin fondo que pasó el club (-recorte) y, si no hay, el cartel de renovación 2026/27 de @sportingburgocf
   "senior-a": {
     fotos: {
+    "Óscar García Gende": "img/jugadores/oscar-garcia-gende-recorte.webp",
+    "Juan Carlos Leites Maneiro": "img/jugadores/juan-carlos-leites-maneiro-recorte.webp",
     "Rubén Costoya Mosquera": "img/jugadores/ruben-costoya-mosquera-recorte.webp",
     "Yago Salvado Pardo": "img/jugadores/yago-salvado-pardo-recorte.webp",
     "Javier Liñares Rodríguez": "img/jugadores/javier-linares-rodriguez-recorte.webp",
