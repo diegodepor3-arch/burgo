@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-08T20:30";
+const ACTUALIZADO = "2026-11-09T00:55";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2664,18 +2664,18 @@ const EQUIPOS = [
     "g": 5,
     "e": 0,
     "p": 3,
-    "gf": 15,
-    "gc": 10,
+    "gf": 17,
+    "gc": 11,
     "propio": false
    },
    {
     "equipo": "C.C.R.D. PERLIO",
-    "pts": 12,
-    "pj": 7,
-    "g": 4,
+    "pts": 15,
+    "pj": 8,
+    "g": 5,
     "e": 0,
     "p": 3,
-    "gf": 11,
+    "gf": 17,
     "gc": 11,
     "propio": false
    },
@@ -2686,8 +2686,8 @@ const EQUIPOS = [
     "g": 4,
     "e": 0,
     "p": 4,
-    "gf": 14,
-    "gc": 16,
+    "gf": 15,
+    "gc": 18,
     "propio": false
    },
    {
@@ -2726,12 +2726,12 @@ const EQUIPOS = [
    {
     "equipo": "SPORTING BURGO",
     "pts": 1,
-    "pj": 7,
+    "pj": 8,
     "g": 0,
     "e": 1,
-    "p": 6,
+    "p": 7,
     "gf": 3,
-    "gc": 43,
+    "gc": 49,
     "propio": true
    }
   ],
@@ -2805,8 +2805,8 @@ const EQUIPOS = [
     "hora": "19:30",
     "local": true,
     "rival": "C.C.R.D. PERLIO",
-    "resultado": "",
-    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+    "resultado": "0-6",
+    "campo": ""
    },
    {
     "jornada": 9,
@@ -2815,7 +2815,7 @@ const EQUIPOS = [
     "local": false,
     "rival": "BREXO LEMA S.D.",
     "resultado": "",
-    "campo": ""
+    "campo": "Os Pinares, (Brexo Lema)"
    },
    {
     "jornada": 10,
@@ -2902,7 +2902,6 @@ const EQUIPOS = [
   "competicion": "Femenina - Segunda División Galega · 1º Fase | Grupo 1 - Lgf 2ª Division Femenina",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28156285&codcompeticion=26991144",
   "escudos": {
-   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "CLUB DEPORTIVO NARON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
    "EIRÍS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
@@ -2911,7 +2910,8 @@ const EQUIPOS = [
    "S.D. O VAL \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
    "BREXO LEMA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100238_ESCUDO_JPG.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "C.C.R.D. PERLIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100833_Escudo_web_federacion.jpg"
+   "C.C.R.D. PERLIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100833_Escudo_web_federacion.jpg",
+   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg"
   },
   "actas": {
    "3": {
@@ -3311,40 +3311,104 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1485543"
+   },
+   "8": {
+    "t": [
+     "Manuelita Olinda Tacure Godos",
+     "Diana Matos Rodríguez",
+     "Uxia Veiga Brandariz",
+     "Celia García Boquete",
+     "Hadriana Rojo Tedin",
+     "Ainhoa Calvo Tubío",
+     "Aldara Sánchez Toba",
+     "Chenoa González Loureiro",
+     "Nicole Castelo El Amrani",
+     "Laura Boedo Lago",
+     "Alejandra Paz Sánchez"
+    ],
+    "s": [
+     "Adriana Pardo Rodríguez",
+     "Candela Sinde Vieites",
+     "Sheila Del Carmen Romero Gutiérrez"
+    ],
+    "e": [
+     "Candela Sinde Vieites",
+     "Adriana Pardo Rodríguez",
+     "Sheila Del Carmen Romero Gutiérrez"
+    ],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Manuelita Olinda Tacure Godos": 1,
+     "Diana Matos Rodríguez": 2,
+     "Uxia Veiga Brandariz": 3,
+     "Celia García Boquete": 4,
+     "Hadriana Rojo Tedin": 5,
+     "Ainhoa Calvo Tubío": 6,
+     "Aldara Sánchez Toba": 7,
+     "Chenoa González Loureiro": 8,
+     "Nicole Castelo El Amrani": 9,
+     "Laura Boedo Lago": 10,
+     "Alejandra Paz Sánchez": 11,
+     "Adriana Pardo Rodríguez": 14,
+     "Candela Sinde Vieites": 15,
+     "Sheila Del Carmen Romero Gutiérrez": 16
+    },
+    "c": [
+     [
+      "Candela Sinde Vieites",
+      "Diana Matos Rodríguez",
+      46
+     ],
+     [
+      "Adriana Pardo Rodríguez",
+      "Celia García Boquete",
+      54
+     ],
+     [
+      "Sheila Del Carmen Romero Gutiérrez",
+      "Alejandra Paz Sánchez",
+      65
+     ]
+    ],
+    "rm": {},
+    "id": "1485575"
    }
   },
   "dorsales": {
    "Ainhoa Calvo Tubío": 6,
+   "Laura Boedo Lago": 10,
    "Aldara Sánchez Toba": 5,
    "Manuelita Olinda Tacure Godos": 11,
    "Lara Rodríguez Santos": 1,
    "Manuela Blanco Casas": 9,
-   "Laura Boedo Lago": 10,
+   "Chenoa González Loureiro": 8,
    "Diana Matos Rodríguez": 3,
-   "Chenoa González Loureiro": 4,
    "Alejandra Paz Sánchez": 7,
    "Celia García Boquete": 2,
-   "Nicole Castelo El Amrani": 8,
    "Adriana Castro García": 14,
+   "Candela Sinde Vieites": 15,
+   "Sheila Del Carmen Romero Gutiérrez": 16,
+   "Uxia Veiga Brandariz": 4,
    "Noa Vieites Cancelo": 12,
-   "Uxia Veiga Brandariz": 15,
-   "Sheila Del Carmen Romero Gutiérrez": 13,
-   "Mariana Florez Cuero": 16,
-   "Uxia Bouzada Castiñeira": 17,
-   "Xeila Santomil Meitin": 18,
-   "Ainhoa Blanco González": 19,
-   "Candela Sinde Vieites": 20,
-   "Nuria Lema Tajes": 21,
-   "Bianca Ventureira Loschiavo": 22,
-   "Hadriana Rojo Tedin": 23,
-   "Ines Riveiro Mariño": 24,
-   "Lucero Aymar De Las Mercedes Martínez Puyen": 25,
-   "Maite Santiago Cendal": 26,
-   "Marta Varela Catoira": 27,
-   "Tamara Fuentes Rabuñal": 28,
-   "Yeireny Camila Santana Asencio": 29
+   "Nicole Castelo El Amrani": 13,
+   "Mariana Florez Cuero": 17,
+   "Uxia Bouzada Castiñeira": 18,
+   "Xeila Santomil Meitin": 19,
+   "Ainhoa Blanco González": 20,
+   "Hadriana Rojo Tedin": 21,
+   "Nuria Lema Tajes": 22,
+   "Adriana Pardo Rodríguez": 23,
+   "Bianca Ventureira Loschiavo": 24,
+   "Ines Riveiro Mariño": 25,
+   "Lucero Aymar De Las Mercedes Martínez Puyen": 26,
+   "Maite Santiago Cendal": 27,
+   "Marta Varela Catoira": 28,
+   "Tamara Fuentes Rabuñal": 29,
+   "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-08T18:05"
+  "descargado": "2026-11-09T00:54"
  },
  {
   "id": "juvenil-a",
@@ -4451,7 +4515,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-08T18:06"
+  "descargado": "2026-11-09T00:54"
  },
  {
   "id": "juvenil-b",
@@ -4537,6 +4601,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "CLUB DE FÚTBOL BATALLADOR S.D.",
+    "pts": 12,
+    "pj": 6,
+    "g": 4,
+    "e": 0,
+    "p": 2,
+    "gf": 28,
+    "gc": 14,
+    "propio": false
+   },
+   {
     "equipo": "C.D. CIUDAD \"B\"",
     "pts": 12,
     "pj": 6,
@@ -4545,17 +4620,6 @@ const EQUIPOS = [
     "p": 2,
     "gf": 28,
     "gc": 19,
-    "propio": false
-   },
-   {
-    "equipo": "CLUB DE FÚTBOL BATALLADOR S.D.",
-    "pts": 9,
-    "pj": 5,
-    "g": 3,
-    "e": 0,
-    "p": 2,
-    "gf": 23,
-    "gc": 12,
     "propio": false
    },
    {
@@ -4583,12 +4647,12 @@ const EQUIPOS = [
    {
     "equipo": "RELÁMPAGO S.D. \"B\"",
     "pts": 6,
-    "pj": 5,
+    "pj": 6,
     "g": 2,
     "e": 0,
-    "p": 3,
-    "gf": 12,
-    "gc": 15,
+    "p": 4,
+    "gf": 14,
+    "gc": 20,
     "propio": false
    },
    {
@@ -5404,7 +5468,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-08T18:06"
+  "descargado": "2026-11-09T00:55"
  },
  {
   "id": "cadete-a-fem",
@@ -5942,7 +6006,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-08T18:13"
+  "descargado": "2026-11-09T00:55"
  },
  {
   "id": "cadete-a",
@@ -7059,7 +7123,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "José Manuel Pisos Guimarey": 25
   },
-  "descargado": "2026-11-08T18:14"
+  "descargado": "2026-11-09T00:55"
  },
  {
   "id": "infantil-a",
