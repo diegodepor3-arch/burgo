@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-09T07:59";
+const ACTUALIZADO = "2026-11-09T14:49";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -62,6 +62,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "C.D. CIUDAD JARDIN",
+    "pts": 20,
+    "pj": 10,
+    "g": 6,
+    "e": 2,
+    "p": 2,
+    "gf": 20,
+    "gc": 21,
+    "propio": false
+   },
+   {
     "equipo": "ATLETICO CASTROS",
     "pts": 19,
     "pj": 10,
@@ -81,17 +92,6 @@ const EQUIPOS = [
     "p": 4,
     "gf": 25,
     "gc": 13,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CIUDAD JARDIN",
-    "pts": 18,
-    "pj": 10,
-    "g": 5,
-    "e": 3,
-    "p": 2,
-    "gf": 19,
-    "gc": 21,
     "propio": false
    },
    {
@@ -128,17 +128,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "OLIMPICO C.F. \"B\"",
-    "pts": 14,
-    "pj": 10,
-    "g": 4,
-    "e": 2,
-    "p": 4,
-    "gf": 24,
-    "gc": 26,
-    "propio": false
-   },
-   {
     "equipo": "XUVENTUDE DE CRENDES C.F.",
     "pts": 13,
     "pj": 10,
@@ -158,6 +147,17 @@ const EQUIPOS = [
     "p": 3,
     "gf": 10,
     "gc": 12,
+    "propio": false
+   },
+   {
+    "equipo": "OLIMPICO C.F. \"B\"",
+    "pts": 13,
+    "pj": 10,
+    "g": 4,
+    "e": 1,
+    "p": 5,
+    "gf": 24,
+    "gc": 27,
     "propio": false
    },
    {
@@ -1354,7 +1354,7 @@ const EQUIPOS = [
    "Pablo Veira Canzobre": 20,
    "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-08T20:29"
+  "descargado": "2026-11-09T14:47"
  },
  {
   "id": "senior-b",
@@ -1831,10 +1831,10 @@ const EQUIPOS = [
    "U.D. CARRAL \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "S.D SAN MARTIÑO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806697_Escudo_Sanma.jpg",
    "A.D. VILA DE ORDES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001553887_ESCUDO_VILA_DE_ORDES.png",
-   "RODIS FUTBOL CLUB": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001109334_Escudo.jpg",
-   "VIZOÑO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734110_sello_viz...jpg",
    "S.D. PONTE CARREIRA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000002478_Ponte_Carreira.jpg",
-   "SPORTING BURGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg"
+   "SPORTING BURGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "RODIS FUTBOL CLUB": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001109334_Escudo.jpg",
+   "VIZOÑO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734110_sello_viz...jpg"
   },
   "actas": {
    "4": {
@@ -2589,7 +2589,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-08T20:30"
+  "descargado": "2026-11-09T14:48"
  },
  {
   "id": "senior-a-fem",
@@ -3408,7 +3408,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 29,
    "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-09T00:54"
+  "descargado": "2026-11-09T14:48"
  },
  {
   "id": "juvenil-a",
@@ -4515,7 +4515,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-09T00:54"
+  "descargado": "2026-11-09T14:48"
  },
  {
   "id": "juvenil-b",
@@ -5468,7 +5468,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-09T00:55"
+  "descargado": "2026-11-09T14:49"
  },
  {
   "id": "cadete-a-fem",
@@ -11156,10 +11156,10 @@ const EQUIPOS = [
    "CLUB DEPORTIVO NARON SILVER CATERING": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
    "CEDEIRA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918775_Escudo_Cedeira1.jpg",
    "SPORTING CAMBRE AS TRAVESAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
-   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "SAN MARTIÑO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806697_Escudo_Sanma.jpg",
    "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
+   "XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "C.D. SIGRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806749_Veteranos_del_sigras__20190918_001525.jpg",
    "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg",
    "U.D. NARAHIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818218_ESCUDO.png",
@@ -11602,6 +11602,6 @@ const EQUIPOS = [
    "Martín Sánchez López": 16,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-08T20:29"
+  "descargado": "2026-11-09T14:47"
  }
 ];
