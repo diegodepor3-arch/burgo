@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-09T00:55";
+const ACTUALIZADO = "2026-11-09T07:59";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -7209,13 +7209,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "URAL ESPAÑOL C.F. \"C\"",
-    "pts": 15,
-    "pj": 6,
-    "g": 5,
+    "pts": 18,
+    "pj": 7,
+    "g": 6,
     "e": 0,
     "p": 1,
-    "gf": 18,
-    "gc": 11,
+    "gf": 28,
+    "gc": 17,
     "propio": false
    },
    {
@@ -7309,12 +7309,12 @@ const EQUIPOS = [
    {
     "equipo": "A. C. RUEIRO",
     "pts": 3,
-    "pj": 6,
+    "pj": 7,
     "g": 1,
     "e": 0,
-    "p": 5,
-    "gf": 17,
-    "gc": 43,
+    "p": 6,
+    "gf": 23,
+    "gc": 53,
     "propio": false
    },
    {
@@ -7994,7 +7994,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-08T18:14"
+  "descargado": "2026-11-09T07:57"
  },
  {
   "id": "alevin-a",
@@ -8404,7 +8404,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-08T18:14"
+  "descargado": "2026-11-09T07:58"
  },
  {
   "id": "benjamin-a",
@@ -8875,7 +8875,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-08T18:14"
+  "descargado": "2026-11-09T07:58"
  },
  {
   "id": "prebenjamin-a",
@@ -9441,7 +9441,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-08T18:15"
+  "descargado": "2026-11-09T07:58"
  },
  {
   "id": "infantil-a-fem",
@@ -9893,7 +9893,7 @@ const EQUIPOS = [
    "Daniela Domínguez Corral": 20,
    "Sara Martins Alves": 21
   },
-  "descargado": "2026-11-08T20:28"
+  "descargado": "2026-11-09T07:59"
  },
  {
   "id": "senior-c-fem",
@@ -10657,7 +10657,7 @@ const EQUIPOS = [
    "Manuela Blanco Casas": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-08T20:28"
+  "descargado": "2026-11-09T07:59"
  },
  {
   "id": "veteranos-a",
