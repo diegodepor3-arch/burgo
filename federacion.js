@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-09T18:49";
+const ACTUALIZADO = "2026-11-10T02:08";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -3408,7 +3408,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 29,
    "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-09T15:27"
+  "descargado": "2026-11-10T02:07"
  },
  {
   "id": "juvenil-a",
@@ -3697,7 +3697,7 @@ const EQUIPOS = [
    {
     "jornada": 9,
     "fecha": "2026-11-14",
-    "hora": "",
+    "hora": "20:00",
     "local": true,
     "rival": "SDC ORDENES",
     "resultado": "",
@@ -3904,14 +3904,14 @@ const EQUIPOS = [
    "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
-   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg"
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg"
   },
   "actas": {
    "3": {
@@ -4515,7 +4515,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-09T15:27"
+  "descargado": "2026-11-10T02:07"
  },
  {
   "id": "juvenil-b",
@@ -5468,7 +5468,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-09T15:28"
+  "descargado": "2026-11-10T02:08"
  },
  {
   "id": "cadete-a-fem",
@@ -9631,8 +9631,8 @@ const EQUIPOS = [
    },
    {
     "jornada": 5,
-    "fecha": "2026-11-15",
-    "hora": "",
+    "fecha": "2026-11-14",
+    "hora": "11:00",
     "local": true,
     "rival": "C.F. BATALLADOR S.D.",
     "resultado": "",
@@ -9678,16 +9678,16 @@ const EQUIPOS = [
   "competicion": "Femenina - Liga Galega Infantil · Grupo A",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=29005645&codcompeticion=26991146",
   "escudos": {
-   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
-   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
-   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
    "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg"
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg"
   },
   "actas": {
    "1": {
@@ -9893,7 +9893,7 @@ const EQUIPOS = [
    "Daniela Domínguez Corral": 20,
    "Sara Martins Alves": 21
   },
-  "descargado": "2026-11-09T15:13"
+  "descargado": "2026-11-10T02:06"
  },
  {
   "id": "senior-c-fem",
@@ -10657,7 +10657,7 @@ const EQUIPOS = [
    "Manuela Blanco Casas": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-09T15:13"
+  "descargado": "2026-11-10T02:07"
  },
  {
   "id": "veteranos-a",
@@ -10951,7 +10951,7 @@ const EQUIPOS = [
    {
     "jornada": 9,
     "fecha": "2026-11-14",
-    "hora": "",
+    "hora": "18:00",
     "local": true,
     "rival": "U.D. PAIOSACO H.AÑON",
     "resultado": "",
@@ -11150,8 +11150,6 @@ const EQUIPOS = [
   "competicion": "Veteranos - Primera Galicia · A Coruña | 1ª División Veteranos",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28251751&codcompeticion=26991153",
   "escudos": {
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "U.D. PAIOSACO H.AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "BETANZOS NORTE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000644575_Sin_titulo-1.jpg",
    "CLUB DEPORTIVO NARON SILVER CATERING": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
    "CEDEIRA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918775_Escudo_Cedeira1.jpg",
@@ -11160,6 +11158,8 @@ const EQUIPOS = [
    "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
    "XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
    "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "U.D. PAIOSACO H.AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "C.D. SIGRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806749_Veteranos_del_sigras__20190918_001525.jpg",
    "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg",
    "U.D. NARAHIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818218_ESCUDO.png",
@@ -11602,6 +11602,6 @@ const EQUIPOS = [
    "Martín Sánchez López": 16,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-09T15:27"
+  "descargado": "2026-11-10T02:08"
  }
 ];
