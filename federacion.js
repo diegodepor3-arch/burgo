@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-10T23:19";
+const ACTUALIZADO = "2026-11-11T06:16";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2589,7 +2589,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-10T17:49"
+  "descargado": "2026-11-11T06:15"
  },
  {
   "id": "senior-a-fem",
@@ -3408,7 +3408,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 29,
    "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-10T17:50"
+  "descargado": "2026-11-11T06:16"
  },
  {
   "id": "juvenil-a",
@@ -4515,7 +4515,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-10T17:50"
+  "descargado": "2026-11-11T06:16"
  },
  {
   "id": "juvenil-b",
@@ -8219,10 +8219,10 @@ const EQUIPOS = [
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991664&codcompeticion=26991642",
   "escudos": {
    "ONCE CABALLEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
-   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
+   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "PORTAZGO S.D. \"A\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg"
   },
@@ -8404,7 +8404,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-10T09:48"
+  "descargado": "2026-11-11T06:15"
  },
  {
   "id": "benjamin-a",
@@ -8634,13 +8634,13 @@ const EQUIPOS = [
   "competicion": "Benjamin F-8 - Tercera Futgal · A Coruña | Mariñas | 1ª Fase G1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991208&codcompeticion=26991185",
   "escudos": {
-   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
-   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg"
+   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg"
   },
   "actas": {
    "1": {
@@ -8875,7 +8875,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-10T09:49"
+  "descargado": "2026-11-11T06:15"
  },
  {
   "id": "prebenjamin-a",
@@ -9441,7 +9441,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-10T17:49"
+  "descargado": "2026-11-11T06:16"
  },
  {
   "id": "infantil-a-fem",
