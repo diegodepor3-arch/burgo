@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-11T14:28";
+const ACTUALIZADO = "2026-11-11T21:58";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2589,7 +2589,7 @@ const EQUIPOS = [
    "Diego Silva Tain": 22,
    "Stiven González Del Rosario": 23
   },
-  "descargado": "2026-11-11T06:15"
+  "descargado": "2026-11-11T21:57"
  },
  {
   "id": "senior-a-fem",
@@ -2604,12 +2604,10 @@ const EQUIPOS = [
    "Ainhoa Calvo Tubío",
    "Nicole Castelo El Amrani",
    "Noa Dourado Puñal",
-   "Tamara Fuentes Rabuñal",
    "Celia García Boquete",
    "Chenoa González Loureiro",
    "Uxia Mateo Seijo",
    "Aroa Nuñez Sánchez",
-   "Tania Rey Areosa",
    "Daniela Sánchez González",
    "Aldara Sánchez Toba",
    "Manuelita Olinda Tacure Godos",
@@ -3408,7 +3406,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 29,
    "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-11T06:16"
+  "descargado": "2026-11-11T21:58"
  },
  {
   "id": "juvenil-a",
@@ -7123,7 +7121,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "José Manuel Pisos Guimarey": 25
   },
-  "descargado": "2026-11-10T23:19"
+  "descargado": "2026-11-11T21:56"
  },
  {
   "id": "infantil-a",
@@ -7994,7 +7992,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-10T23:19"
+  "descargado": "2026-11-11T21:56"
  },
  {
   "id": "alevin-a",
@@ -8404,7 +8402,7 @@ const EQUIPOS = [
    "Leo Armando Cao Alonso": 9,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-11T06:15"
+  "descargado": "2026-11-11T21:57"
  },
  {
   "id": "benjamin-a",
@@ -8875,7 +8873,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 15,
    "Ismael López Fernández": 17
   },
-  "descargado": "2026-11-11T06:15"
+  "descargado": "2026-11-11T21:57"
  },
  {
   "id": "prebenjamin-a",
