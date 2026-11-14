@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-14T03:15";
+const ACTUALIZADO = "2026-11-14T10:29";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -1354,7 +1354,7 @@ const EQUIPOS = [
    "Pablo Veira Canzobre": 20,
    "Álvaro Soto Ferreiro": 21
   },
-  "descargado": "2026-11-13T16:21"
+  "descargado": "2026-11-14T10:28"
  },
  {
   "id": "senior-b",
@@ -4513,7 +4513,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 23,
    "Youssouf Khalil Boutaba": 24
   },
-  "descargado": "2026-11-13T07:57"
+  "descargado": "2026-11-14T10:27"
  },
  {
   "id": "juvenil-b",
@@ -4566,6 +4566,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "ATLETICO PERILLO",
+    "pts": 18,
+    "pj": 7,
+    "g": 6,
+    "e": 0,
+    "p": 1,
+    "gf": 27,
+    "gc": 8,
+    "propio": false
+   },
+   {
     "equipo": "A.D. CULLEREDO \"B\"",
     "pts": 16,
     "pj": 6,
@@ -4588,25 +4599,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "ATLETICO PERILLO",
-    "pts": 15,
-    "pj": 6,
-    "g": 5,
-    "e": 0,
-    "p": 1,
-    "gf": 25,
-    "gc": 8,
-    "propio": false
-   },
-   {
     "equipo": "CLUB DE FÚTBOL BATALLADOR S.D.",
     "pts": 12,
-    "pj": 6,
+    "pj": 7,
     "g": 4,
     "e": 0,
-    "p": 2,
+    "p": 3,
     "gf": 28,
-    "gc": 14,
+    "gc": 16,
     "propio": false
    },
    {
@@ -5466,7 +5466,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-13T07:57"
+  "descargado": "2026-11-14T10:27"
  },
  {
   "id": "cadete-a-fem",
@@ -8950,12 +8950,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATLETICO SAN PEDRO",
-    "pts": 9,
-    "pj": 5,
-    "g": 3,
+    "pts": 12,
+    "pj": 6,
+    "g": 4,
     "e": 0,
     "p": 2,
-    "gf": 11,
+    "gf": 14,
     "gc": 6,
     "propio": false
    },
@@ -9017,12 +9017,12 @@ const EQUIPOS = [
    {
     "equipo": "S.E. ABELLA S.D.E C.",
     "pts": 1,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 1,
-    "p": 4,
+    "p": 5,
     "gf": 2,
-    "gc": 12,
+    "gc": 15,
     "propio": false
    },
    {
@@ -9439,7 +9439,7 @@ const EQUIPOS = [
    "Dame Seck": 12,
    "Oier Buzon Garrido": 13
   },
-  "descargado": "2026-11-13T16:20"
+  "descargado": "2026-11-14T10:28"
  },
  {
   "id": "infantil-a-fem",
@@ -9891,7 +9891,7 @@ const EQUIPOS = [
    "Daniela Domínguez Corral": 20,
    "Sara Martins Alves": 21
   },
-  "descargado": "2026-11-13T16:21"
+  "descargado": "2026-11-14T10:28"
  },
  {
   "id": "senior-c-fem",
@@ -10655,7 +10655,7 @@ const EQUIPOS = [
    "Manuela Blanco Casas": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-13T16:21"
+  "descargado": "2026-11-14T10:29"
  },
  {
   "id": "veteranos-a",
