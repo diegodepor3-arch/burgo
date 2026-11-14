@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-14T17:07";
+const ACTUALIZADO = "2026-11-14T21:30";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -3444,10 +3444,10 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "SADA C.F.",
-    "pts": 24,
-    "pj": 8,
+    "pts": 25,
+    "pj": 9,
     "g": 8,
-    "e": 0,
+    "e": 1,
     "p": 0,
     "gf": 41,
     "gc": 5,
@@ -3455,99 +3455,99 @@ const EQUIPOS = [
    },
    {
     "equipo": "SPORTING CAMBRE",
-    "pts": 19,
-    "pj": 8,
-    "g": 6,
+    "pts": 22,
+    "pj": 9,
+    "g": 7,
     "e": 1,
     "p": 1,
-    "gf": 34,
-    "gc": 7,
+    "gf": 36,
+    "gc": 8,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. CARRAL",
+    "pts": 16,
+    "pj": 9,
+    "g": 5,
+    "e": 1,
+    "p": 3,
+    "gf": 27,
+    "gc": 19,
     "propio": false
    },
    {
     "equipo": "IMPERATOR O.A.R.",
     "pts": 16,
-    "pj": 8,
+    "pj": 9,
     "g": 5,
     "e": 1,
-    "p": 2,
-    "gf": 23,
-    "gc": 20,
+    "p": 3,
+    "gf": 25,
+    "gc": 25,
     "propio": false
    },
    {
     "equipo": "BETANZOS C.F.",
     "pts": 15,
-    "pj": 8,
+    "pj": 9,
     "g": 4,
     "e": 3,
-    "p": 1,
-    "gf": 28,
-    "gc": 14,
+    "p": 2,
+    "gf": 29,
+    "gc": 16,
     "propio": false
    },
    {
     "equipo": "OLIMPICO C.F.",
-    "pts": 14,
-    "pj": 8,
+    "pts": 15,
+    "pj": 9,
     "g": 4,
-    "e": 2,
+    "e": 3,
     "p": 2,
-    "gf": 20,
-    "gc": 12,
+    "gf": 23,
+    "gc": 15,
     "propio": false
    },
    {
     "equipo": "SANTA CRUZ C.F.",
-    "pts": 14,
-    "pj": 8,
+    "pts": 15,
+    "pj": 9,
     "g": 4,
-    "e": 2,
+    "e": 3,
     "p": 2,
-    "gf": 23,
-    "gc": 17,
+    "gf": 26,
+    "gc": 20,
     "propio": false
    },
    {
-    "equipo": "U.D. CARRAL",
-    "pts": 13,
-    "pj": 8,
+    "equipo": "C.D. CALASANZ \"B\"",
+    "pts": 15,
+    "pj": 9,
+    "g": 5,
+    "e": 0,
+    "p": 4,
+    "gf": 21,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "U.D. PAIOSACO- H. AÑON",
+    "pts": 14,
+    "pj": 9,
     "g": 4,
-    "e": 1,
+    "e": 2,
     "p": 3,
-    "gf": 22,
-    "gc": 17,
+    "gf": 15,
+    "gc": 14,
     "propio": false
    },
    {
     "equipo": "ONCE CABALLEROS C.F.",
     "pts": 13,
-    "pj": 8,
+    "pj": 9,
     "g": 4,
     "e": 1,
-    "p": 3,
-    "gf": 14,
-    "gc": 13,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CALASANZ \"B\"",
-    "pts": 12,
-    "pj": 8,
-    "g": 4,
-    "e": 0,
     "p": 4,
-    "gf": 18,
-    "gc": 14,
-    "propio": false
-   },
-   {
-    "equipo": "U.D. PAIOSACO- H. AÑON",
-    "pts": 11,
-    "pj": 8,
-    "g": 3,
-    "e": 2,
-    "p": 3,
     "gf": 14,
     "gc": 14,
     "propio": false
@@ -3575,47 +3575,47 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SDC ORDENES",
-    "pts": 6,
-    "pj": 8,
-    "g": 2,
-    "e": 0,
-    "p": 6,
-    "gf": 6,
-    "gc": 28,
-    "propio": false
-   },
-   {
     "equipo": "ATLETICO SAN PEDRO",
-    "pts": 5,
-    "pj": 8,
+    "pts": 6,
+    "pj": 9,
     "g": 1,
-    "e": 2,
+    "e": 3,
     "p": 5,
     "gf": 11,
     "gc": 18,
     "propio": false
    },
    {
+    "equipo": "SDC ORDENES",
+    "pts": 6,
+    "pj": 9,
+    "g": 2,
+    "e": 0,
+    "p": 7,
+    "gf": 9,
+    "gc": 34,
+    "propio": false
+   },
+   {
     "equipo": "SPORTING MEICENDE",
     "pts": 4,
-    "pj": 8,
+    "pj": 9,
     "g": 1,
     "e": 1,
-    "p": 6,
-    "gf": 11,
-    "gc": 28,
+    "p": 7,
+    "gf": 12,
+    "gc": 31,
     "propio": false
    },
    {
     "equipo": "SPORTING BURGO",
-    "pts": 0,
-    "pj": 8,
-    "g": 0,
+    "pts": 3,
+    "pj": 9,
+    "g": 1,
     "e": 0,
     "p": 8,
-    "gf": 9,
-    "gc": 48,
+    "gf": 15,
+    "gc": 51,
     "propio": true
    }
   ],
@@ -3698,8 +3698,8 @@ const EQUIPOS = [
     "hora": "20:00",
     "local": true,
     "rival": "SDC ORDENES",
-    "resultado": "",
-    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+    "resultado": "6-3",
+    "campo": ""
    },
    {
     "jornada": 10,
@@ -3708,7 +3708,7 @@ const EQUIPOS = [
     "local": false,
     "rival": "ONCE CABALLEROS C.F.",
     "resultado": "",
-    "campo": ""
+    "campo": "Lendoiro-A Barcala"
    },
    {
     "jornada": 11,
@@ -3894,22 +3894,22 @@ const EQUIPOS = [
   "competicion": "Juvenil - Primeira Futgal · A Coruña | 1ª Futgal | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26992198&codcompeticion=26992193",
   "escudos": {
-   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
-   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
-   "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
-   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
    "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
+   "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
+   "BETANZOS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000665955_Escudo_DEFINITIVO.jpg",
    "SADA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000931604_Sada_CF_escudo_FUTGAL.png",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
-   "U.D. CARRAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001484347_Carral.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
-   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png"
+   "SDC ORDENES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000914840_SDC__rdenes_Escudo.jpg",
+   "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
+   "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
+   "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg"
   },
   "actas": {
    "3": {
@@ -4485,35 +4485,117 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1457903"
+   },
+   "9": {
+    "t": [
+     "Marcos Sánchez Miguez",
+     "Limamou Laye Var",
+     "Pablo López López",
+     "Carlos García Areosa",
+     "Jaime Ramos Rojo",
+     "Javier Pena López",
+     "Adrián Ovejero Fernández",
+     "Roque Fernández Barreiro",
+     "Alonso Siller Alcivia",
+     "Pablo Bouza Pedre",
+     "Youssouf Khalil Boutaba"
+    ],
+    "s": [
+     "Lucas Ferreira Mougan",
+     "Daniel Cupeiro Sánchez",
+     "Iker Hernández Matos",
+     "Iago Riveiro Peon",
+     "Daniel Blanco González"
+    ],
+    "e": [
+     "Daniel Blanco González",
+     "Iago Riveiro Peon",
+     "Iker Hernández Matos",
+     "Daniel Cupeiro Sánchez"
+    ],
+    "g": {
+     "Limamou Laye Var": 1,
+     "Alonso Siller Alcivia": 2,
+     "Iago Riveiro Peon": 1,
+     "Iker Hernández Matos": 1,
+     "Adrián Ovejero Fernández": 1
+    },
+    "a": [
+     "Pablo Bouza Pedre"
+    ],
+    "r": [],
+    "d": {
+     "Marcos Sánchez Miguez": 1,
+     "Limamou Laye Var": 2,
+     "Pablo López López": 3,
+     "Carlos García Areosa": 4,
+     "Jaime Ramos Rojo": 5,
+     "Javier Pena López": 6,
+     "Adrián Ovejero Fernández": 7,
+     "Roque Fernández Barreiro": 8,
+     "Alonso Siller Alcivia": 9,
+     "Pablo Bouza Pedre": 10,
+     "Youssouf Khalil Boutaba": 11,
+     "Lucas Ferreira Mougan": 13,
+     "Daniel Cupeiro Sánchez": 12,
+     "Iker Hernández Matos": 14,
+     "Iago Riveiro Peon": 15,
+     "Daniel Blanco González": 16
+    },
+    "c": [
+     [
+      "Daniel Blanco González",
+      "Pablo López López",
+      59
+     ],
+     [
+      "Iago Riveiro Peon",
+      "Youssouf Khalil Boutaba",
+      59
+     ],
+     [
+      "Iker Hernández Matos",
+      "Carlos García Areosa",
+      64
+     ],
+     [
+      "Daniel Cupeiro Sánchez",
+      "Javier Pena López",
+      80
+     ]
+    ],
+    "rm": {},
+    "id": "1457911"
    }
   },
   "dorsales": {
    "Roque Fernández Barreiro": 8,
    "Pablo López López": 3,
-   "Jaime Ramos Rojo": 6,
    "Pablo Bouza Pedre": 10,
    "Marcos Sánchez Miguez": 1,
-   "Alonso Siller Alcivia": 9,
    "Carlos García Areosa": 4,
+   "Alonso Siller Alcivia": 9,
+   "Jaime Ramos Rojo": 6,
    "Limamou Laye Var": 2,
-   "Iker Hernández Matos": 7,
+   "Adrián Ovejero Fernández": 7,
+   "Daniel Cupeiro Sánchez": 12,
+   "Lucas Ferreira Mougan": 13,
    "Iker Urresti González": 14,
    "Fabiano Gerard Urbano Salazar": 15,
-   "Lucas Ferreira Mougan": 13,
    "Hugo Rojo Rial": 11,
    "Daniel Blanco González": 5,
-   "Javier Pena López": 12,
-   "Adrián Ovejero Fernández": 16,
-   "Daniel Cupeiro Sánchez": 17,
+   "Javier Pena López": 16,
+   "Iker Hernández Matos": 17,
    "Mateo Canedo Paz": 18,
-   "Adrián Varela Herranz": 19,
-   "Alejandro Barbosa Rodrigues": 20,
-   "Brais Fariña Fernández": 21,
-   "David Ferreiro Pérez": 22,
-   "Pablo Casais Domínguez": 23,
-   "Youssouf Khalil Boutaba": 24
+   "Youssouf Khalil Boutaba": 19,
+   "Adrián Varela Herranz": 20,
+   "Alejandro Barbosa Rodrigues": 21,
+   "Brais Fariña Fernández": 22,
+   "David Ferreiro Pérez": 23,
+   "Iago Riveiro Peon": 24,
+   "Pablo Casais Domínguez": 25
   },
-  "descargado": "2026-11-14T10:27"
+  "descargado": "2026-11-14T21:30"
  },
  {
   "id": "juvenil-b",
@@ -7287,13 +7369,24 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "C.D. CALASANZ \"C\"",
-    "pts": 19,
-    "pj": 7,
-    "g": 6,
+    "pts": 22,
+    "pj": 8,
+    "g": 7,
     "e": 1,
     "p": 0,
-    "gf": 38,
-    "gc": 11,
+    "gf": 49,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "RELÁMPAGO S. D.",
+    "pts": 21,
+    "pj": 8,
+    "g": 7,
+    "e": 0,
+    "p": 1,
+    "gf": 57,
+    "gc": 10,
     "propio": false
    },
    {
@@ -7305,17 +7398,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 65,
     "gc": 4,
-    "propio": false
-   },
-   {
-    "equipo": "RELÁMPAGO S. D.",
-    "pts": 18,
-    "pj": 7,
-    "g": 6,
-    "e": 0,
-    "p": 1,
-    "gf": 50,
-    "gc": 10,
     "propio": false
    },
    {
@@ -7332,12 +7414,34 @@ const EQUIPOS = [
    {
     "equipo": "URAL ESPAÑOL C.F. \"C\"",
     "pts": 18,
-    "pj": 7,
+    "pj": 8,
     "g": 6,
     "e": 0,
-    "p": 1,
-    "gf": 28,
-    "gc": 17,
+    "p": 2,
+    "gf": 31,
+    "gc": 28,
+    "propio": false
+   },
+   {
+    "equipo": "VICTORIA C.F. \"C\"",
+    "pts": 16,
+    "pj": 8,
+    "g": 5,
+    "e": 1,
+    "p": 2,
+    "gf": 38,
+    "gc": 14,
+    "propio": false
+   },
+   {
+    "equipo": "OZA JUVENIL S.D. \"B\"",
+    "pts": 15,
+    "pj": 8,
+    "g": 5,
+    "e": 0,
+    "p": 3,
+    "gf": 33,
+    "gc": 18,
     "propio": false
    },
    {
@@ -7352,47 +7456,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "VICTORIA C.F. \"C\"",
-    "pts": 13,
-    "pj": 7,
-    "g": 4,
-    "e": 1,
-    "p": 2,
-    "gf": 33,
-    "gc": 14,
-    "propio": false
-   },
-   {
-    "equipo": "OZA JUVENIL S.D. \"B\"",
-    "pts": 12,
-    "pj": 7,
-    "g": 4,
-    "e": 0,
-    "p": 3,
-    "gf": 26,
-    "gc": 17,
-    "propio": false
-   },
-   {
     "equipo": "ORILLAMAR S.D. \"B\"",
     "pts": 10,
-    "pj": 7,
+    "pj": 8,
     "g": 3,
     "e": 1,
-    "p": 3,
+    "p": 4,
     "gf": 18,
-    "gc": 20,
+    "gc": 25,
     "propio": false
    },
    {
     "equipo": "SPORTING BURGO",
     "pts": 7,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 1,
-    "p": 4,
+    "p": 5,
     "gf": 8,
-    "gc": 28,
+    "gc": 35,
     "propio": true
    },
    {
@@ -7442,12 +7524,12 @@ const EQUIPOS = [
    {
     "equipo": "PORTAZGO S.D.",
     "pts": 3,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 0,
-    "p": 6,
-    "gf": 8,
-    "gc": 57,
+    "p": 7,
+    "gf": 9,
+    "gc": 64,
     "propio": false
    },
    {
@@ -7532,8 +7614,8 @@ const EQUIPOS = [
     "hora": "16:00",
     "local": false,
     "rival": "RELÁMPAGO S. D.",
-    "resultado": "",
-    "campo": "Elviña Pequeño (La Coruña)"
+    "resultado": "7-0",
+    "campo": ""
    },
    {
     "jornada": 9,
@@ -7542,7 +7624,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "SILVA S.D. \"B\"",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
    },
    {
     "jornada": 10,
@@ -7738,21 +7820,21 @@ const EQUIPOS = [
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991127&codcompeticion=26991111",
   "escudos": {
    "ORILLAMAR S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
-   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
-   "URAL ESPAÑOL C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
-   "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
-   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
-   "SPORTING CORUÑES \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
+   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "URAL ESPAÑOL C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000891301_ESCUDO_URAL_B.jpg",
+   "C.D. CALASANZ \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "ATL. CORUÑA MONTAÑEROS C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000889647_AtleticoCorunaMonta.png",
    "A. C. RUEIRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001404224_WhatsApp_Image_2024_09_26_at_13.47.47.jpeg",
+   "C.D. CIUDAD": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
+   "SPORTING CORUÑES \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801946_escudo-4154.jpg",
    "IMPERATOR O.A.R. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "SANTA MARIA DEL MAR": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001611104_Escudo_sin_fondo.png",
-   "SILVA S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
-   "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg"
+   "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
+   "VICTORIA C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
+   "OZA JUVENIL S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg"
   },
   "actas": {
    "2": {
@@ -8091,32 +8173,77 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1497136"
+   },
+   "8": {
+    "t": [
+     "Julian Andrés De Jesús Rodríguez Mejia",
+     "Guillermo Pérez Mojeda",
+     "Martín Garrote García",
+     "Logan Francesco Albertoletti Ortega",
+     "Hector Fernández González",
+     "Luis Santiago Caceres Bastardo",
+     "Leonardo García Hidalgo",
+     "Gabriel Simon Castro",
+     "Mateo Orizales Sierra",
+     "Manuel Miguens Carames",
+     "Ismael Otero Servier"
+    ],
+    "s": [
+     "José Alfonso Crespo Rodríguez",
+     "Carlos Gael Varela Fariña",
+     "Santiago Castellano Reyes",
+     "Enyel Alexander Montilla Santana"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Julian Andrés De Jesús Rodríguez Mejia": 1,
+     "Guillermo Pérez Mojeda": 2,
+     "Martín Garrote García": 3,
+     "Logan Francesco Albertoletti Ortega": 4,
+     "Hector Fernández González": 5,
+     "Luis Santiago Caceres Bastardo": 6,
+     "Leonardo García Hidalgo": 8,
+     "Gabriel Simon Castro": 9,
+     "Mateo Orizales Sierra": 10,
+     "Manuel Miguens Carames": 11,
+     "Ismael Otero Servier": 12,
+     "José Alfonso Crespo Rodríguez": 13,
+     "Carlos Gael Varela Fariña": 7,
+     "Santiago Castellano Reyes": 14,
+     "Enyel Alexander Montilla Santana": 15
+    },
+    "c": [],
+    "rm": {},
+    "id": "1497145"
    }
   },
   "dorsales": {
    "Martín Garrote García": 3,
    "Logan Francesco Albertoletti Ortega": 4,
-   "Gabriel Simon Castro": 5,
    "Luis Santiago Caceres Bastardo": 6,
-   "Cristhian Daniel Moucot Cabeza": 9,
    "Manuel Miguens Carames": 11,
    "Ismael Otero Servier": 12,
+   "Gabriel Simon Castro": 5,
+   "Cristhian Daniel Moucot Cabeza": 9,
    "Brais Martínez Couto": 13,
-   "Leonardo García Hidalgo": 8,
-   "Santiago Castellano Reyes": 16,
    "Julian Andrés De Jesús Rodríguez Mejia": 1,
-   "Hector Fernández González": 10,
+   "Leonardo García Hidalgo": 8,
    "Guillermo Pérez Mojeda": 2,
-   "José Alfonso Crespo Rodríguez": 15,
+   "Mateo Orizales Sierra": 10,
+   "Santiago Castellano Reyes": 16,
    "Carlos Gael Varela Fariña": 7,
+   "José Alfonso Crespo Rodríguez": 15,
    "Iago Brandon Insua": 14,
-   "Mateo Orizales Sierra": 17,
+   "Hector Fernández González": 17,
    "Abraham Matteo Abeleira Da Silva": 18,
    "Brais Brandon Insua": 19,
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-14T03:15"
+  "descargado": "2026-11-14T21:29"
  },
  {
   "id": "alevin-a",
@@ -8161,26 +8288,26 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "SPORTING BURGO",
-    "pts": 9,
-    "pj": 4,
-    "g": 3,
+    "equipo": "OLIMPICO C.F. \"C\"",
+    "pts": 12,
+    "pj": 5,
+    "g": 4,
     "e": 0,
     "p": 1,
-    "gf": 17,
-    "gc": 6,
-    "propio": true
+    "gf": 19,
+    "gc": 16,
+    "propio": false
    },
    {
-    "equipo": "OLIMPICO C.F. \"C\"",
+    "equipo": "SPORTING BURGO",
     "pts": 9,
-    "pj": 4,
+    "pj": 5,
     "g": 3,
     "e": 0,
-    "p": 1,
-    "gf": 17,
-    "gc": 15,
-    "propio": false
+    "p": 2,
+    "gf": 18,
+    "gc": 8,
+    "propio": true
    },
    {
     "equipo": "U.D.J. ALMEIRAS \"B\"",
@@ -8270,8 +8397,8 @@ const EQUIPOS = [
     "hora": "12:00",
     "local": false,
     "rival": "OLIMPICO C.F. \"C\"",
-    "resultado": "",
-    "campo": "Complejo Deportivo, (Vilaboa)"
+    "resultado": "2-1",
+    "campo": ""
    },
    {
     "jornada": 7,
@@ -8280,7 +8407,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "ATLETICO SAN PEDRO \"B\"",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
    },
    {
     "jornada": 8,
@@ -8341,10 +8468,10 @@ const EQUIPOS = [
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991664&codcompeticion=26991642",
   "escudos": {
    "ONCE CABALLEROS C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "U.D.J. ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "PORTAZGO S.D. \"A\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg"
   },
@@ -8508,6 +8635,45 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1517961"
+   },
+   "6": {
+    "t": [
+     "Eric Caceres Gómez",
+     "Alonso Riva Saldaña",
+     "Thiago Canelas Da Silva",
+     "Matias Otero Servier",
+     "Ariadna López Fernández",
+     "Leo Armando Cao Alonso",
+     "Liham Smith Liberato Rodríguez"
+    ],
+    "s": [
+     "Lois García Dobarro",
+     "Benjamin Adrián Cano Zapata",
+     "Gabriel Franco Franchino",
+     "Natanael Roca Lobo",
+     "Alejandro Suárez Torres"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Eric Caceres Gómez": 1,
+     "Alonso Riva Saldaña": 2,
+     "Thiago Canelas Da Silva": 4,
+     "Matias Otero Servier": 5,
+     "Ariadna López Fernández": 7,
+     "Leo Armando Cao Alonso": 9,
+     "Liham Smith Liberato Rodríguez": 11,
+     "Lois García Dobarro": 6,
+     "Benjamin Adrián Cano Zapata": 8,
+     "Gabriel Franco Franchino": 12,
+     "Natanael Roca Lobo": 14,
+     "Alejandro Suárez Torres": 20
+    },
+    "c": [],
+    "rm": {},
+    "id": "1517966"
    }
   },
   "dorsales": {
@@ -8516,17 +8682,17 @@ const EQUIPOS = [
    "Lois García Dobarro": 6,
    "Benjamin Adrián Cano Zapata": 8,
    "Alonso Riva Saldaña": 2,
-   "Ariadna López Fernández": 7,
-   "Gael Mosquera Brea": 10,
-   "Liham Smith Liberato Rodríguez": 11,
-   "Alejandro Suárez Torres": 12,
-   "Natanael Roca Lobo": 14,
    "Thiago Canelas Da Silva": 4,
-   "Josue Miguel Moucot Cabeza": 3,
+   "Ariadna López Fernández": 7,
+   "Liham Smith Liberato Rodríguez": 11,
+   "Natanael Roca Lobo": 14,
    "Leo Armando Cao Alonso": 9,
+   "Gael Mosquera Brea": 10,
+   "Alejandro Suárez Torres": 12,
+   "Josue Miguel Moucot Cabeza": 3,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-14T03:15"
+  "descargado": "2026-11-14T21:29"
  },
  {
   "id": "benjamin-a",
@@ -8578,68 +8744,68 @@ const EQUIPOS = [
    },
    {
     "equipo": "ONCE CABALLEROS C.F.",
-    "pts": 12,
-    "pj": 4,
-    "g": 4,
+    "pts": 15,
+    "pj": 5,
+    "g": 5,
     "e": 0,
     "p": 0,
-    "gf": 27,
-    "gc": 10,
+    "gf": 33,
+    "gc": 12,
     "propio": false
    },
    {
     "equipo": "SPORTING BURGO",
-    "pts": 9,
-    "pj": 5,
-    "g": 3,
+    "pts": 12,
+    "pj": 6,
+    "g": 4,
     "e": 0,
     "p": 2,
-    "gf": 29,
-    "gc": 24,
+    "gf": 33,
+    "gc": 26,
     "propio": true
    },
    {
     "equipo": "SPORTING CAMBRE \"B\"",
     "pts": 6,
-    "pj": 4,
+    "pj": 5,
     "g": 2,
     "e": 0,
-    "p": 2,
-    "gf": 29,
-    "gc": 18,
+    "p": 3,
+    "gf": 31,
+    "gc": 22,
     "propio": false
    },
    {
     "equipo": "OLIMPICO C.F. \"C\"",
-    "pts": 1,
-    "pj": 4,
-    "g": 0,
+    "pts": 4,
+    "pj": 5,
+    "g": 1,
     "e": 1,
     "p": 3,
-    "gf": 10,
+    "gf": 17,
     "gc": 21,
     "propio": false
    },
    {
     "equipo": "ATLETICO SAN PEDRO \"B\"",
     "pts": 1,
-    "pj": 4,
+    "pj": 5,
     "g": 0,
     "e": 1,
-    "p": 3,
-    "gf": 12,
-    "gc": 28,
+    "p": 4,
+    "gf": 14,
+    "gc": 34,
     "propio": false
    },
    {
     "equipo": "A.D. CULLEREDO",
     "pts": 0,
-    "pj": 4,
+    "pj": 5,
     "g": 0,
     "e": 0,
-    "p": 4,
+    "p": 5,
     "gf": 7,
-    "gc": 53,
+    "gc": 60,
     "propio": false
    }
   ],
@@ -8695,8 +8861,8 @@ const EQUIPOS = [
     "hora": "10:30",
     "local": false,
     "rival": "SPORTING CAMBRE \"B\"",
-    "resultado": "",
-    "campo": "Dani Mallo (Cambre)"
+    "resultado": "2-4",
+    "campo": ""
    },
    {
     "jornada": 8,
@@ -8705,7 +8871,7 @@ const EQUIPOS = [
     "local": true,
     "rival": "U.D.J. ALMEIRAS",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
    },
    {
     "jornada": 9,
@@ -8756,13 +8922,13 @@ const EQUIPOS = [
   "competicion": "Benjamin F-8 - Tercera Futgal · A Coruña | Mariñas | 1ª Fase G1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26991208&codcompeticion=26991185",
   "escudos": {
-   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
-   "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "OLIMPICO C.F. \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
-   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg"
+   "ATLETICO SAN PEDRO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
+   "SPORTING CAMBRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg"
   },
   "actas": {
    "1": {
@@ -8975,29 +9141,73 @@ const EQUIPOS = [
     "c": [],
     "rm": {},
     "id": "1518297"
+   },
+   "6": {
+    "t": [
+     "Ismael López Fernández",
+     "Daniel Andrei Scarlat",
+     "Santiago Andrés Martín Rodríguez",
+     "Yadiel De La Cruz González",
+     "Michael Rodríguez Bermúdez",
+     "Leo Liñares Lustres",
+     "Enzo Peña Moreno",
+     "Pool Dereck Montoya Cedeño"
+    ],
+    "s": [
+     "Luca Sabal Pérez",
+     "José Tomás Gómez Nuñez",
+     "Joan Rodríguez Miranda",
+     "Gael Darriba Pérez",
+     "Miguel Valverde De Azevedo",
+     "Xian Suárez Fabeiro"
+    ],
+    "e": [],
+    "g": {},
+    "a": [],
+    "r": [],
+    "d": {
+     "Ismael López Fernández": 1,
+     "Daniel Andrei Scarlat": 3,
+     "Santiago Andrés Martín Rodríguez": 4,
+     "Yadiel De La Cruz González": 6,
+     "Michael Rodríguez Bermúdez": 8,
+     "Leo Liñares Lustres": 9,
+     "Enzo Peña Moreno": 10,
+     "Pool Dereck Montoya Cedeño": 16,
+     "Luca Sabal Pérez": 2,
+     "José Tomás Gómez Nuñez": 7,
+     "Joan Rodríguez Miranda": 11,
+     "Gael Darriba Pérez": 12,
+     "Miguel Valverde De Azevedo": 14,
+     "Xian Suárez Fabeiro": 17
+    },
+    "c": [],
+    "rm": {},
+    "id": "1518302"
    }
   },
   "dorsales": {
-   "Anxo García Dobarro": 5,
    "Leo Liñares Lustres": 9,
    "Joan Rodríguez Miranda": 11,
-   "Imran Ourkha Razine": 12,
    "Miguel Valverde De Azevedo": 14,
    "Santiago Andrés Martín Rodríguez": 4,
    "Yadiel De La Cruz González": 6,
+   "Anxo García Dobarro": 5,
+   "Imran Ourkha Razine": 12,
+   "Michael Rodríguez Bermúdez": 8,
+   "Enzo Peña Moreno": 10,
    "Hugo Fontenla Macias": 7,
    "Xan Martínez Uzal": 1,
    "Xian Suárez Fabeiro": 2,
-   "Michael Rodríguez Bermúdez": 8,
-   "Enzo Peña Moreno": 10,
    "Daniel Andrei Scarlat": 3,
-   "Luca Sabal Pérez": 18,
    "Pool Dereck Montoya Cedeño": 16,
+   "Luca Sabal Pérez": 18,
    "José Tomás Gómez Nuñez": 13,
-   "Breogan Rojo Tedin": 15,
-   "Ismael López Fernández": 17
+   "Ismael López Fernández": 15,
+   "Breogan Rojo Tedin": 17,
+   "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-14T03:15"
+  "descargado": "2026-11-14T21:30"
  },
  {
   "id": "prebenjamin-a",
