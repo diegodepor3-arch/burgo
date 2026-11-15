@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-15T17:10";
+const ACTUALIZADO = "2026-11-15T21:49";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -3601,24 +3601,24 @@ const EQUIPOS = [
    },
    {
     "equipo": "A.D. CULLEREDO",
-    "pts": 9,
-    "pj": 8,
-    "g": 3,
+    "pts": 12,
+    "pj": 9,
+    "g": 4,
     "e": 0,
     "p": 5,
-    "gf": 19,
-    "gc": 30,
+    "gf": 23,
+    "gc": 33,
     "propio": false
    },
    {
     "equipo": "ATLETICO ARTEIXO \"B\"",
     "pts": 8,
-    "pj": 8,
+    "pj": 9,
     "g": 2,
     "e": 2,
-    "p": 4,
-    "gf": 10,
-    "gc": 18,
+    "p": 5,
+    "gf": 13,
+    "gc": 22,
     "propio": false
    },
    {
@@ -4642,7 +4642,7 @@ const EQUIPOS = [
    "Iago Riveiro Peon": 24,
    "Pablo Casais Domínguez": 25
   },
-  "descargado": "2026-11-14T21:30"
+  "descargado": "2026-11-15T21:48"
  },
  {
   "id": "juvenil-b",
@@ -4686,12 +4686,12 @@ const EQUIPOS = [
    {
     "equipo": "A.D. CRISTO REY",
     "pts": 18,
-    "pj": 6,
+    "pj": 7,
     "g": 6,
     "e": 0,
-    "p": 0,
+    "p": 1,
     "gf": 37,
-    "gc": 6,
+    "gc": 8,
     "propio": false
    },
    {
@@ -4728,6 +4728,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "C.D. CIUDAD \"B\"",
+    "pts": 15,
+    "pj": 7,
+    "g": 5,
+    "e": 0,
+    "p": 2,
+    "gf": 30,
+    "gc": 19,
+    "propio": false
+   },
+   {
     "equipo": "CLUB DE FÚTBOL BATALLADOR S.D.",
     "pts": 12,
     "pj": 7,
@@ -4736,17 +4747,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 29,
     "gc": 16,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. CIUDAD \"B\"",
-    "pts": 12,
-    "pj": 6,
-    "g": 4,
-    "e": 0,
-    "p": 2,
-    "gf": 28,
-    "gc": 19,
     "propio": false
    },
    {
@@ -4773,13 +4773,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "RELÁMPAGO S.D. \"B\"",
-    "pts": 6,
-    "pj": 6,
-    "g": 2,
+    "pts": 9,
+    "pj": 7,
+    "g": 3,
     "e": 0,
     "p": 4,
-    "gf": 14,
-    "gc": 20,
+    "gf": 22,
+    "gc": 24,
     "propio": false
    },
    {
@@ -4829,12 +4829,12 @@ const EQUIPOS = [
    {
     "equipo": "CLUB ROSALÍA MERA \"B\"",
     "pts": 1,
-    "pj": 6,
+    "pj": 7,
     "g": 0,
     "e": 1,
-    "p": 5,
-    "gf": 9,
-    "gc": 53,
+    "p": 6,
+    "gf": 13,
+    "gc": 61,
     "propio": false
    }
   ],
@@ -5673,7 +5673,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-15T09:23"
+  "descargado": "2026-11-15T21:49"
  },
  {
   "id": "cadete-a-fem",
@@ -6312,12 +6312,12 @@ const EQUIPOS = [
    },
    {
     "equipo": "ONCE CABALLEROS C.F",
-    "pts": 21,
-    "pj": 7,
-    "g": 7,
+    "pts": 24,
+    "pj": 8,
+    "g": 8,
     "e": 0,
     "p": 0,
-    "gf": 35,
+    "gf": 38,
     "gc": 14,
     "propio": false
    },
@@ -6355,6 +6355,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "A.D. CRISTO REY \"B\"",
+    "pts": 15,
+    "pj": 8,
+    "g": 5,
+    "e": 0,
+    "p": 3,
+    "gf": 24,
+    "gc": 28,
+    "propio": false
+   },
+   {
     "equipo": "MARINO C.F.",
     "pts": 12,
     "pj": 8,
@@ -6363,17 +6374,6 @@ const EQUIPOS = [
     "p": 4,
     "gf": 24,
     "gc": 24,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CRISTO REY \"B\"",
-    "pts": 12,
-    "pj": 7,
-    "g": 4,
-    "e": 0,
-    "p": 3,
-    "gf": 21,
-    "gc": 27,
     "propio": false
    },
    {
@@ -6401,23 +6401,34 @@ const EQUIPOS = [
    {
     "equipo": "U.D.J. ALMEIRAS",
     "pts": 8,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 2,
-    "p": 3,
-    "gf": 19,
-    "gc": 29,
+    "p": 4,
+    "gf": 22,
+    "gc": 34,
+    "propio": false
+   },
+   {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 7,
+    "pj": 8,
+    "g": 2,
+    "e": 1,
+    "p": 5,
+    "gf": 11,
+    "gc": 22,
     "propio": false
    },
    {
     "equipo": "ATL. CERCEDENSE",
     "pts": 6,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 0,
-    "p": 5,
+    "p": 6,
     "gf": 8,
-    "gc": 18,
+    "gc": 21,
     "propio": false
    },
    {
@@ -6434,12 +6445,12 @@ const EQUIPOS = [
    {
     "equipo": "SANTA CRUZ C.F. \"B\"",
     "pts": 5,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 2,
-    "p": 4,
-    "gf": 15,
-    "gc": 31,
+    "p": 5,
+    "gf": 16,
+    "gc": 34,
     "propio": false
    },
    {
@@ -6451,17 +6462,6 @@ const EQUIPOS = [
     "p": 5,
     "gf": 12,
     "gc": 40,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 4,
-    "pj": 7,
-    "g": 1,
-    "e": 1,
-    "p": 5,
-    "gf": 6,
-    "gc": 19,
     "propio": false
    },
    {
@@ -7452,7 +7452,7 @@ const EQUIPOS = [
    "José Manuel Pisos Guimarey": 24,
    "Óscar Otero Mariño": 25
   },
-  "descargado": "2026-11-14T17:07"
+  "descargado": "2026-11-15T21:47"
  },
  {
   "id": "infantil-a",
@@ -7504,6 +7504,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "ATL. CORUÑA MONTAÑEROS C.F. \"C\"",
+    "pts": 21,
+    "pj": 8,
+    "g": 7,
+    "e": 0,
+    "p": 1,
+    "gf": 79,
+    "gc": 7,
+    "propio": false
+   },
+   {
     "equipo": "RELÁMPAGO S. D.",
     "pts": 21,
     "pj": 8,
@@ -7512,17 +7523,6 @@ const EQUIPOS = [
     "p": 1,
     "gf": 57,
     "gc": 10,
-    "propio": false
-   },
-   {
-    "equipo": "ATL. CORUÑA MONTAÑEROS C.F. \"C\"",
-    "pts": 18,
-    "pj": 7,
-    "g": 6,
-    "e": 0,
-    "p": 1,
-    "gf": 65,
-    "gc": 4,
     "propio": false
    },
    {
@@ -7592,6 +7592,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "C.D. CIUDAD",
+    "pts": 9,
+    "pj": 8,
+    "g": 3,
+    "e": 0,
+    "p": 5,
+    "gf": 18,
+    "gc": 26,
+    "propio": false
+   },
+   {
     "equipo": "SPORTING BURGO",
     "pts": 7,
     "pj": 8,
@@ -7603,47 +7614,36 @@ const EQUIPOS = [
     "propio": true
    },
    {
-    "equipo": "C.D. CIUDAD",
+    "equipo": "SANTA MARIA DEL MAR",
     "pts": 6,
-    "pj": 7,
+    "pj": 8,
     "g": 2,
     "e": 0,
-    "p": 5,
-    "gf": 15,
-    "gc": 24,
+    "p": 6,
+    "gf": 14,
+    "gc": 36,
     "propio": false
    },
    {
     "equipo": "SPORTING CORUÑES \"B\"",
     "pts": 4,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 1,
-    "p": 5,
-    "gf": 7,
-    "gc": 38,
-    "propio": false
-   },
-   {
-    "equipo": "SANTA MARIA DEL MAR",
-    "pts": 3,
-    "pj": 7,
-    "g": 1,
-    "e": 0,
     "p": 6,
     "gf": 9,
-    "gc": 33,
+    "gc": 41,
     "propio": false
    },
    {
     "equipo": "A. C. RUEIRO",
     "pts": 3,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 0,
-    "p": 6,
-    "gf": 23,
-    "gc": 53,
+    "p": 7,
+    "gf": 26,
+    "gc": 67,
     "propio": false
    },
    {
@@ -7660,12 +7660,12 @@ const EQUIPOS = [
    {
     "equipo": "IMPERATOR O.A.R. \"B\"",
     "pts": 0,
-    "pj": 7,
+    "pj": 8,
     "g": 0,
     "e": 0,
-    "p": 7,
-    "gf": 5,
-    "gc": 52,
+    "p": 8,
+    "gf": 8,
+    "gc": 57,
     "propio": false
    }
   ],
@@ -8368,7 +8368,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-14T21:29"
+  "descargado": "2026-11-15T21:47"
  },
  {
   "id": "alevin-a",
@@ -8436,46 +8436,46 @@ const EQUIPOS = [
    },
    {
     "equipo": "U.D.J. ALMEIRAS \"B\"",
-    "pts": 6,
-    "pj": 4,
-    "g": 2,
+    "pts": 9,
+    "pj": 5,
+    "g": 3,
     "e": 0,
     "p": 2,
-    "gf": 20,
+    "gf": 24,
     "gc": 14,
     "propio": false
    },
    {
     "equipo": "ATLETICO SAN PEDRO \"B\"",
-    "pts": 3,
-    "pj": 4,
-    "g": 1,
+    "pts": 6,
+    "pj": 5,
+    "g": 2,
     "e": 0,
     "p": 3,
-    "gf": 19,
-    "gc": 17,
+    "gf": 28,
+    "gc": 18,
     "propio": false
    },
    {
     "equipo": "A.D. CULLEREDO",
     "pts": 3,
-    "pj": 4,
+    "pj": 5,
     "g": 1,
     "e": 0,
-    "p": 3,
+    "p": 4,
     "gf": 7,
-    "gc": 20,
+    "gc": 24,
     "propio": false
    },
    {
     "equipo": "PORTAZGO S.D. \"A\"",
     "pts": 0,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 0,
-    "p": 5,
-    "gf": 3,
-    "gc": 31,
+    "p": 6,
+    "gf": 4,
+    "gc": 40,
     "propio": false
    }
   ],
@@ -8817,7 +8817,7 @@ const EQUIPOS = [
    "Josue Miguel Moucot Cabeza": 3,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-14T21:29"
+  "descargado": "2026-11-15T21:48"
  },
  {
   "id": "benjamin-a",
@@ -9332,7 +9332,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 17,
    "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-14T21:30"
+  "descargado": "2026-11-15T21:48"
  },
  {
   "id": "prebenjamin-a",
