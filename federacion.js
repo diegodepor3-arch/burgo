@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-16T20:29";
+const ACTUALIZADO = "2026-11-17T03:54";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -2749,7 +2749,7 @@ const EQUIPOS = [
    "Stiven González Del Rosario": 23,
    "Brian Barbeito Díaz": 24
   },
-  "descargado": "2026-11-16T09:41"
+  "descargado": "2026-11-17T03:53"
  },
  {
   "id": "senior-a-fem",
@@ -2978,11 +2978,11 @@ const EQUIPOS = [
    {
     "jornada": 10,
     "fecha": "2026-11-22",
-    "hora": "",
+    "hora": "12:00",
     "local": false,
     "rival": "RACING CLUB FERROL S.A.D.",
     "resultado": "",
-    "campo": "Víctor Fernández Alonso - Antigua Leyma"
+    "campo": "A Gándara-1 (Ferrol)"
    },
    {
     "jornada": 11,
@@ -3062,14 +3062,14 @@ const EQUIPOS = [
   "escudos": {
    "BREXO LEMA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100238_ESCUDO_JPG.jpg",
    "C.C.R.D. PERLIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100833_Escudo_web_federacion.jpg",
-   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "EIRÍS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
    "S.D. O VAL \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
    "ORILLAMAR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000941018_ESCUDO_OFICIAL_ORILLAMAR_SD_PRINCIPAL.jpg",
    "C.D. CARIÑO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0011659270_48411824_2043299652430588_6385394562625437696_n.jpg",
    "CLUB DEPORTIVO NARON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
-   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg"
+   "UNION CAMPESTRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg"
   },
   "actas": {
    "3": {
@@ -3613,7 +3613,7 @@ const EQUIPOS = [
    "Tamara Fuentes Rabuñal": 29,
    "Yeireny Camila Santana Asencio": 30
   },
-  "descargado": "2026-11-16T09:41"
+  "descargado": "2026-11-17T03:54"
  },
  {
   "id": "juvenil-a",
@@ -10091,7 +10091,7 @@ const EQUIPOS = [
    "Mateo José Hernández López": 18,
    "Dame Seck": 12
   },
-  "descargado": "2026-11-16T02:05"
+  "descargado": "2026-11-17T03:52"
  },
  {
   "id": "infantil-a-fem",
@@ -10593,7 +10593,7 @@ const EQUIPOS = [
    "Victoria Sophia Montoya Cedeño": 21,
    "Sara Bravo Rojas": 22
   },
-  "descargado": "2026-11-16T02:05"
+  "descargado": "2026-11-17T03:52"
  },
  {
   "id": "senior-c-fem",
@@ -11402,7 +11402,7 @@ const EQUIPOS = [
    "Yessica Martínez Castro": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-16T02:06"
+  "descargado": "2026-11-17T03:53"
  },
  {
   "id": "veteranos-a",
@@ -11705,7 +11705,7 @@ const EQUIPOS = [
    {
     "jornada": 10,
     "fecha": "2026-11-21",
-    "hora": "",
+    "hora": "18:00",
     "local": false,
     "rival": "OZA DE LOS RÍOS",
     "resultado": "",
@@ -11895,22 +11895,22 @@ const EQUIPOS = [
   "competicion": "Veteranos - Primera Galicia · A Coruña | 1ª División Veteranos",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28251751&codcompeticion=26991153",
   "escudos": {
-   "OZA DE LOS RÍOS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001608780_000_Escudo.jpg",
-   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "SADA F.C. A NOSA VIÑA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "SADA F.C. A NOSA VIÑA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818218_ESCUDO.png",
    "U.D. NARAHIO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000818218_ESCUDO.png",
    "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg",
    "CAMPANAL DE LOUREDA F. C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001112484_IMG_20211103_WA0001.jpg",
    "CLUB DEPORTIVO NARON SILVER CATERING": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
    "C.D. SIGRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806749_Veteranos_del_sigras__20190918_001525.jpg",
-   "SPORTING CAMBRE AS TRAVESAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
-   "BETANZOS NORTE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000644575_Sin_titulo-1.jpg",
    "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "CEDEIRA S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918775_Escudo_Cedeira1.jpg",
    "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
    "XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
    "U.D. PAIOSACO H.AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
-   "SAN MARTIÑO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806697_Escudo_Sanma.jpg"
+   "SAN MARTIÑO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000806697_Escudo_Sanma.jpg",
+   "OZA DE LOS RÍOS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001608780_000_Escudo.jpg",
+   "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "SPORTING CAMBRE AS TRAVESAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
+   "BETANZOS NORTE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000644575_Sin_titulo-1.jpg"
   },
   "actas": {
    "4": {
@@ -12391,6 +12391,6 @@ const EQUIPOS = [
    "German Abuin Rodríguez": 24,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-16T09:40"
+  "descargado": "2026-11-17T03:53"
  }
 ];
