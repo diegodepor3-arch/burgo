@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-19T13:04";
+const ACTUALIZADO = "2026-11-20T03:14";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -139,6 +139,17 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 15,
+    "pj": 11,
+    "g": 4,
+    "e": 3,
+    "p": 4,
+    "gf": 19,
+    "gc": 18,
+    "propio": false
+   },
+   {
     "equipo": "ONCE CABALLEROS C.F.",
     "pts": 14,
     "pj": 11,
@@ -169,17 +180,6 @@ const EQUIPOS = [
     "p": 4,
     "gf": 19,
     "gc": 22,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 12,
-    "pj": 10,
-    "g": 3,
-    "e": 3,
-    "p": 4,
-    "gf": 16,
-    "gc": 17,
     "propio": false
    },
    {
@@ -229,12 +229,12 @@ const EQUIPOS = [
    {
     "equipo": "OZA JUVENIL S.D.",
     "pts": 7,
-    "pj": 10,
+    "pj": 11,
     "g": 2,
     "e": 1,
-    "p": 7,
-    "gf": 18,
-    "gc": 24,
+    "p": 8,
+    "gf": 19,
+    "gc": 27,
     "propio": false
    }
   ],
@@ -1435,7 +1435,7 @@ const EQUIPOS = [
    "Álvaro Soto Ferreiro": 20,
    "Pablo Veira Canzobre": 21
   },
-  "descargado": "2026-11-17T13:25"
+  "descargado": "2026-11-20T03:13"
  },
  {
   "id": "senior-b",
@@ -5833,7 +5833,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-17T22:21"
+  "descargado": "2026-11-20T03:13"
  },
  {
   "id": "cadete-a-fem",
@@ -6416,7 +6416,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-17T22:22"
+  "descargado": "2026-11-20T03:13"
  },
  {
   "id": "cadete-a",
@@ -9493,7 +9493,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 17,
    "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-17T13:24"
+  "descargado": "2026-11-20T03:12"
  },
  {
   "id": "prebenjamin-a",
@@ -10092,7 +10092,7 @@ const EQUIPOS = [
    "Mateo José Hernández López": 18,
    "Dame Seck": 12
   },
-  "descargado": "2026-11-17T22:22"
+  "descargado": "2026-11-20T03:14"
  },
  {
   "id": "infantil-a-fem",
@@ -10594,7 +10594,7 @@ const EQUIPOS = [
    "Victoria Sophia Montoya Cedeño": 21,
    "Sara Bravo Rojas": 22
   },
-  "descargado": "2026-11-17T22:22"
+  "descargado": "2026-11-20T03:14"
  },
  {
   "id": "senior-c-fem",
