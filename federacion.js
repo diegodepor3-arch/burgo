@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-20T20:16";
+const ACTUALIZADO = "2026-11-21T01:34";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -1435,7 +1435,7 @@ const EQUIPOS = [
    "Álvaro Soto Ferreiro": 20,
    "Pablo Veira Canzobre": 21
   },
-  "descargado": "2026-11-20T03:13"
+  "descargado": "2026-11-21T01:33"
  },
  {
   "id": "senior-b",
@@ -5833,7 +5833,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-20T03:13"
+  "descargado": "2026-11-21T01:33"
  },
  {
   "id": "cadete-a-fem",
@@ -6416,7 +6416,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-20T03:13"
+  "descargado": "2026-11-21T01:34"
  },
  {
   "id": "cadete-a",
@@ -7689,12 +7689,12 @@ const EQUIPOS = [
    {
     "equipo": "SILVA S.D. \"B\"",
     "pts": 18,
-    "pj": 7,
+    "pj": 8,
     "g": 6,
     "e": 0,
-    "p": 1,
-    "gf": 42,
-    "gc": 20,
+    "p": 2,
+    "gf": 43,
+    "gc": 26,
     "propio": false
    },
    {
@@ -7706,6 +7706,17 @@ const EQUIPOS = [
     "p": 2,
     "gf": 31,
     "gc": 28,
+    "propio": false
+   },
+   {
+    "equipo": "C.F. BATALLADOR S.D.",
+    "pts": 16,
+    "pj": 8,
+    "g": 5,
+    "e": 1,
+    "p": 2,
+    "gf": 43,
+    "gc": 15,
     "propio": false
    },
    {
@@ -7728,17 +7739,6 @@ const EQUIPOS = [
     "p": 3,
     "gf": 33,
     "gc": 18,
-    "propio": false
-   },
-   {
-    "equipo": "C.F. BATALLADOR S.D.",
-    "pts": 13,
-    "pj": 7,
-    "g": 4,
-    "e": 1,
-    "p": 2,
-    "gf": 37,
-    "gc": 14,
     "propio": false
    },
    {
@@ -8529,7 +8529,7 @@ const EQUIPOS = [
    "Enyel Alexander Montilla Santana": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-19T13:03"
+  "descargado": "2026-11-21T01:32"
  },
  {
   "id": "alevin-a",
@@ -8978,7 +8978,7 @@ const EQUIPOS = [
    "Josue Miguel Moucot Cabeza": 3,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-19T13:04"
+  "descargado": "2026-11-21T01:32"
  },
  {
   "id": "benjamin-a",
@@ -9493,7 +9493,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 17,
    "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-20T03:12"
+  "descargado": "2026-11-21T01:33"
  },
  {
   "id": "prebenjamin-a",
