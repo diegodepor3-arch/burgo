@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-22T19:38";
+const ACTUALIZADO = "2026-11-23T00:52";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -1554,102 +1554,113 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
-    "equipo": "C.D. X. ARANGA",
-    "pts": 25,
-    "pj": 10,
-    "g": 8,
+    "equipo": "VIZOÑO S.D. \"B\"",
+    "pts": 28,
+    "pj": 11,
+    "g": 9,
     "e": 1,
     "p": 1,
-    "gf": 42,
-    "gc": 15,
+    "gf": 37,
+    "gc": 9,
     "propio": false
    },
    {
-    "equipo": "VIZOÑO S.D. \"B\"",
+    "equipo": "C.D. X. ARANGA",
     "pts": 25,
-    "pj": 10,
+    "pj": 11,
     "g": 8,
     "e": 1,
-    "p": 1,
-    "gf": 31,
-    "gc": 8,
+    "p": 2,
+    "gf": 43,
+    "gc": 18,
     "propio": false
    },
    {
     "equipo": "S.E. ABELLA S.D.C.",
-    "pts": 19,
-    "pj": 9,
-    "g": 6,
+    "pts": 22,
+    "pj": 10,
+    "g": 7,
     "e": 1,
     "p": 2,
-    "gf": 27,
-    "gc": 12,
+    "gf": 30,
+    "gc": 13,
     "propio": false
    },
    {
     "equipo": "A.D. VILA DE ORDES",
-    "pts": 19,
-    "pj": 10,
-    "g": 5,
+    "pts": 22,
+    "pj": 11,
+    "g": 6,
     "e": 4,
     "p": 1,
-    "gf": 16,
+    "gf": 18,
     "gc": 8,
     "propio": false
    },
    {
     "equipo": "ATLÉTICO CERCEDENSE",
-    "pts": 18,
-    "pj": 9,
-    "g": 5,
+    "pts": 21,
+    "pj": 10,
+    "g": 6,
     "e": 3,
     "p": 1,
-    "gf": 24,
+    "gf": 29,
     "gc": 8,
     "propio": false
    },
    {
     "equipo": "U.D. CARRAL \"B\"",
     "pts": 17,
-    "pj": 9,
+    "pj": 10,
     "g": 5,
     "e": 2,
-    "p": 2,
+    "p": 3,
     "gf": 22,
-    "gc": 16,
-    "propio": false
-   },
-   {
-    "equipo": "C.D. MESIA",
-    "pts": 11,
-    "pj": 9,
-    "g": 3,
-    "e": 2,
-    "p": 4,
-    "gf": 16,
-    "gc": 18,
-    "propio": false
-   },
-   {
-    "equipo": "S.D. PONTE CARREIRA",
-    "pts": 11,
-    "pj": 9,
-    "g": 3,
-    "e": 2,
-    "p": 4,
-    "gf": 13,
     "gc": 17,
     "propio": false
    },
    {
     "equipo": "S.D SAN MARTIÑO",
-    "pts": 10,
-    "pj": 9,
-    "g": 2,
+    "pts": 13,
+    "pj": 10,
+    "g": 3,
     "e": 4,
     "p": 3,
-    "gf": 13,
+    "gf": 14,
     "gc": 11,
+    "propio": false
+   },
+   {
+    "equipo": "S. D. VILASANTAR",
+    "pts": 11,
+    "pj": 10,
+    "g": 3,
+    "e": 2,
+    "p": 5,
+    "gf": 21,
+    "gc": 23,
+    "propio": false
+   },
+   {
+    "equipo": "C.D. MESIA",
+    "pts": 11,
+    "pj": 10,
+    "g": 3,
+    "e": 2,
+    "p": 5,
+    "gf": 16,
+    "gc": 23,
+    "propio": false
+   },
+   {
+    "equipo": "S.D. PONTE CARREIRA",
+    "pts": 11,
+    "pj": 10,
+    "g": 3,
+    "e": 2,
+    "p": 5,
+    "gf": 14,
+    "gc": 23,
     "propio": false
    },
    {
@@ -1664,58 +1675,47 @@ const EQUIPOS = [
     "propio": true
    },
    {
-    "equipo": "RODIS FUTBOL CLUB",
+    "equipo": "ATL. SOBRADO XUVENTUDE",
     "pts": 8,
-    "pj": 9,
+    "pj": 10,
     "g": 2,
     "e": 2,
-    "p": 5,
-    "gf": 12,
-    "gc": 17,
+    "p": 6,
+    "gf": 8,
+    "gc": 22,
     "propio": false
    },
    {
-    "equipo": "S. D. VILASANTAR",
+    "equipo": "RODIS FUTBOL CLUB",
     "pts": 8,
-    "pj": 9,
+    "pj": 10,
     "g": 2,
     "e": 2,
-    "p": 5,
-    "gf": 16,
-    "gc": 23,
+    "p": 6,
+    "gf": 12,
+    "gc": 19,
     "propio": false
    },
    {
     "equipo": "COIRÓS SOCIEDAD DEPORTIVA",
     "pts": 6,
-    "pj": 9,
+    "pj": 10,
     "g": 1,
     "e": 3,
-    "p": 5,
-    "gf": 10,
-    "gc": 25,
-    "propio": false
-   },
-   {
-    "equipo": "ATL. SOBRADO XUVENTUDE",
-    "pts": 5,
-    "pj": 9,
-    "g": 1,
-    "e": 2,
     "p": 6,
-    "gf": 5,
-    "gc": 21,
+    "gf": 11,
+    "gc": 28,
     "propio": false
    },
    {
     "equipo": "SADA C.F. \"B\"",
     "pts": 2,
-    "pj": 10,
+    "pj": 11,
     "g": 0,
     "e": 2,
-    "p": 8,
+    "p": 9,
     "gf": 9,
-    "gc": 35,
+    "gc": 40,
     "propio": false
    }
   ],
@@ -2824,7 +2824,7 @@ const EQUIPOS = [
    "Stiven González Del Rosario": 23,
    "Brian Barbeito Díaz": 24
   },
-  "descargado": "2026-11-22T11:21"
+  "descargado": "2026-11-23T00:52"
  },
  {
   "id": "senior-a-fem",
@@ -4989,6 +4989,17 @@ const EQUIPOS = [
   ],
   "clasificacion": [
    {
+    "equipo": "A.D. LICEO",
+    "pts": 21,
+    "pj": 8,
+    "g": 7,
+    "e": 0,
+    "p": 1,
+    "gf": 36,
+    "gc": 11,
+    "propio": false
+   },
+   {
     "equipo": "ATLETICO PERILLO",
     "pts": 21,
     "pj": 8,
@@ -5022,17 +5033,6 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "A.D. LICEO",
-    "pts": 18,
-    "pj": 7,
-    "g": 6,
-    "e": 0,
-    "p": 1,
-    "gf": 34,
-    "gc": 10,
-    "propio": false
-   },
-   {
     "equipo": "C.D. CIUDAD \"B\"",
     "pts": 15,
     "pj": 8,
@@ -5041,6 +5041,17 @@ const EQUIPOS = [
     "p": 3,
     "gf": 32,
     "gc": 22,
+    "propio": false
+   },
+   {
+    "equipo": "S.C.D. PASTORIZA",
+    "pts": 14,
+    "pj": 8,
+    "g": 4,
+    "e": 2,
+    "p": 2,
+    "gf": 19,
+    "gc": 12,
     "propio": false
    },
    {
@@ -5055,25 +5066,14 @@ const EQUIPOS = [
     "propio": false
    },
    {
-    "equipo": "S.C.D. PASTORIZA",
-    "pts": 11,
-    "pj": 7,
-    "g": 3,
-    "e": 2,
-    "p": 2,
-    "gf": 15,
-    "gc": 10,
-    "propio": false
-   },
-   {
     "equipo": "SPORTING BURGO \"B\"",
     "pts": 10,
-    "pj": 7,
+    "pj": 8,
     "g": 3,
     "e": 1,
-    "p": 3,
-    "gf": 18,
-    "gc": 17,
+    "p": 4,
+    "gf": 19,
+    "gc": 19,
     "propio": true
    },
    {
@@ -5112,12 +5112,12 @@ const EQUIPOS = [
    {
     "equipo": "CORUÑA ARBOCO C.F.",
     "pts": 4,
-    "pj": 7,
+    "pj": 8,
     "g": 1,
     "e": 1,
-    "p": 5,
-    "gf": 16,
-    "gc": 38,
+    "p": 6,
+    "gf": 18,
+    "gc": 42,
     "propio": false
    },
    {
@@ -5213,8 +5213,8 @@ const EQUIPOS = [
     "hora": "10:00",
     "local": true,
     "rival": "A.D. LICEO",
-    "resultado": "",
-    "campo": "Campo de Fútbol Municipal A Lavandeira en Culleredo"
+    "resultado": "1-2",
+    "campo": ""
    },
    {
     "jornada": 9,
@@ -5223,7 +5223,7 @@ const EQUIPOS = [
     "local": false,
     "rival": "C.D. CIUDAD \"B\"",
     "resultado": "",
-    "campo": ""
+    "campo": "Campo de Fútbol O Redondo (Montrove)"
    },
    {
     "jornada": 10,
@@ -5382,19 +5382,19 @@ const EQUIPOS = [
   "competicion": "Juvenil - 3ª Futgal · A Coruña | G2",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28950545&codcompeticion=26991108",
   "escudos": {
-   "A.D. CULLEREDO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
-   "C.D. CIUDAD \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
-   "MARINO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
-   "UNION CAMPESTRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
-   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
-   "CLUB DE FÚTBOL BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
    "RELÁMPAGO S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
-   "U.D. JUVENIL DE ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "ATLETICO PERILLO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000034822_ESCUDO_PERILLO.jpg",
    "CLUB ROSALÍA MERA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001008004_ROSALIA_MERA_ESCUDO_GRANDE.jpg",
+   "A.D. CRISTO REY": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
+   "CLUB DE FÚTBOL BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
+   "A.D. CULLEREDO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
+   "C.D. CIUDAD \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001223589_CD_CIUDAD_TR_2.png",
    "SPORTING BURGO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "A.D. LICEO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000798377_Logo_Liceo_FONDO_BLANCO_sin_margen.jpg",
+   "MARINO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
+   "UNION CAMPESTRE \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
    "CORUÑA ARBOCO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001103292_escudo_rfgf.jpg",
+   "U.D. JUVENIL DE ALMEIRAS \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
    "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg"
   },
   "actas": {
@@ -5951,34 +5951,115 @@ const EQUIPOS = [
     ],
     "rm": {},
     "id": "1502439"
+   },
+   "8": {
+    "t": [
+     "Adrián Varela Herranz",
+     "Gabriel López Fernández",
+     "Sergio Albores Herrero",
+     "Luca Sebastián Seoane Torres",
+     "Malick Diop",
+     "Manuel Álvarez Cabrillana",
+     "David Ferreiro Pérez",
+     "Dhiaa Eddine Bachir",
+     "Raul Leites Amor",
+     "Pablo Bouza Pedre",
+     "Iago Riveiro Peon"
+    ],
+    "s": [
+     "Diego Vecino Vilar",
+     "José Luis Pereira Pérez",
+     "Yohan Luis Caceres Bastardo",
+     "Mohamed Rayane Lakhlifi",
+     "Rodrigo Cacheiro Permuy"
+    ],
+    "e": [
+     "Diego Vecino Vilar",
+     "José Luis Pereira Pérez",
+     "Mohamed Rayane Lakhlifi",
+     "Yohan Luis Caceres Bastardo"
+    ],
+    "g": {
+     "Raul Leites Amor": 1
+    },
+    "a": [
+     "Mohamed Rayane Lakhlifi"
+    ],
+    "r": [
+     "Pablo Bouza Pedre"
+    ],
+    "d": {
+     "Adrián Varela Herranz": 1,
+     "Gabriel López Fernández": 2,
+     "Sergio Albores Herrero": 3,
+     "Luca Sebastián Seoane Torres": 4,
+     "Malick Diop": 5,
+     "Manuel Álvarez Cabrillana": 6,
+     "David Ferreiro Pérez": 7,
+     "Dhiaa Eddine Bachir": 8,
+     "Raul Leites Amor": 9,
+     "Pablo Bouza Pedre": 10,
+     "Iago Riveiro Peon": 11,
+     "Diego Vecino Vilar": 12,
+     "José Luis Pereira Pérez": 14,
+     "Yohan Luis Caceres Bastardo": 15,
+     "Mohamed Rayane Lakhlifi": 16,
+     "Rodrigo Cacheiro Permuy": 17
+    },
+    "c": [
+     [
+      "Diego Vecino Vilar",
+      "Raul Leites Amor",
+      58
+     ],
+     [
+      "José Luis Pereira Pérez",
+      "David Ferreiro Pérez",
+      58
+     ],
+     [
+      "Mohamed Rayane Lakhlifi",
+      "Gabriel López Fernández",
+      58
+     ],
+     [
+      "Yohan Luis Caceres Bastardo",
+      "Manuel Álvarez Cabrillana",
+      75
+     ]
+    ],
+    "rm": {
+     "Pablo Bouza Pedre": 88
+    },
+    "id": "1502446"
    }
   },
   "dorsales": {
    "Raul Leites Amor": 9,
    "Adrián Varela Herranz": 1,
-   "Antonio Gabarri Suárez": 4,
    "Manuel Álvarez Cabrillana": 6,
-   "Diego Vecino Vilar": 10,
-   "Sergio Albores Herrero": 2,
-   "Iago Riveiro Peon": 8,
+   "Antonio Gabarri Suárez": 4,
    "Malick Diop": 5,
-   "Yohan Luis Caceres Bastardo": 12,
+   "Diego Vecino Vilar": 10,
+   "Sergio Albores Herrero": 3,
    "David Ferreiro Pérez": 7,
+   "Iago Riveiro Peon": 8,
+   "Yohan Luis Caceres Bastardo": 12,
    "Gabriel López Fernández": 11,
    "Mohamed Rayane Lakhlifi": 14,
    "José Luis Pereira Pérez": 15,
-   "Rodrigo Cacheiro Permuy": 3,
    "Isaias Facundo Martínez Barreto": 16,
-   "Franklin José Nava Parra": 17,
-   "Luca Sebastián Seoane Torres": 13,
-   "Dhiaa Eddine Bachir": 18,
-   "Javier Pena López": 19,
-   "Marcos Sánchez Miguez": 20,
-   "Pablo Bouza Pedre": 21,
+   "Rodrigo Cacheiro Permuy": 17,
+   "Luca Sebastián Seoane Torres": 2,
+   "Dhiaa Eddine Bachir": 13,
+   "Franklin José Nava Parra": 18,
+   "Pablo Bouza Pedre": 19,
+   "Javier Pena López": 20,
+   "Marcos Sánchez Miguez": 21,
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-21T23:15"
+  "descargado": "2026-11-23T00:51"
  },
  {
   "id": "cadete-a-fem",
@@ -6561,7 +6642,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-21T23:15"
+  "descargado": "2026-11-23T00:51"
  },
  {
   "id": "cadete-a",
@@ -9380,24 +9461,24 @@ const EQUIPOS = [
    },
    {
     "equipo": "ATLETICO SAN PEDRO \"B\"",
-    "pts": 1,
-    "pj": 5,
-    "g": 0,
+    "pts": 4,
+    "pj": 6,
+    "g": 1,
     "e": 1,
     "p": 4,
-    "gf": 14,
-    "gc": 34,
+    "gf": 20,
+    "gc": 35,
     "propio": false
    },
    {
     "equipo": "A.D. CULLEREDO",
     "pts": 0,
-    "pj": 5,
+    "pj": 6,
     "g": 0,
     "e": 0,
-    "p": 5,
-    "gf": 7,
-    "gc": 60,
+    "p": 6,
+    "gf": 8,
+    "gc": 66,
     "propio": false
    }
   ],
@@ -9799,7 +9880,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 17,
    "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-21T23:15"
+  "descargado": "2026-11-23T00:52"
  },
  {
   "id": "prebenjamin-a",
@@ -10433,7 +10514,7 @@ const EQUIPOS = [
    "Aria Canelas Rey": 12,
    "Roi González Martínez": 13
   },
-  "descargado": "2026-11-21T23:16"
+  "descargado": "2026-11-23T00:52"
  },
  {
   "id": "infantil-a-fem",
