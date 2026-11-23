@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-23T09:03";
+const ACTUALIZADO = "2026-11-23T21:22";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -53,12 +53,12 @@ const EQUIPOS = [
    {
     "equipo": "LICEO DE MONELOS S.D.",
     "pts": 23,
-    "pj": 11,
+    "pj": 12,
     "g": 7,
     "e": 2,
-    "p": 2,
+    "p": 3,
     "gf": 29,
-    "gc": 16,
+    "gc": 20,
     "propio": false
    },
    {
@@ -106,6 +106,17 @@ const EQUIPOS = [
     "propio": true
    },
    {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 18,
+    "pj": 12,
+    "g": 5,
+    "e": 3,
+    "p": 4,
+    "gf": 23,
+    "gc": 18,
+    "propio": false
+   },
+   {
     "equipo": "MARINO C.F.",
     "pts": 18,
     "pj": 12,
@@ -147,17 +158,6 @@ const EQUIPOS = [
     "p": 6,
     "gf": 27,
     "gc": 29,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 15,
-    "pj": 11,
-    "g": 4,
-    "e": 3,
-    "p": 4,
-    "gf": 19,
-    "gc": 18,
     "propio": false
    },
    {
@@ -549,6 +549,8 @@ const EQUIPOS = [
   "competicion": "Segunda Futgal · A Coruña",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=27021835&codcompeticion=26991090",
   "escudos": {
+   "OLIMPICO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
    "MARINO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
    "PORTAZGO S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801957_19700101_010000_1573847035.jpg",
    "C.D. CIUDAD JARDIN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001218414_Imagen_de_WhatsApp_2024_04_26_a_las_20.12.37_97ce5fe8.jpg",
@@ -564,9 +566,7 @@ const EQUIPOS = [
    "VISANTOÑA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000603560_v.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
-   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
-   "OLIMPICO C.F. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
-   "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png"
+   "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png"
   },
   "actas": {
    "5": {
@@ -1510,7 +1510,7 @@ const EQUIPOS = [
    "Álvaro Soto Ferreiro": 20,
    "Pablo Veira Canzobre": 21
   },
-  "descargado": "2026-11-22T19:38"
+  "descargado": "2026-11-23T21:22"
  },
  {
   "id": "senior-b",
@@ -6108,7 +6108,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-23T00:51"
+  "descargado": "2026-11-23T21:22"
  },
  {
   "id": "cadete-a-fem",
@@ -6384,10 +6384,10 @@ const EQUIPOS = [
   "escudos": {
    "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
-   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
-   "C.D. AS PONTES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003337_ESCUDO_CD_AS_PONTES.jpg",
    "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "CLUB DEPORTIVO NARON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000605087_C.D_Naron.png",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
+   "C.D. AS PONTES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003337_ESCUDO_CD_AS_PONTES.jpg",
    "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
@@ -6691,7 +6691,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-23T00:51"
+  "descargado": "2026-11-23T21:22"
  },
  {
   "id": "cadete-a",
@@ -6796,8 +6796,8 @@ const EQUIPOS = [
     "g": 6,
     "e": 0,
     "p": 3,
-    "gf": 28,
-    "gc": 29,
+    "gf": 29,
+    "gc": 32,
     "propio": false
    },
    {
@@ -6862,8 +6862,8 @@ const EQUIPOS = [
     "g": 2,
     "e": 1,
     "p": 6,
-    "gf": 12,
-    "gc": 26,
+    "gf": 15,
+    "gc": 27,
     "propio": false
    },
    {
@@ -7190,8 +7190,6 @@ const EQUIPOS = [
    "UNION CAMPESTRE F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000645928_escudo_grande_(1).jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "MARINO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801995_Escudo_Marino_en_color.jpg",
-   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
-   "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg",
    "A.D. CRISTO REY \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001837770_ESCUDO_NARANJA_SIN_FONDO.png",
    "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "ATL. CERCEDENSE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000892398_escudo_en_negro.jpg",
@@ -7201,7 +7199,9 @@ const EQUIPOS = [
    "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
    "S.D. BREXO LEMA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001100238_ESCUDO_JPG.jpg",
    "C.F. OZACESURAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001117000_ESCUDO_BUENO_RECTIFICADO.jpg",
-   "ONCE CABALLEROS C.F": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg"
+   "ONCE CABALLEROS C.F": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
+   "U.D.J. ALMEIRAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000809377_IMG-20191007-WA0003.jpg",
+   "C.C.D. CURTIS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000940968_20211003_102818.jpg"
   },
   "actas": {
    "3": {
@@ -7960,7 +7960,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "Óscar Otero Mariño": 25
   },
-  "descargado": "2026-11-22T19:37"
+  "descargado": "2026-11-23T21:21"
  },
  {
   "id": "infantil-a",
@@ -8003,35 +8003,35 @@ const EQUIPOS = [
   "clasificacion": [
    {
     "equipo": "C.D. CALASANZ \"C\"",
-    "pts": 22,
-    "pj": 8,
-    "g": 7,
+    "pts": 25,
+    "pj": 9,
+    "g": 8,
     "e": 1,
     "p": 0,
-    "gf": 49,
-    "gc": 14,
+    "gf": 51,
+    "gc": 15,
+    "propio": false
+   },
+   {
+    "equipo": "RELÁMPAGO S. D.",
+    "pts": 24,
+    "pj": 9,
+    "g": 8,
+    "e": 0,
+    "p": 1,
+    "gf": 59,
+    "gc": 11,
     "propio": false
    },
    {
     "equipo": "ATL. CORUÑA MONTAÑEROS C.F. \"C\"",
     "pts": 21,
-    "pj": 8,
+    "pj": 9,
     "g": 7,
     "e": 0,
-    "p": 1,
-    "gf": 79,
-    "gc": 7,
-    "propio": false
-   },
-   {
-    "equipo": "RELÁMPAGO S. D.",
-    "pts": 21,
-    "pj": 8,
-    "g": 7,
-    "e": 0,
-    "p": 1,
-    "gf": 57,
-    "gc": 10,
+    "p": 2,
+    "gf": 80,
+    "gc": 9,
     "propio": false
    },
    {
@@ -8092,12 +8092,12 @@ const EQUIPOS = [
    {
     "equipo": "ORILLAMAR S.D. \"B\"",
     "pts": 10,
-    "pj": 8,
+    "pj": 9,
     "g": 3,
     "e": 1,
-    "p": 4,
-    "gf": 18,
-    "gc": 25,
+    "p": 5,
+    "gf": 19,
+    "gc": 27,
     "propio": false
    },
    {
@@ -8924,7 +8924,7 @@ const EQUIPOS = [
    "Abraham Matteo Abeleira Da Silva": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-22T19:37"
+  "descargado": "2026-11-23T21:21"
  },
  {
   "id": "alevin-a",
@@ -9414,7 +9414,7 @@ const EQUIPOS = [
    "Alejandro Suárez Torres": 12,
    "Gabriel Franco Franchino": 13
   },
-  "descargado": "2026-11-22T19:37"
+  "descargado": "2026-11-23T21:21"
  },
  {
   "id": "benjamin-a",
