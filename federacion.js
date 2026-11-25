@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-25T12:53";
+const ACTUALIZADO = "2026-11-25T22:32";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -4225,14 +4225,14 @@ const EQUIPOS = [
   "competicion": "Juvenil - Primeira Futgal · A Coruña | 1ª Futgal | Grupo Unico",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=26992198&codcompeticion=26992193",
   "escudos": {
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "SPORTING MEICENDE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001010506_ESCUDO_SP.MEICENDE___GRANDE_.jpg",
    "ONCE CABALLEROS C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000601679_ONCECAB.jpg",
    "IMPERATOR O.A.R.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000911974_ESCUDO__IMPERATOR_final.png",
    "ATLETICO ARTEIXO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001414249_Escudo_Arteixo.png",
    "U.D. PAIOSACO- H. AÑON": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0012024828_escudo_66px.png",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "SPORTING CAMBRE": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000801589_ESCUDO_ESPORTING_CAMBRE.jpg",
    "ATLETICO SAN PEDRO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "C.D. CALASANZ \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001120003_escudo_calasanz.jpg",
    "A.D. CULLEREDO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000804791_LOGO_A.D.C.png",
@@ -4996,7 +4996,7 @@ const EQUIPOS = [
    "Luca Sebastián Seoane Torres": 25,
    "Pablo Casais Domínguez": 26
   },
-  "descargado": "2026-11-24T17:41"
+  "descargado": "2026-11-25T22:31"
  },
  {
   "id": "juvenil-b",
@@ -6715,6 +6715,7 @@ const EQUIPOS = [
    "Cristian Muñoz Barbosa",
    "Martín Naveira Castro",
    "Alejandro Nimo Gheorge",
+   "Enzo Gabriel Ochoa Solano",
    "Óscar Otero Mariño",
    "Eric Otero Tomé",
    "David Xin Pazos Rodríguez",
@@ -7960,7 +7961,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "Óscar Otero Mariño": 25
   },
-  "descargado": "2026-11-24T17:42"
+  "descargado": "2026-11-25T22:32"
  },
  {
   "id": "infantil-a",
@@ -8924,7 +8925,7 @@ const EQUIPOS = [
    "Abraham Matteo Abeleira Da Silva": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-24T17:42"
+  "descargado": "2026-11-25T22:32"
  },
  {
   "id": "alevin-a",
@@ -10762,12 +10763,12 @@ const EQUIPOS = [
    },
    {
     "jornada": 6,
-    "fecha": "2026-11-29",
-    "hora": "",
+    "fecha": "2026-11-28",
+    "hora": "18:00",
     "local": false,
     "rival": "OZA JUVENIL S.D.",
     "resultado": "",
-    "campo": "Sinde B"
+    "campo": "Campo de Fútbol MUNICIPAL EIRIS - LAMADOSA"
    },
    {
     "jornada": 7,
@@ -10800,6 +10801,8 @@ const EQUIPOS = [
   "competicion": "Femenina - Liga Galega Infantil · Grupo A",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=29005645&codcompeticion=26991146",
   "escudos": {
+   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
+   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg",
    "S.C.D. PASTORIZA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000001134_O_NOSO_ESCUDO_2.jpg",
    "VICTORIA C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000004135_victoriacfblanco.jpg",
    "C.F. BATALLADOR S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000918106_ESCUDO_.jpg",
@@ -10807,9 +10810,7 @@ const EQUIPOS = [
    "OZA JUVENIL S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000734970_00100_0000629374_Untitled_-_1.jpg",
    "SPORTING BURGO": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
    "S.D. O VAL": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001560714_ESCUDO_SD_O_VAL.jpg",
-   "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png",
-   "SANTA CRUZ C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000901695_EscudoSantaExpandido_002.jpg",
-   "RACING CLUB FERROL S.A.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001624274_ESCUDO.jpg"
+   "ORZÁN S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000881577_escudo_orzan.png"
   },
   "actas": {
    "1": {
@@ -11065,7 +11066,7 @@ const EQUIPOS = [
    "Victoria Sophia Montoya Cedeño": 21,
    "Sara Bravo Rojas": 22
   },
-  "descargado": "2026-11-24T06:02"
+  "descargado": "2026-11-25T22:31"
  },
  {
   "id": "senior-c-fem",
@@ -11552,22 +11553,22 @@ const EQUIPOS = [
   "competicion": "Femenina | Liga F-7 · A Coruña | Grupo 1",
   "urlClasificacion": "https://www.futgal.es/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=28903299&codcompeticion=26991142",
   "escudos": {
-   "CLUB FUTBOL FEMENINO CELAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001826152_IMG_20260715_145754.jpg",
-   "EIRÍS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png",
    "RELÁMPAGO S. D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000894509_Escudo.PNG",
    "LICEO DE MONELOS S.D.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000884334_liceo_monelos_1.png",
    "DEPORTIVO ORZÁN": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001623837_RANSPARENTE.png",
    "VIOÑO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001406822_Screenshot_2024_09_30_23_24_06_656_com.android.chrome_edit.jpg",
-   "S.D. TORDOIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803585_Escudo_Dolmen.JPG",
-   "C. D. OBRERO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000600215_LOGO_OBRERO.jpg",
-   "MESOIRO F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001114304_escudo.jpg",
-   "CARNOEDO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000958843_ProfilePhoto.jpgCARNOEDO.jpg",
-   "TRAZO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000007466_trazo.jpg",
-   "CLUB XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
    "ATLETICO SAN PEDRO \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000808127_San_Pedro.jpg",
    "SPORTING BURGO \"C\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803631_IMG-20190719-WA0017.jpg",
+   "S.D. TORDOIA \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000803585_Escudo_Dolmen.JPG",
+   "C. D. OBRERO \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000600215_LOGO_OBRERO.jpg",
+   "TRAZO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000007466_trazo.jpg",
+   "CLUB XUVENTUDE DORNEDA": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000936253_IMG_20210818_121012.jpg",
    "C.D. AS PONTES": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001003337_ESCUDO_CD_AS_PONTES.jpg",
-   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg"
+   "OLIMPICO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000867912_escudo_federaci_n.jpg",
+   "MESOIRO F.C.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001114304_escudo.jpg",
+   "CARNOEDO C.F.": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000958843_ProfilePhoto.jpgCARNOEDO.jpg",
+   "CLUB FUTBOL FEMENINO CELAS": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0001826152_IMG_20260715_145754.jpg",
+   "EIRÍS S.D. \"B\"": "https://rfgf.filesnovanet.es/pnfg/pimg/Clubes/00100_0000934032_Eiris.png"
   },
   "actas": {
    "1": {
@@ -11915,7 +11916,7 @@ const EQUIPOS = [
    "Sara Romero Castro": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-24T06:02"
+  "descargado": "2026-11-25T22:31"
  },
  {
   "id": "veteranos-a",
@@ -12953,6 +12954,6 @@ const EQUIPOS = [
    "Evaristo Lareo Arias": 29,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-24T17:41"
+  "descargado": "2026-11-25T22:31"
  }
 ];
