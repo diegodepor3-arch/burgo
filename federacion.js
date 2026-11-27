@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-26T23:53";
+const ACTUALIZADO = "2026-11-27T08:29";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -4996,7 +4996,7 @@ const EQUIPOS = [
    "Luca Sebastián Seoane Torres": 25,
    "Pablo Casais Domínguez": 26
   },
-  "descargado": "2026-11-26T15:13"
+  "descargado": "2026-11-27T08:28"
  },
  {
   "id": "juvenil-b",
@@ -6108,7 +6108,7 @@ const EQUIPOS = [
    "Pablo Casais Domínguez": 22,
    "Pablo López López": 23
   },
-  "descargado": "2026-11-26T05:03"
+  "descargado": "2026-11-27T08:27"
  },
  {
   "id": "cadete-a-fem",
@@ -6691,7 +6691,7 @@ const EQUIPOS = [
    "Emma Álvarez": 17,
    "Candela Sinde Vieites": 18
   },
-  "descargado": "2026-11-26T05:03"
+  "descargado": "2026-11-27T08:28"
  },
  {
   "id": "cadete-a",
@@ -9930,7 +9930,7 @@ const EQUIPOS = [
    "Breogan Rojo Tedin": 17,
    "Gael Darriba Pérez": 19
   },
-  "descargado": "2026-11-26T15:12"
+  "descargado": "2026-11-27T08:28"
  },
  {
   "id": "prebenjamin-a",
@@ -10564,7 +10564,7 @@ const EQUIPOS = [
    "Aria Canelas Rey": 12,
    "Roi González Martínez": 13
   },
-  "descargado": "2026-11-26T15:13"
+  "descargado": "2026-11-27T08:29"
  },
  {
   "id": "infantil-a-fem",
@@ -11066,7 +11066,7 @@ const EQUIPOS = [
    "Victoria Sophia Montoya Cedeño": 21,
    "Sara Bravo Rojas": 22
   },
-  "descargado": "2026-11-26T15:13"
+  "descargado": "2026-11-27T08:29"
  },
  {
   "id": "senior-c-fem",
