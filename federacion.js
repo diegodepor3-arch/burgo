@@ -1,5 +1,5 @@
 // GENERADO por actualizar.py desde futgal.es. No editar a mano.
-const ACTUALIZADO = "2026-11-27T08:29";
+const ACTUALIZADO = "2026-11-28T01:59";
 const EQUIPOS = [
  {
   "id": "senior-a",
@@ -106,14 +106,25 @@ const EQUIPOS = [
     "propio": true
    },
    {
+    "equipo": "OLIMPICO C.F. \"B\"",
+    "pts": 19,
+    "pj": 13,
+    "g": 6,
+    "e": 1,
+    "p": 6,
+    "gf": 31,
+    "gc": 31,
+    "propio": false
+   },
+   {
     "equipo": "A.D. CULLEREDO",
     "pts": 18,
-    "pj": 12,
+    "pj": 13,
     "g": 5,
     "e": 3,
-    "p": 4,
-    "gf": 23,
-    "gc": 18,
+    "p": 5,
+    "gf": 25,
+    "gc": 22,
     "propio": false
    },
    {
@@ -147,17 +158,6 @@ const EQUIPOS = [
     "p": 5,
     "gf": 25,
     "gc": 18,
-    "propio": false
-   },
-   {
-    "equipo": "OLIMPICO C.F. \"B\"",
-    "pts": 16,
-    "pj": 12,
-    "g": 5,
-    "e": 1,
-    "p": 6,
-    "gf": 27,
-    "gc": 29,
     "propio": false
    },
    {
@@ -1510,7 +1510,7 @@ const EQUIPOS = [
    "Álvaro Soto Ferreiro": 20,
    "Pablo Veira Canzobre": 21
   },
-  "descargado": "2026-11-26T23:52"
+  "descargado": "2026-11-28T01:59"
  },
  {
   "id": "senior-b",
@@ -1600,12 +1600,12 @@ const EQUIPOS = [
    {
     "equipo": "ATLÉTICO CERCEDENSE",
     "pts": 21,
-    "pj": 10,
+    "pj": 11,
     "g": 6,
     "e": 3,
-    "p": 1,
-    "gf": 29,
-    "gc": 8,
+    "p": 2,
+    "gf": 30,
+    "gc": 10,
     "propio": false
    },
    {
@@ -1621,13 +1621,13 @@ const EQUIPOS = [
    },
    {
     "equipo": "S.D SAN MARTIÑO",
-    "pts": 13,
-    "pj": 10,
-    "g": 3,
+    "pts": 16,
+    "pj": 11,
+    "g": 4,
     "e": 4,
     "p": 3,
-    "gf": 14,
-    "gc": 11,
+    "gf": 16,
+    "gc": 12,
     "propio": false
    },
    {
@@ -2824,7 +2824,7 @@ const EQUIPOS = [
    "Stiven González Del Rosario": 23,
    "Brian Barbeito Díaz": 24
   },
-  "descargado": "2026-11-26T23:52"
+  "descargado": "2026-11-28T01:59"
  },
  {
   "id": "senior-a-fem",
@@ -6835,14 +6835,25 @@ const EQUIPOS = [
     "propio": false
    },
    {
+    "equipo": "A.D. CULLEREDO",
+    "pts": 10,
+    "pj": 10,
+    "g": 3,
+    "e": 1,
+    "p": 6,
+    "gf": 18,
+    "gc": 28,
+    "propio": false
+   },
+   {
     "equipo": "ATL. CERCEDENSE",
     "pts": 9,
-    "pj": 9,
+    "pj": 10,
     "g": 3,
     "e": 0,
-    "p": 6,
-    "gf": 11,
-    "gc": 22,
+    "p": 7,
+    "gf": 12,
+    "gc": 25,
     "propio": false
    },
    {
@@ -6854,17 +6865,6 @@ const EQUIPOS = [
     "p": 5,
     "gf": 23,
     "gc": 39,
-    "propio": false
-   },
-   {
-    "equipo": "A.D. CULLEREDO",
-    "pts": 7,
-    "pj": 9,
-    "g": 2,
-    "e": 1,
-    "p": 6,
-    "gf": 15,
-    "gc": 27,
     "propio": false
    },
    {
@@ -7961,7 +7961,7 @@ const EQUIPOS = [
    "Deiner Ire De La Carida Alcala González": 24,
    "Óscar Otero Mariño": 25
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T01:58"
  },
  {
   "id": "infantil-a",
@@ -8925,7 +8925,7 @@ const EQUIPOS = [
    "Abraham Matteo Abeleira Da Silva": 20,
    "Juan Gabriel Pereira Pérez": 21
   },
-  "descargado": "2026-11-26T23:51"
+  "descargado": "2026-11-28T01:59"
  },
  {
   "id": "alevin-a",
@@ -11916,7 +11916,7 @@ const EQUIPOS = [
    "Sara Romero Castro": 13,
    "Lara Rodríguez Santos": 15
   },
-  "descargado": "2026-11-26T15:14"
+  "descargado": "2026-11-28T01:58"
  },
  {
   "id": "veteranos-a",
@@ -12954,6 +12954,6 @@ const EQUIPOS = [
    "Evaristo Lareo Arias": 29,
    "Carlos Martínez Simo": 20
   },
-  "descargado": "2026-11-26T15:14"
+  "descargado": "2026-11-28T01:58"
  }
 ];
